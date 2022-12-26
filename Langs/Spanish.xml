@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2019 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == Modify if you know what you do only!
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// ### Language::Message::Msg ###
+//	ID: Unique ID of text message
+//	Text: The text to display
+//
+// ### Language::Map::Msg ###
+//	ID: Unique ID of text message
+//	Text: The text to display
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Texts contain special markers as %s and %d etc
+//~~ It is important to keep count and order of the markers same if translating
+//~~ or changing the text, otherwise mistake will result in Game Server crash
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+
+<Language>
+	<Message>
+		<Msg ID="1" Text="GameServer cerrado" />
+		<Msg ID="2" Text="El servidor cerrará automáticamente en %d segundo(s)" />
+		<Msg ID="3" Text="No puedes ingresar a esta área mientras montas un horn" />
+		<Msg ID="4" Text="[Devil Square] ¡Las puertas están abiertas!" />
+		<Msg ID="5" Text="[Devil Square] ¡Quedan %d minuto(s) antes de que se abra el evento!" />
+		<Msg ID="6" Text="[Devil Square] comenzará después de %d minuto(s)"/>
+		<Msg ID="7" Text="[Devil Square] se cerrará después de %d minuto(s)"/>
+		<Msg ID="8" Text="[Devil Square] ha comenzado." />
+		<Msg ID="9" Text="[Devil Square] está cerrado. Vuelva a intentarlo la próxima vez" />
+		<Msg ID="10" Text="Error. Su puntaje es %d. Vuelva a intentarlo la próxima vez" />
+		<Msg ID="11" Text="La combinación de caos está en curso." />
+		<Msg ID="12" Text="No se permite tradear en el Devil Square." />
+		<Msg ID="13" Text="El juego especial no está disponible"/>
+		<Msg ID="14" Text="%s se ha desconectado. Se cancelará el trade." />
+		<Msg ID="15" Text="Item ilegal. Contacte a un Admin" />
+		<Msg ID="16" Text="Te quedan %d puntos para deshacerte del estado de forajido." />
+		<Msg ID="17" Text="Ha registrado No.%d de corazón"/>
+		<Msg ID="18" Text="Lo siento, suerte para la próxima" />
+		<Msg ID="19" Text="%s es el afortunado ganador del evento Love PangPang" />
+		<Msg ID="20" Text="Vas en party con %s" />
+		<Msg ID="21" Text="%s ya está en un party." />
+		<Msg ID="22" Text="Estado VIP establecido en: NINGUNO" />
+		<Msg ID="23" Text="Tiene %d minutos restantes para el uso de IP (%s)" />
+		<Msg ID="24" Text="Esta cuenta es válida hasta %2d %2d %4d (%s)" />
+		<Msg ID="25" Text="Esta IP es válida hasta %2d %2d %4d (%s)" />
+		<Msg ID="26" Text="Ha iniciado sesión con una cuenta de pospago (%s)" />
+		<Msg ID="27" Text="¡autodefensa permitda por el ataque de %s!" />
+		<Msg ID="28" Text="La autodefensa contra %s finalizada." />
+		<Msg ID="29" Text="Quedan %d segundo(s) para salir del juego." />
+		<Msg ID="30" Text="Debe tener más del nivel %d para poder acceder a esta ubicación." />
+		<Msg ID="31" Text="No puedes tener el item" />
+		<Msg ID="32" Text="Ahora estás aceptando todas las solicitudes de otros jugadores" />
+		<Msg ID="33" Text="Ahora estás rechazando todas las solicitudes de otros jugadores" />
+		<Msg ID="34" Text="¡¡¡No trato con malandros!!!" />
+		<Msg ID="35" Text="¿Más negocios conmigo? " />
+		<Msg ID="36" Text="¡Búscalo en otro lado!" />
+		<Msg ID="37" Text="Te falta zen." />
+		<Msg ID="38" Text="El servidor se apagará automáticamente en 5 minutos." />
+		<Msg ID="39" Text="El servidor se apagará automáticamente en 3 minutos." />
+		<Msg ID="40" Text="El servidor se apagará automáticamente en 1 minuto." />
+		<Msg ID="41" Text="¡Advertencia! alguien esta intentando de entrar a tu cuenta." />
+		<Msg ID="42" Text="Configuración de defensa" />
+		<Msg ID="43" Text="Cerrar la ventana de trade y salir" />
+		<Msg ID="44" Text="Cerrar el baul y salir"/>
+		<Msg ID="45" Text="Has alcanzado un nivel máximo" />
+		<Msg ID="46" Text="¡Advertencia! Te convertirás en un PK si vuelves a matar a alguien más" />
+		<Msg ID="47" Text="La operación ha sido cancelada" />
+		<Msg ID="48" Text="Ya perteneces a un clan" />
+		<Msg ID="49" Text="Tu nivel debe ser al menos el nivel 100"/>
+		<Msg ID="50" Text="Todos los elementos que lleves puestos deben tener al menos un nivel +7." />
+		<Msg ID="51" Text="¡Aquí no vendemos Ale!" />
+		<Msg ID="52" Text="Los tiempos difíciles nos están sacando del negocio" />
+		<Msg ID="53" Text="No estoy vendiendo nada a personas como usted" />
+		<Msg ID="54" Text="¡No ayudaré a criminales como tú! Busca en otra parte" />
+		<Msg ID="55" Text="¡Feliz Navidad!" />
+		<Msg ID="56" Text="¡Feliz Año Nuevo!" />
+		<Msg ID="57" Text="La función de trade esta deshabilitada por un tiempo." />
+		<Msg ID="58" Text="Tenga paciencia. El trade se habilitará pronto" />
+		<Msg ID="59" Text="Cierra la ventana de Chaos Machine antes de salir del juego." />
+		<Msg ID="60" Text="Este item no te pertenece, %s" />
+		<Msg ID="61" Text="Debido a la solicitud de %s, la partida terminará automáticamente en 10 segundo(s)" />
+		<Msg ID="62" Text="El partido comienza automáticamente en 10 segundo(s)" />
+		<Msg ID="63" Text="Invasión del Dragón"/>
+		<Msg ID="64" Text="%s, Invasión del Dragón Dorado"/>
+		<Msg ID="65" Text="Quedan %d minuto(s) para entrar en Blood Castle." />
+		<Msg ID="66" Text="¡La Misión del Blood Castle %d ha comenzado!" />
+		<Msg ID="67" Text="¡La infiltración en Blood Castle ha fallado!" />
+		<Msg ID="68" Text="La Misión del Blood Castle %d comienza en %d segundo(s)" />
+		<Msg ID="69" Text="La Misión del Blood Castle %d te ha proporcionado un total de %d EXP." />
+		<Msg ID="70" Text="¡%s ha completado con éxito la Misión del Castillo de Sangre!" />
+		<Msg ID="71" Text="La Misión del Blood Castle ha concluido con éxito." />
+		<Msg ID="72" Text="¡¡Monstruos eliminados!! ¡¡Destruye las puertas del castillo!!" />
+		<Msg ID="73" Text="¡¡Las puertas del Blood Castle han sido derribadas!!!" />
+		<Msg ID="74" Text="has entrado en Blood Castle %d"/>
+		<Msg ID="75" Text="%s ha adquirido la Divine Staff of Archangel." />
+		<Msg ID="76" Text="%s ha adquirido la Divine Sword of Archangel." />
+		<Msg ID="77" Text="%s ha adquirido la Divine Crossbow of Archangel." />
+		<Msg ID="78" Text="Tiene %d piedra(s) actualmente registradas." />
+		<Msg ID="79" Text="%s ha demolido las puertas del castillo!" />
+		<Msg ID="80" Text="%s ha demolido la estatua de cristal!" />
+		<Msg ID="81" Text="¡Los secuaces de Kundun han sido derrotados! ¡Destruye la estatua de cristal!" />
+		<Msg ID="82" Text="El equipo ha sido cambiado." />
+		<Msg ID="83" Text="Ya estás en un Duelo." />
+		<Msg ID="84" Text="Para retar a Duelo, cancela la solicitud anterior." />
+		<Msg ID="85" Text="El nombre del personaje que has desafiado es incorrecto." />
+		<Msg ID="86" Text="Tu desafío a Duelo ha sido rechazado." />
+		<Msg ID="87" Text="No puedes desafiar a alguien a un duelo mientras estás en una guerra de clanes" />
+		<Msg ID="88" Text="Tu oponente no puede batirse en duelo mientras esté en una guerra de clanes." />
+		<Msg ID="89" Text="No puedes batirte en duelo dentro de Blood Castle." />
+		<Msg ID="90" Text="No puedes batirte en duelo mientras tradeas." />
+		<Msg ID="91" Text="%s está tradeando un item." />
+		<Msg ID="92" Text="%s ya ha aceptado un desafío de Duelo." />
+		<Msg ID="93" Text="%s lanza un desafío de Duelo." />
+		<Msg ID="94" Text="%s está en un Duelo." />
+		<Msg ID="95" Text="Retado a %s a un duelo." />
+		<Msg ID="96" Text="Ya estás retando a duelo." />
+		<Msg ID="97" Text="No se permiten duelos en servidores NO PK." />
+		<Msg ID="98" Text="Un PK no puede desafiar a Duelo." />
+		<Msg ID="99" Text="No puedes desafiar a duelo con un PK." />
+		<Msg ID="100" Text="No se permiten duelos en el Devil Square." />
+		<Msg ID="101" Text="%s ha derrotado al %s White Wizard Corps"/>
+		<Msg ID="102" Text="¡El Mago Blanco y sus secuaces comienzan a reunirse!" />
+		<Msg ID="103" Text="¡El Mago Blanco y sus orcos nos han invadido!" />
+		<Msg ID="104" Text="El Mago Blanco se ha retirado." />
+		<Msg ID="105" Text="Ya posees el Anillo del Mago." />
+		<Msg ID="106" Text="Debes estar por encima del nivel 40 para soltar el Anillo." />
+		<Msg ID="107" Text="No puedes tradear mientras estás dentro de Blood Castle." />
+		<Msg ID="108" Text="La autodefensa está activa. No puedes batirte en duelo." />
+		<Msg ID="109" Text="Debes tener al menos el nivel 80 para lanzar el anillo" />
+		<Msg ID="110" Text="Seleccione el almacén correcto (0-3)" />
+		<Msg ID="111" Text="Primero cierre su almacén." />
+		<Msg ID="112" Text="No puedes usar la Máquina del Caos mientras tu Tienda Personal esté abierta." />
+		<Msg ID="113" Text="¡Todos los artículos de tu Tienda Personal han sido vendidos!" />
+		<Msg ID="114" Text="No puedes tradear dentro del Chaos Castle." />
+		<Msg ID="115" Text="No puedes abrir tu Tienda Personal dentro de Chaos Castle." />
+		<Msg ID="116" Text="No se puede formar un grupo dentro del Chaos Castle." />
+		<Msg ID="117" Text="La guerra de clanes no puede librarse dentro del Chaos Castle." />
+		<Msg ID="118" Text="No puedes entrar al Chaos Castle desde aquí." />
+		<Msg ID="119" Text="A los PK no se les permite entrar en el Chaos Castle." />
+		<Msg ID="120" Text="No puedes entrar al Chaos Castle mientras estás en un duelo." />
+		<Msg ID="121" Text="No puedes entrar al Chaos Castle mientras estás en una guerra de clanes." />
+		<Msg ID="122" Text="No puedes entrar al Chaos Castle mientras montas una bestia." />
+		<Msg ID="123" Text="No puedes entrar al Chaos Castle mientras llevas un anillo de transformación." />
+		<Msg ID="124" Text="Has entrado en el Chaos Castle %d." />
+		<Msg ID="125" Text="No se permiten duelos dentro del Chaos Castle." />
+		<Msg ID="126" Text="Quedan %d minuto(s) antes de que comience el Chaos Castle." />
+		<Msg ID="127" Text="¡Chaos Castle %d ya ha comenzado!" />
+		<Msg ID="128" Text="Los espíritus de los guardias han sido exorcizados. ¡Misión completada!" />
+		<Msg ID="129" Text="No has podido completar la misión. Reúne más coraje e inténtalo de nuevo" />
+		<Msg ID="130" Text="No hay suficientes guerreros para iniciar la Misión del Chaos Castle." />
+		<Msg ID="131" Text="Chaos Castle %d: A %s se le ha otorgado la entrada por una tarifa de %d Zen" />
+		<Msg ID="132" Text="La habilidad solo puede ser utilizada por el líder del grupo" />
+		<Msg ID="133" Text="Cierre la ventana o la Tienda personal que está abierta actualmente" />
+		<Msg ID="134" Text="La habilidad mágica permanecerá durante %d segundo(s)" />
+		<Msg ID="135" Text="Será invocado en %d segundos." />
+		<Msg ID="136" Text="%d jugadores serán convocados." />
+		<Msg ID="137" Text="Exp no se puede obtener porque no puedes comandar el Cuervo." />
+		<Msg ID="138" Text="Exp no se puede obtener porque no puedes comandar el Dark Horse." />
+		<Msg ID="139" Text="Bloqueo de chat: quedan %d minuto(s)" />
+		<Msg ID="140" Text="Las Piedras Mágicas ya han sido conjuradas." />
+		<Msg ID="141" Text="No puedes usar tus habilidades de batalla de asedio en esta ubicación." />
+		<Msg ID="142" Text="Has excedido la cantidad de Zen que puedes poseer." />
+		<Msg ID="143" Text="Convocatoria en proceso. Puede cancelarse si se muda." />
+		<Msg ID="144" Text="Nivel insuficiente." />
+		<Msg ID="145" Text="Desconectar solo después de cerrar la ventana de Entrenamiento." />
+		<Msg ID="146" Text="Convocatoria cancelada." />
+		<Msg ID="147" Text="No hay suficiente energía para usar la habilidad, necesitas al menos %d puntos de energía" />
+		<Msg ID="148" Text="Tiene %d puntos restantes. Su próximo período de pago es el %s.%s.%s a las %s:%s (%s)" />
+		<Msg ID="149" Text="VIP activo hasta %s.%s.%s (%s)" />
+		<Msg ID="150" Text="Ha iniciado sesión como jugador gratuito" />
+		<Msg ID="151" Text="VIP caducado. Saldrás del juego automáticamente." />
+		<Msg ID="152" Text="Actualmente está siendo desconectado. Verifique los créditos de su cuenta. " />
+		<Msg ID="153" Text="Actualmente no puede moverte" />
+		<Msg ID="154" Text="Necesita %d zen para usar el baul." />
+		<Msg ID="155" Text="El baul está bloqueado." />
+		<Msg ID="156" Text="%s ganó el %s" />
+		<Msg ID="157" Text="Comienza el período de registro de Siege Warfare." />
+		<Msg ID="158" Text="Todos los clanes participantes en Siege Warfare: registren su emblema de Lord" />
+		<Msg ID="159" Text="Comienza el período de selección de clanes para la guerra de asedio." />
+		<Msg ID="160" Text="Los clanes ahora han sido seleccionados para Siege Warfare." />
+		<Msg ID="161" Text="¡Comienza el período de preparación de la guerra de asedio! Todos los miembros del clan, por favor prepárense" />
+		<Msg ID="162" Text="¡Se está librando una guerra de asedio!" />
+		<Msg ID="163" Text="La guerra de asedio ha concluido." />
+		<Msg ID="164" Text="No es la hora designada para ocupar el castillo." />
+		<Msg ID="165" Text="Solo el Señor del castillo puede emitir órdenes para el castillo." />
+		<Msg ID="166" Text="La información del castillo no está disponible en este momento." />
+		<Msg ID="167" Text="¡La estatua del guardián sigue en pie! No puedes entrar" />
+		<Msg ID="168" Text="Solo pueden entrar los participantes de Siege Warfare." />
+		<Msg ID="169" Text="Se permite la entrada a los propietarios del castillo aliados con otros clanes ya los miembros del sindicato." />
+		<Msg ID="170" Text="Este no es un mapa de la Alianza Ofensiva." />
+		<Msg ID="171" Text="Solo se puede convocar a la Alianza Defensiva." />
+		<Msg ID="172" Text="Solo el maestro del clan y el asistente del maestro pueden invocar soldados" />
+		<Msg ID="173" Text="Los soldados pueden ser convocados solo después de que comience el asedio." />
+		<Msg ID="174" Text="Se ha superado el número máximo de soldados." />
+		<Msg ID="175" Text="Invocar guardián"/>
+		<Msg ID="176" Text="Solo puede ser usado por la Alianza Ofensiva." />
+		<Msg ID="177" Text="No puedes invocar la Piedra de la Vida después de que comience el Asedio." />
+		<Msg ID="178" Text="No puedes invocar la Piedra de la Vida dentro de la Torre del Dragón." />
+		<Msg ID="179" Text="No puedes invocar la Piedra de la Vida después de que comience el Asedio." />
+		<Msg ID="180" Text="¡La invocación de Life Stone se realizó correctamente!" />
+		<Msg ID="181" Text="¡Falló la invocación de Life Stone!" />
+		<Msg ID="182" Text="Únete a la Alianza %s." />
+		<Msg ID="183" Text="El estado Hostil contra %s ha concluido." />
+		<Msg ID="184" Text="El clan %s se une a la Alianza %s." />
+		<Msg ID="185" Text="Retirarse de la Alianza." />
+		<Msg ID="186" Text="%s Guild se retirará de %s Alliance." />
+		<Msg ID="187" Text="Retirarse de la Alianza %s." />
+		<Msg ID="188" Text="El estado hostil con %s ha sido cancelado" />
+		<Msg ID="189" Text="La Alianza %s será eliminada." />
+		<Msg ID="190" Text="La posición de %s se ha cambiado a Maestro de batalla" />
+		<Msg ID="191" Text="El puesto de %s se ha cambiado a miembro del clan" />
+		<Msg ID="192" Text="El tipo de clan %s se ha cambiado a %d "/>
+		<Msg ID="193" Text="La guerra de asedio comenzará en %d minuto(s)" />
+		<Msg ID="194" Text="El clan de propietarios no se puede eliminar." />
+		<Msg ID="195" Text="Puedes unirte al clan después de que comience el asedio" />
+		<Msg ID="196" Text="No está permitido abandonar el clan después de que haya comenzado la Guerra de asedio." />
+		<Msg ID="197" Text="No se permite unirse a un clan en el período de anuncios." />
+		<Msg ID="198" Text="%s clan ha logrado defender el castillo." />
+		<Msg ID="199" Text="El clan de %s se convirtió en un nuevo señor del castillo" />
+		<Msg ID="200" Text="El señor del castillo no ha sido asignado." />
+		<Msg ID="201" Text="Solo ha quedado la estatua del Guardián." />
+		<Msj ID="202" Text="Dark Wizard"/>
+		<Msj ID="203" Text="Dark Knight"/>
+		<Msg ID="204" Text="Fairy Elf"/>
+		<Msg ID="205" Text="Magic Gladiator"/>
+		<Msj ID="206" Text="Dark Lord"/>
+		<Msj ID="207" Text="Summoner"/>
+		<Msj ID="208" Text="Rage Fighter"/>
+		<Msg ID="209" Text="Santa vino al continente equivocado Mu! ¡Ayuda a Santa!" />
+		<Msg ID="210" Text="%d minutos para que Santa venga por segunda vez." />
+		<Msg ID="211" Text="Debes ser nivel %d para poder ingresar a Santa's Village" /> <!-- comprueba el nivel de entrada del índice Gate: 22 -->
+		<Msg ID="212" Text="El rango de %s ha sido cambiado a Asistente de Maestro." />
+		<Msg ID="213" Text="El evento de Loren Deep comenzará en 5 minutos"/>
+		<Msg ID="214" Text="El evento Loren Deep ha comenzado" />
+		<Msg ID="215" Text="Tú eres el héroe que ayudará a librar al continente MU de las fuerzas malignas de Kundun. ¡Dios te bendiga!" />
+		<Msg ID="216" Text="%s ha rechazado el ataque de %s en el paso de Loren"/>
+		<Msg ID="217" Text="El ataque de %s ha sido rechazado en el paso de Loren"/>
+		<Msg ID="218" Text="%s ha hecho retroceder el ataque del ejército de Erohim en el paso de Loren" />
+		<Msg ID="219" Text="El ataque del ejército de Erohim ha sido rechazado en el paso de Loren" />
+		<Msg ID="220" Text="Balgass ha unido fuerzas con el ejército de Kundun y se prepara para atacar la Fortaleza Crywolf." />
+		<Msg ID="221" Text="El ejército de Balgass está listo para atacar la Fortaleza Crywolf"/>
+		<Msg ID="222" Text="El ejército de Balgass marcha hacia la Fortaleza Crywolf" />
+		<Msg ID="223" Text="El ejército de Balgass marcha hacia la Fortaleza Crywolf" />
+		<Msg ID="224" Text="Sin la protección de las Musas, la estatua del lobo sagrado será robada" />
+		<Msg ID="225" Text="Balgass estará vivo hasta el final de la batalla"/>
+		<Msg ID="226" Text="¡La defensa ha fallado! Balgass se ha apoderado de la estatua del lobo sagrado" />
+		<Msg ID="227" Text="¡La defensa ha sido exitosa! La estatua del lobo sagrado ha sido protegida." />
+		<Msg ID="228" Text="La contracción de Wolf Altar comienza en %d segundo(s)" />
+		<Msg ID="229" Text="La contracción del altar del lobo comienza en %d minuto(s)" />
+		<Msg ID="230" Text="El ejército de Balgass comenzará el ataque en %d segundo(s)" />
+		<Msg ID="231" Text="El ejército de Balgass atacará en %d minuto(s)" />
+		<Msg ID="232" Text="Sin la protección de las Musas, la estatua del lobo sagrado será robada" />
+		<Msg ID="233" Text="¡Viene Balgass! Protege la estatua del lobo sagrado"/>
+		<Msg ID="234" Text="El ejército de Balgass comienza a atacar la estatua del lobo sagrado" />
+		<Msg ID="235" Text="Balgass ha sido derrotado con la ayuda de héroes" />
+		<Msg ID="236" Text="Clasificación MvP: (%d)" />
+		<Msg ID="237" Text="Rango MvP: puntos de experiencia (%d)" />
+		<Msg ID="238" Text="Prepárense para el ataque del ejército de Balgass en Crywolf Fortress"/>
+		<Msg ID="239" Text="¡Balgass ha sido asesinado por %s!" />
+		<Msg ID="240" Text="Balgass está muerto"/>
+		<Msg ID="241" Text="El líder de los Elfos Oscuros (%d) del ejército de Balgass necesita ser asesinado por %s" />
+		<Msg ID="242" Text="El punto MvP actual es: %d" />
+		<Msg ID="243" Text="Conectado al pedestal (%d) del Lobo Sagrado"/>
+		<Msg ID="244" Text="(%s) conectó el Muse al pedestal (%d)" />
+		<Msg ID="245" Text="Se ha conectado el pedestal (%d) de Holy Wolf"/>
+		<Msg ID="246" Text="El tiempo de conexión del pedestal (%d) aún no ha comenzado"/>
+		<Msg ID="247" Text="Se acabó el tiempo de conexión al pedestal (%d) del lobo sagrado" />
+		<Msg ID="248" Text="La posición para conectarse al pedestal (%d) del lobo sagrado es incorrecta. Vuelva a intentarlo"/>
+		<Msg ID="249" Text="%s está tratando de contratar el altar %d!" />
+		<Msg ID="250" Text="Puedes comenzar a conectarte en 5 segundos" />
+		<Msg ID="251" Text="No se mueva hasta que se complete la conexión." />
+		<Msg ID="252" Text="Se canceló la conexión al pedestal (%d)" />
+		<Msg ID="253" Text="La barrera de la estatua del lobo sagrado ha desaparecido"/>
+		<Msg ID="254" Text="Las estadísticas de Musas en la barrera de la estatua del lobo sagrado son %d, HP: %d" />
+		<Msg ID="255" Text="Se ha creado la barrera de la estatua del Lobo Sagrado." />
+		<Msg ID="256" Text="La conexión requiere un nivel de Muse %d o superior" />
+		<Msg ID="257" Text="La vida de Fenrir es %d" />
+		<Msg ID="258" Text="La regeneración de vida ha fallado"/>
+		<Msg ID="259" Text="No se puede usar"/>
+		<Msg ID="260" Text="Conducirá a la torre del camino de refinamiento después de 1 hora de nuevo sellado" />
+		<Msg ID="261" Text="Debido a que la fuerza desafortunada se transmite a la torre del refinamiento, después de 20 minutos obligará a regresar al área de seguridad de la cresta" />
+		<Msg ID="262" Text="[Kanturu] La máquina Gateway se abre en 1 minuto" />
+		<Msg ID="263" Text="[Kanturu] La próxima batalla comenzará en 1 minuto" />
+		<Msg ID="264" Text="Derrota a Nightmare que controla a Maya para poder entrar a la Refinería." />
+		<Msg ID="265" Text="Ha derrotado a Nightmare. Ahora puede dirigirse a la torre de refinería" />
+		<Msg ID="266" Text="Debido a que limitará el tiempo recorrido, obligará a regresar al área de seguridad de la cresta." />
+		<Msg ID="267" Text="Los productos reforzados no se pueden vender." />
+		<Msg ID="268" Text="Los productos reforzados no pueden usar la tienda individual" />
+		<Msg ID="269" Text="Debido a que el rango de bienes también es bajo, no puede continuar fortaleciéndose" />
+		<Msg ID="270" Text="Ya fortalecido por el valor más feroz, no pudo continuar fortaleciéndose" />
+		<Msg ID="271" Text="Debido a que el rango de bienes es más bajo que fortalece la condición, no se puede usar" />
+		<Msg ID="272" Text="Los bienes reforzados no pueden caer." />
+		<Msg ID="273" Text="Los artículos de sobretodo no pueden continuar con el fortalecimiento." />
+		<Msg ID="274" Text="Derrota de fortalecimiento de gemas de regeneración." />
+		<Msg ID="275" Text="La gema de regeneración se fortalece con éxito." />
+		<Msg ID="276" Text="Derrota de gema de evolución reforzada." />
+		<Msg ID="277" Text="La gema de evolución fortalecida tiene éxito." />
+		<Msg ID="278" Text="La mercancía que no se funde cuando se usa fósil." />
+		<Msg ID="279" Text="El sistema de refinamiento no se puede utilizar." />
+		<Msg ID="280" Text="El sistema de evolución no se puede usar" />
+		<Msg ID="281" Text="El sistema reforzado no se puede usar" />
+		<Msg ID="282" Text="El sistema de fundición no se puede utilizar." />
+		<Msg ID="283" Text="Los bienes regresan al estado original, el sistema no se puede usar" />
+		<Msg ID="284" Text="380 artículos no pueden usar el sistema de combinación de atributos." />
+		<Msg ID="285" Text="Ya colgó la piedra, por lo que no pudo volver a recogerla" />
+		<Msg ID="286" Text="No se puede colocar el Anillo de piedra lunar dentro de la Tienda personal." />
+		<Msg ID="287" Text="Ya tienes el anillo de transformación." />
+		<Msg ID="288" Text="No se puede unir a la fiesta con Gens opuestos"/>
+		<Msg ID="289" Text="No tienes suficiente dinero/monedas para iniciar la nivelación sin conexión" />
+		<Msg ID="290" Text="No puedes tradear dentro de Illusion Temple." />
+		<Msg ID="291" Text="Illusion Temple está en curso. No puedes unirte a la fiesta" />
+		<Msg ID="292" Text="Illusion Temple está en curso. No puedes unirte al clan" />
+		<Msg ID="293" Text="Selupan ha aparecido. Las puertas de la planta de incubación se cerrarán en %d minuto(s)" />
+		<Msg ID="294" Text="La puerta de la incubadora está abierta." />
+		<Msg ID="295" Text="Las puertas de incubación se abrirán en %d minuto(s)" />
+		<Msg ID="296" Text="La puerta de la incubadora está cerrada." />
+		<Msg ID="297" Text="La puerta de la planta de incubación está cerrada, no puede entrar." />
+		<Msg ID="298" Text="La puerta de incubación se ha cerrado, no puede continuar." />
+		<Msg ID="299" Text="La habilidad no se puede usar en ubicaciones de Raklion Hatchery" />
+		<Msg ID="300" Text="No se permiten duelos dentro de Illusion Temple." />
+		<Msg ID="301" Text="No se permiten duelos dentro de DoppelGanger." />
+		<Msg ID="302" Text="No se permiten duelos dentro del Fuerte Imperial." />
+		<Msg ID="303" Text="No puedes tradear dentro de DoppelGanger." />
+		<Msg ID="304" Text="No puedes tradear dentro del Fuerte Imperial." />
+		<Msg ID="305" Text="No se puede mover en el servidor NON-PK." />
+		<Msg ID="306" Text="La estatua de cristal ha sido destruida!!!" />
+		<Msg ID="307" Text="%s mató a Selupan!" />
+		<Msj ID="308" Text="Exp. Misión"/>
+		<Msg ID="309" Text="Duelo: %s vs %s Arena %d"/>
+		<Msg ID="310" Text="Duelo: ¡%s derrotó a %s!" />
+		<Msg ID="311" Text="No puedes tradear mientras estás en duelo" />
+		<Msg ID="312" Text="No puedes tradear mientras observas un duelo" />
+		<Msg ID="313" Text="No puedes abrir la tienda mientras estás en duelo" />
+		<Msg ID="314" Text="No puedes abrir la tienda mientras observas un duelo" />
+		<Msg ID="315" Text="El grupo no está permitido cuando estás en duelo" />
+		<Msg ID="316" Text="La fiesta no está permitida cuando eres observador" />
+		<Msg ID="317" Text="No puedes unirte al clan cuando estás en duelo" />
+		<Msg ID="318" Text="No puedes unirte al clan cuando eres observador" />
+		<Msg ID="319" Text="No está permitido usar ningún elemento como observador" />
+		<Msg ID="320" Text="No está permitido mientras estás en estado de duelo" />
+		<Msg ID="321" Text="No está permitido mientras seas observador" />
+		<Msg ID="322" Text="%s está en duelo, no puede ser invocado" />
+		<Msg ID="323" Text="El duelo comienza en %d segundos"/>
+		<Msg ID="324" Text="Duelo cancelado. Mudanza a la ciudad en %d segundos"/>
+		<Msg ID="325" Text="Será trasladado en %d segundos" />
+		<Msg ID="326" Text="[ArcaBattle] El registro de Guild Master para Arca War está disponible durante %d minutos" />
+		<Msg ID="327" Text="[ArcaBattle] El registro de maestro de clan en Arca War está disponible durante %d minutos" />
+		<Msg ID="328" Text="El registro para los miembros del clan de Arca War está abierto durante %d minutos." />
+		<Msg ID="329" Text="%d segundos restantes para teletransportarse a Arca War. Espere en un área segura" />
+		<Msg ID="330" Text="Arca War ahora es accesible a través del NPC llamado Lord Lesnar." />
+		<Msg ID="331" Text="¡La Guerra Arca ha comenzado!" />
+		<Msg ID="332" Text="¡La guerra Arca ha terminado!" />
+		<Msg ID="333" Text="[Booty] Mezcla fallida"/>
+		<Msg ID="334" Text="[POST]" /> <!-- Publicación normal -->
+		<Msg ID="335" Text="¡Eres más perdedor, jajajaja!" />
+		<Msg ID="336" Text="No se permiten asesinos" />
+		<Msg ID="337" Text="-Apareció el Caminante de Hielo.-" />
+		<Msg ID="338" Text="-Misión completada.-" />
+		<Msg ID="339" Text="-Misión fallida.-" />
+		<Msg ID="340" Text="EL PORTAL ESTÁ CASI LISTO, PREPÁRATE PARA TELETRANSPORTARTE" />
+		<Msg ID="341" Text="El portal se creará después de %d minutos" />
+		<Msg ID="342" Text="¡Comenzó el evento Guardián Imperial!" />
+		<Msg ID="343" Text="¡Se ha creado el portal!" />
+		<Msg ID="344" Text="Úselo ahora para teletransportarse a la siguiente zona" />
+		<Msg ID="345" Text="%d para iniciar Imperial Guardian"/>
+		<Msg ID="346" Text="El portal ha sido destruido. No puedes deformar." />
+		<Msg ID="347" Text="No se puede deformar." />
+		<Msg ID="348" Text="El evento PvP Last Man Standing no pudo terminar a tiempo"/>
+		<Msg ID="349" Text="No eres elegible para teletransportarte. Solo los miembros del grupo del primer guerrero pueden ingresar" />
+		<Msg ID="350" Text="Se ha alcanzado el número máximo de guerreros" />
+		<Msg ID="351" Text="El portal no está listo. No se puede deformar" />
+		<Msg ID="352" Text="¡¡Misión completada con éxito!!!" />
+		<Msg ID="353" Text="Misión fallida." />
+		<Msg ID="354" Text="Has muerto. Misión fallida." />
+		<Msg ID="355" Text="[Último hombre en pie] Lo sentimos, esta sala está llena. Vuelva a intentarlo la próxima vez" />
+		<Msg ID="356" Text="Falló el registro... No hay espacio disponible para tu personaje" />
+		<Msg ID="357" Text="¡Regístrese para Last Man Standing disponible a las %s durante %d minuto(s)!" />
+		<Msg ID="358" Text="¡El evento comienza en 1 minuto! ¡Moviendo a todos los jugadores!" />
+		<Msg ID="359" Text="El evento PvP Last Man Standing ha comenzado" />
+		<Msg ID="360" Text="[%s] HA GANADO PvP ÚLTIMO HOMBRE EN PIE SALA %d CON PUNTUACIÓN :%d" />
+		<Msg ID="361" Text="Has fallado en el evento"/>
+		<Msg ID="362" Text="[%s] HA GANADO PvP ÚLTIMO HOMBRE EN PIE SALA %d CON PUNTUACIÓN :%d" />
+		<Msg ID="363" Text="Obtuviste puntaje: %d" />
+		<Msg ID="364" Text="¡Lo siento, necesitas más dinero!" />
+		<Msg ID="365" Text="El precio de las mejoras es %d ZEN"/>
+		<Msg ID="366" Text="¡Lo siento, solo puedo potenciar a los VIP!" />
+		<Msg ID="367" Text="¡Disfruta de mi bendición!" />
+		<Msg ID="368" Text="¡Cámbiame para obtener beneficios!" />
+		<Msg ID="369" Text="Has conseguido una nueva clase Gens"/>
+		<Msg ID="370" Text="Has ganado %d Puntos de Contribución de Bonificación"/>
+		<Msg ID="371" Text="No obtendrás ninguna contribución por matar a este jugador" />
+		<Msg ID="372" Text="¡Advertencia! Has matado a este jugador al menos %d veces, estás más cerca del límite de %d" />
+		<Msg ID="373" Text="El sistema de matrimonio está deshabilitado, lo siento" />
+		<Msg ID="374" Text="¡Usted o su prometido ya están casados!" />
+		<Msg ID="375" Text="No permitimos bodas homosexuales." />
+		<Msg ID="376" Text="Usted o su prometido tienen poco dinero" />
+		<Msg ID="377" Text="Tú o tu prometido no alcanzan el nivel" />
+		<Msg ID="378" Text="¡No estás en la iglesia!" />
+		<Msg ID="379" Text="Usted y su prometido necesitan un artículo especial para casarse" />
+		<Msg ID="380" Text="%s quiere casarse contigo, tienes 60 segundos para responder." />
+		<Msg ID="381" Text="Solicitud enviada a su prometido" />
+		<Msg ID="382" Text="¡Nadie te envió una propuesta de matrimonio!" />
+		<Msg ID="383" Text="Terminó el tiempo de respuesta. Lo siento." />
+		<Msg ID="384" Text="¡No estás en la iglesia!" />
+		<Msg ID="385" Text="¡No tienes dinero!" />
+		<Msg ID="386" Text="Usted y su prometido necesitan un artículo especial para casarse" />
+		<Msg ID="387" Text="¡Felicitaciones! ¡Estás casado!" />
+		<Msg ID="388" Text="¡Felicitaciones! ¡Estás casado!" />
+		<Msg ID="389" Text="¡Felicitaciones por su nuevo matrimonio: %s y %s! ¡Recién casados!" />
+		<Msg ID="390" Text="No estás casado, ¿tal vez sea el momento de encontrar una buena pareja?" />
+		<Msg ID="391" Text="Necesitas un artículo especial para divorciarte" />
+		<Msg ID="392" Text="¡Estás divorciado, disfruta de tu libertad hasta que puedas!" />
+		<Msg ID="393" Text="No puedes casarte contigo mismo, mira a tu alrededor, está lleno de socios potenciales" />
+		<Msg ID="394" Text="¡La cuenta está bloqueada!" />
+		<Msg ID="395" Text="El registro de último hombre en pie no está disponible en este momento, inténtelo más tarde" />
+		<Msg ID="396" Text="Ya estás registrado"/>
+		<Msg ID="397" Text="Abandone la fiesta antes de registrarse"/>
+		<Msg ID="398" Text="Debe tener %d %s (s)" />
+		<Msg ID="399" Text="Debe tener %d zen para ingresar" />
+		<Msg ID="400" Text="Registrado en el evento con éxito"/>
+		<Msg ID="401" Text="Debe tener %d zen para ingresar" />
+		<Msg ID="402" Text="Registrado en el evento con éxito"/>
+		<Msg ID="403" Text="La creación del clan está cerrada"/>
+		<Msg ID="404" Text="No te has unido a Gens"/>
+		<Msg ID="405" Text="No se puede registrar el clan durante Arca War"/>
+		<Msg ID="406" Text="Puedes dar un arma cuando el tiempo sea inferior a %d minutos"/>
+		<Msg ID="407" Text="No se puede agregar a la persona anterior"/>
+		<Msg ID="408" Text="Tu estado de GM caducará en %d días"/>
+		<Msg ID="409" Text="Tu estado de GM caducará en %d días"/>
+		<Msg ID="410" Text="¡El chat está bloqueado!" />
+		<Msg ID="411" Text="Se encontraron elementos desconocidos, comuníquese con GM" />
+		<Msg ID="412" Text="PK aquí es gratis, disfrútalo" />
+		<Msg ID="413" Text="Moriste en un evento PvP. ¡Regenera a la zona de batalla!" />
+		<Msg ID="414" Text="No tienes permiso para entrar en la Zona de Batalla"/>
+		<Msg ID="415" Text="Tu nivel VIP no es suficiente para moverte a la ubicación" />
+		<Msg ID="416" Text="Guerra de clanes (%s) VS (%s) Resultado: %d / %d" />
+		<Msg ID="417" Text="No tiene permiso para usar Admin CMD" />
+		<Msg ID="418" Text="Tienes un nivel de GM insuficiente (necesitas 6 niveles)" />
+		<Msg ID="419" Text="Necesitas %d nivel"/>
+		<Msg ID="420" Text="Necesitas %d dinero"/>
+		<Msg ID="421" Text="Tu nivel VIP no es suficiente para usar Mu Helper"/>
+		<Msg ID="422" Text="No eres VIP"/>
+		<Msg ID="423" Text="No se le permite permanecer en esta zona" />
+		<Msg ID="424" Text="Tienes un nivel de GM insuficiente (necesitas 2 niveles)" />
+		<Msg ID="425" Text="Tienes un nivel de GM insuficiente (necesitas 3 niveles)" />
+		<Msg ID="426" Text="Tienes un nivel de GM insuficiente (necesitas 4 niveles)" />
+		<Msg ID="427" Text="Tienes un nivel de GM insuficiente (necesitas 5 niveles)" />
+		<Msg ID="428" Text="Comando exitoso" />
+		<Msg ID="429" Text="[Advertencia]: para usar /post necesitas el nivel %d" />
+		<Msg ID="430" Text="[Advertencia]: necesita %d dinero para publicar CMD"/>
+		<Msg ID="431" Text="Desconexión debido al uso de palabras prohibidas en la publicación"/>
+		<Msg ID="432" Text="Nivel de advertencia de palabrotas: %d/3, pagó el doble por palabrotas"/>
+		<Msg ID="433" Text="~[POST]" /> <!-- Publicación global -->
+		<Msg ID="434" Text="[CmdAdd]: error de sintaxis" />
+		<Msg ID="435" Text="[CmdAdd]: punto insuficiente." />
+		<Msg ID="436" Text="[CmdAdd]: ¡No puedo agregar más en estas estadísticas!" />
+		<Msg ID="437" Text="[CmdAdd]: Puntos agregados [%d] a la fuerza, cambie el carácter" />
+		<Msg ID="438" Text="[CmdAdd]: Se agregaron puntos [%d] a la agilidad. Cambiar carácter"/>
+		<Msg ID="439" Text="[CmdAdd]: Puntos agregados [%d] a la vitalidad, cambie el carácter" />
+		<Msg ID="440" Text="[CmdAdd]: Puntos añadidos [%d] a la energía. Cambiar carácter" />
+		<Msg ID="441" Text="[CmdAdd]: Solo Dark Lord puede usar /addcmd"/>
+		<Msg ID="442" Text="[CmdAdd]: Puntos añadidos [%d] al Comando." />
+		<Msg ID="443" Text="Información del servidor: Nombre: %s Código: %d Jugadores en línea: %d/%d" />
+		<Msg ID="444" Text="Hora del servidor: %02d:%02d:%02d %02d-%02d-%02d." />
+		<Msj ID="445" Text="Información total:" />
+		<Msg ID="446" Text="Cuenta: %s Nombre: %s Nivel: %d Nivel maestro: %d Código de clase: %d Restablecimientos: %d" />
+		<Msg ID="447" Text="Nivel de advertencia jurada: %d Mapa: %s X: %d Y: %d" />
+		<Msg ID="448" Text="Estado en línea de la esposa/esposo: %d" />
+		<Msg ID="449" Text="Tienes un nivel de GM insuficiente (necesitas nivel 7)" />
+		<Msg ID="450" Text="Necesitas %d dinero para restablecer PK" />
+		<Msg ID="451" Text="Por favor espere %d segundos"/>
+		<Msg ID="452" Text="Almacén %d activado"/>
+		<Msg ID="453" Text="Tienes un nivel de GM insuficiente (necesitas 1 nivel)" />
+		<Msg ID="454" Text="[En línea] Jugadores en línea %d, GM en línea %d" />
+		<Msg ID="455" Text="¡[GM] BC estará disponible en 1 minuto!" />
+		<Msg ID="456" Text="¡[GM] DS abierto!" />
+		<Msg ID="457" Text="¡[GM] CC estará disponible en 1 minuto!" />
+		<Msg ID="458" Text="[ResetCMD] Lo sentimos, necesita %d nivel"/>
+		<Msg ID="459" Text="[ResetCMD] Lo sentimos, necesita %d %s"/>
+		<Msg ID="460" Text="[ResetCMD] Lo sentimos, ha alcanzado el reinicio máximo"/>
+		<Msg ID="461" Text="[ResetCMD] Lo siento, tienes que desequipar elementos" />
+		<Msg ID="462" Text="Restablecimiento exitoso, su recuento de restablecimientos ahora es %d" />
+		<Msg ID="463" Text="Vuelva a iniciar sesión"/>
+		<Msg ID="464" Text="Tienes un nivel de GM insuficiente (necesitas 8 niveles)" />
+		<Msg ID="465" Text="¡Inventario liquidado!" />
+		<Msg ID="466" Text="Tienes un nivel de GM insuficiente (necesitas 9 niveles)" />
+		<Msg ID="467" Text="Tienes un nivel de GM insuficiente (necesitas nivel 10)" />
+		<Msg ID="468" Text="Cuenta %s bloqueada" />
+		<Msg ID="469" Text="La cuenta %s no está en línea" />
+		<Msg ID="470" Text="Cuenta %s no bloqueada"/>
+		<Msg ID="471" Text="El personaje %s no está en línea" />
+		<Msg ID="472" Text="Personaje %s prohibido" />
+		<Msg ID="473" Text="Personaje %s desbaneado" />
+		<Msg ID="474" Text="GM conectados:"/>
+		<Msg ID="475" Text="¡Cuenta desbloqueada!" />
+		<Msg ID="476" Text="Código de seguridad incorrecto"/>
+		<Msg ID="477" Text="La cuenta ahora está protegida con el código: %d" />
+		<Msg ID="478" Text="[OFF-TRADE] La característica está deshabilitada por el administrador del servidor" />
+		<Msg ID="479" Text="[OFF-TRADE] No permitido en este mapa " />
+		<Msg ID="480" Text="[OFF-TRADE] activo. Presione ALT+F4 para salir del juego" />
+		<Msg ID="481" Text="[OFF-TRADE] ¡ERROR! ¡Abra la tienda personal primero!" />
+		<Msg ID="482" Text="Jugador inválido (Nombre incorrecto o fuera de línea)" />
+		<Msg ID="483" Text="Ingrese una contraseña válida" />
+		<Msg ID="484" Text="Ingrese una contraseña válida" />
+		<Msg ID="485" Text="Tu amigo era DCd" />
+		<Msg ID="486" Text="Consumo de flecha infinita: [+0:%d] [+1:%d] [+2:%d]" />
+		<Msg ID="487" Text="Consumo de flecha infinita (+0): %d"/>
+		<Msg ID="488" Text="Consumo de flecha infinita (+1): %d"/>
+		<Msg ID="489" Text="Consumo de flecha infinita (+2): %d"/>
+		<Msg ID="490" Text="Flecha infinita activada, tiempo: %d seg"/>
+		<Msg ID="491" Text="Necesitas nivel 220." />
+		<Msg ID="492" Text="Distancia de ataque de la explosión FireScream: %d"/>
+		<Msg ID="493" Text="Estado VIP establecido en: [%s]" />
+		<Msg ID="494" Text="%d MINUTO(S) PARA QUE SE ABRA EL CAMPEONATO ILLUSION TEMPLE" />
+		<Msg ID="495" Text="Ya no puedes participar en el Campeonato del Templo de la Ilusión." />
+		<Msg ID="496" Text="%d MINUTO(S) FALTAN PARA QUE SE ABRA EL TEMPLO DE LA ILUSIÓN"/>
+		<Msg ID="497" Text="Ya no puedes entrar al Templo de la Ilusión." />
+		<Msg ID="498" Text="La recompensa de Gens está disponible, dirígete a tu Gens Master" />
+		<Msg ID="499" Text="No puedes transportarte a Battle Zone"/>
+		<Msg ID="500" Text="Has entrado en Battle Zone"/>
+		<Msg ID="501" Text="No eres un asesino, no necesitas la bendición"/>
+		<Msg ID="502" Text="[Matar Monstruo]: " />
+		<Msg ID="503" Text="Necesitas nivel 120"/>
+		<Msg ID="504" Text="Objeto de la suerte fundido con éxito"/>
+		<Msg ID="505" Text="Falló la fundición del objeto de la suerte"/>
+		<Msg ID="506" Text="No es un objeto de la suerte"/>
+		<Msg ID="507" Text="Este objeto está destruido"/>
+		<Msg ID="508" Text="La durabilidad de este artículo es incorrecta" />
+		<Msg ID="509" Text="Elemento reparado con éxito" />
+		<Msg ID="510" Text="No se puede restablecer el carácter en el mapa de eventos"/>
+		<Msg ID="511" Text="%s pertenece al lado opuesto en el evento Siege, no puede ser invocado"/>
+		<Msg ID="512" Text="Por favor deshabilite el control de seguridad"/>
+		<Msg ID="513" Text="La creación de personajes está deshabilitada" />
+		<Msj ID="514" Text="" /> <!-- Vacío -->
+		<Msg ID="515" Text="Desconexión debido al uso de palabras prohibidas en el chat" />
+		<Msg ID="516" Text="Nivel de advertencia jurada: %d/3"/>
+		<Msj ID="517" Text="[SUSURRO] [%s] : [%s] %s" />
+		<Msg ID="518" Text="Solo los usuarios autorizados pueden ingresar al servidor de prueba" />
+		<Msg ID="519" Text="No puede obtener el artículo"/>
+		<Msg ID="520" Text="¡Tiempo de compra excedido!" />
+		<Msg ID="521" Text="La cuenta está bloqueada, desbloquee" />
+		<Msg ID="522" Text="[ArcaBattle] Solo puedes festejar con los miembros de tu clan" />
+		<Msg ID="523" Text="Abandone la fiesta antes de registrarse"/>
+		<Msg ID="524" Text="No es posible unirse al grupo mientras está registrado en el evento Last Man Standing"/>
+		<Msj ID="525" Text="Contraseña incorrecta" />
+		<Msg ID="526" Text="Error al restablecer la habilidad maestra"/>
+		<Msg ID="527" Text="Error: el número MUTO ya existe" />
+		<Msg ID="528" Text="Falló la transferencia del personaje, comuníquese con el administrador" />
+		<Msg ID="529" Text="Usuario cancelado." />
+		<Msg ID="530" Text="clan cancelado." />
+		<Msg ID="531" Text="Por favor cierre PShop"/>
+		<Msg ID="532" Text="Lo siento. El período de registro ha finalizado. Vuelva a intentarlo la próxima vez" />
+		<Msg ID="533" Text="No se puede usar en Battle Zone"/>
+		<Msg ID="534" Text="¡La cuenta está bloqueada por código de seguridad!" />
+		<Msg ID="535" Text="Usted recibió %s"/>
+		<Msg ID="536" Text="¡Falló el juego!" />
+		<Msg ID="537" Text="¡Por suerte, %s consiguió %s artículo de Moss Merchant!" />
+		<Msg ID="538" Text="Sintaxis: &#60;nombre del jugador&#61; &#60;contraseña&#61;" />
+		<Msg ID="539" Text="No puedes usar esta bolsa"/>
+		<Msg ID="540" Text="Crecer Lancer"/>
+		<Msg ID="541" Text="No se puede usar con una selección de elementos, por ejemplo, zócalos, pentagramas o cuartas alas" />
+		<Msg ID="542" Text="Solo se puede usar con elementos de enchufe con un número de enchufes inferior a 5" />
+		<Msg ID="543" Text="La nivelación sin conexión está disponible entre %s:%s - %s:%s, ahora es %s." />
+		<Msg ID="544" Text="¡Entró en el juego!" />
+		<Msg ID="545" Text="Uso de símbolo prohibido detectado en Chat" />
+		<Msg ID="546" Text="Símbolo prohibido detectado en el nombre del clan"/>
+		<Msg ID="547" Text="La versión del cliente del juego no es válida para el servidor real, desconectando..."/>
+		<Msg ID="548" Text="La figurilla de halcón y la figurilla de cabra no se pueden usar juntas" />
+		<Msg ID="549" Text="Oak Charm, Maple Charm, Golden Oak Charm y Golden Maple Charm no se pueden usar juntos" />
+		<Msg ID="550" Text="Herradura gastada no se puede usar junto con otros amuletos y figuritas" />
+		<Msg ID="551" Text="[%s] Comando deshabilitado por el administrador del servidor" />
+		<Msg ID="552" Text="[SetParty]Sintaxis %s &#60;ingresar contraseña&#61;" />
+		<Msg ID="553" Text="[SetParty] Mínimo 4 símbolos"/>
+		<Msg ID="554" Text="[SetParty] Máx. 10 símbolos"/>
+		<Msg ID="555" Text="Contraseña de grupo configurada: %s" />
+		<Msg ID="556" Text="No se puede abrir el Inventario de eventos mientras la Tienda personal está abierta" />
+		<Msg ID="557" Text="Perdió en el mejor de los mejores partidos. Vuelva a intentarlo la próxima vez" />
+		<Msg ID="558" Text="Las almas de los guardias han sido purificadas. Has ganado el mejor de los mejores partidos" />
+		<Msg ID="559" Text="Perdiste en el mejor de los mejores partidos. Inténtalo de nuevo la próxima vez"/>
+		<Msg ID="560" Text="La transferencia a esa ubicación especificada no está disponible en este momento." />
+		<Msg ID="561" Text="Se está entregando el premio al ganador. Espere un momento" />
+		<Msg ID="562" Text="No se puede usar mientras mira la batalla"/>
+		<Msg ID="563" Text="No puede abrir una tienda privada en Best of the Best Match" />
+		<Msg ID="564" Text="Añadir punto de contribución: %d Total: %d" />
+		<Msg ID="565" Text="Copia de elemento (MUUN) contactar administrador" />
+		<Msg ID="566" Text="No se puede usar en la zona segura" />
+		<Msg ID="567" Text="Chaos Castle Survival of the Fittest %s se llevará a cabo en el 'Mercado de Lorencia' después de %d minutos" />
+		<Msg ID="568" Text="No se permite unirse al clan una vez que ha comenzado el asedio." />
+		<Msg ID="569" Text="No puedes unirte a un clan dentro del Templo de la Ilusión"/>
+		<Msg ID="570" Text="No puedes unirte a un clan durante la batalla." />
+		<Msg ID="571" Text="No puedes unirte a un clan mientras miras la batalla" />
+		<Msg ID="572" Text="No se puede intercambiar el Mejor de los mejores partido" />
+		<Msg ID="573" Text="No puede solicitar una fiesta en el Best of the Best Match" />
+		<Msg ID="574" Text="Actualmente el fútbol por traspaso no puede disolver el partido." />
+		<Msg ID="575" Text="No puedes solicitar una guerra de clanes en la partida Lo mejor de lo mejor." />
+		<Msg ID="576" Text="No puedes participar en la Mejor de las mejores coincidencias si llevas un anillo de transformación." />
+		<Msg ID="577" Text="Ha ingresado la mejor de las mejores coincidencias" />
+		<Msg ID="578" Text="[%d]-[%d] Total %d %s %d %s %d %s %d %s %d %s %d %s %d %s %d " />
+		<Msg ID="579" Text="¡Lo siento, pero solo puedo comerciar con VIP!" />
+		<Msg ID="580" Text="Lo siento, pero mi oferta es solo para Game Masters" />
+		<Msg ID="581" Text="[BOSS] %s fue asesinado por %s" />
+		<Msg ID="582" Text="¡Destruye la horda de espíritus corruptos y el obelisco maldito!" />
+		<Msg ID="583" Text="Será trasladado a Noria dentro de un minuto." />
+		<Msg ID="584" Text="El Obelisco Maldito fue destruido por %s." />
+		<Msg ID="585" Text="Protegiste a Acheron de la Horda Maldita." />
+		<Msg ID="586" Text="La Horda de Espíritus Corruptos desapareció." />
+		<Msg ID="587" Text="[ArcaBattle] El registro ha comenzado" />
+		<Msg ID="588" Text="%s ha obtenido %s (%d) en el canal %d en el mapa %s" />
+		<Msg ID="589" Text="¡%s artículo jugado!" />
+		<Msg ID="590" Text="Chaos Castle Survival of the Fittest se cerrará después de %d minutos" />
+		<Msg ID="591" Text="Chaos Castle Survival of the Fittest ha comenzado!!!" />
+		<Msg ID="592" Text="La partida Lo mejor de lo mejor no pudo comenzar debido a un número insuficiente de jugadores" />
+		<Msg ID="593" Text="Un Forajido no puede participar en la Mejor Partida de la Mejor." />
+		<Msg ID="594" Text="No puedes participar en el mejor de los mejores partidos mientras participas en un duelo" />
+		<Msg ID="595" Text="No puedes participar en la partida Lo mejor de lo mejor mientras participas en una guerra de clanes" />
+		<Msg ID="596" Text="No puede participar en el Mejor de los mejores partidos mientras monta una montura." />
+		<Msg ID="597" Text="No puede obtener el artículo"/>
+		<Msg ID="598" Text="No puede cambiar de almacén ahora, por favor espere." />
+		<Msg ID="599" Text="Necesitas al menos %d reinicios para usar este artículo"/>
+		<Msg ID="600" Text="[EVENTO ADICIONAL] Comenzado, disfrute de tarifas más altas para las próximas %d hora(s). Tiempo restante: %d minutos" />
+		<Msg ID="601" Text="Solo puede publicar una vez por %d segundo(s)" />
+		<Msg ID="602" Text="Su nivel VIP es demasiado bajo, necesita al menos %d" />
+		<Msg ID="603" Text="Fuera de nivel activado con la habilidad %s (%d)"/>
+		<Msg ID="604" Text="La habilidad %s (%d) no se ha encontrado, apréndela para poder usarla" />
+		<Msg ID="605" Text="Su nivel VIP (%s) es demasiado bajo para comerciar conmigo, actualice su VIP a %s por lo menos y ¡vuelva de nuevo!" />
+		<Msg ID="606" Text="La cuenta del personaje objetivo está bloqueada" />
+		<Msg ID="607" Text="Solo se puede usar un talismán al mismo tiempo." />
+		<Msg ID="608" Text="Magic Gladiator no puede combinar los boletos de la suerte del casco"/>
+		<Msg ID="609" Text="Rage Fighter no puede combinar Guantes Lucky Tickets" />
+		<Msg ID="610" Text="[FUERA DE NIVEL / AFK]" />
+		<Msg ID="611" Text="!!! [%s] acaba de mezclar con éxito %s +15 !!!" />
+		<Msg ID="612" Text="Debes tener al menos el nivel %d para teletransportarte a la ubicación de tu socio" />
+		<Msg ID="613" Text="Estás por encima del nivel máximo de %d para moverte a esa ubicación." />
+		<Msg ID="614" Text="No se permite el divorcio" />
+		<Msg ID="615" Text="Otra montura ya está en uso." />
+		<Msg ID="616" Text="No se puede desequipar la montura." />
+		<Msg ID="617" Text="No se puede equipar la montura." />
+		<Msg ID="618" Text="No se permite tradear mientras se aplica a Battle Core"/>
+		<Msg ID="619" Text="El almacenamiento no está disponible en Battle Core"/>
+		<Msg ID="620" Text="Crear personaje no está disponible en Battle Core." />
+		<Msg ID="621" Text="No puedes usar la Tienda personal en Battle Core." />
+		<Msg ID="622" Text="La función de restauración de elementos está deshabilitada actualmente" />
+		<Msg ID="623" Text="Error al cargar la información de la base de datos de restauración de elementos en este momento." />
+		<Msg ID="624" Text="No puede usar la función de restauración de artículos y no puede recuperar los artículos que se venden ahora" />
+		<Msj ID="625" Text="Error interno"/>
+		<Msj ID="626" Text="Solo doy mis servicios a los VIP %s o superior" />
+		<Msg ID="627" Text="Has cancelado con éxito Battle Core" />
+		<Msg ID="628" Text="No es posible cancelar Battle Core en el servidor central." />
+		<Msg ID="629" Text="Avatar creado con éxito en Battle Core." />
+		<Msg ID="630" Text="Error al crear el avatar en Battle Core. Cancele y vuelva a unirse"/>
+		<Msg ID="631" Text="Has aplicado a Battle Core"/>
+		<Msg ID="632" Text="Error al aplicar a Battle Core"/>
+		<Msg ID="633" Text="No puedes unirte a Battle Core mientras la tienda personal está abierta" />
+		<Msg ID="634" Text="No puedes unirte a Battle Core mientras intercambias objetos" />
+		<Msg ID="635" Text="La nivelación sin conexión no se puede usar en Safe Zone" />
+		<Msg ID="636" Text="Tu nivel VIP no es suficiente, necesitas un mínimo de %s VIP"/>
+		<Msg ID="637" Text="¡Zen máximo excedido! Cambio terminado" />
+		<Msg ID="638" Text="%s elemento cambiado a %d %s" />
+		<Msg ID="639" Text="¡No se ha realizado ningún cambio!" />
+		<Msg ID="640" Text="%d artículos cambiados!" />
+		<Msg ID="641" Text="Almacenamiento de destino incorrecto (1 - servidor, 2 - carácter)" />
+		<Msg ID="642" Text="Tu mensaje es demasiado largo" />
+		<Msg ID="643" Text="Las joyas y los sellos no se pueden aplicar a artículos vencidos" />
+		<Msg ID="644" Text="Su mensaje es demasiado corto" />
+		<Msg ID="645" Text="Zen" />
+		<Msg ID="646" Text="WCoin" />
+		<Msg ID="647" Text="Punto Goblin"/>
+		<Msg ID="648" Text="La ubicación de su pareja no está disponible para usar con el teletransporte de matrimonio"/>
+		<Msg ID="649" Text="Te falta el equipo necesario para teletransportarte a la ubicación de tu compañero" />
+		<Msg ID="650" Text="Ciertas ubicaciones de eventos no están disponibles para el teletransporte casado" />
+		<Msg ID="651" Text="¡No puede usar el interruptor de corona!" />
+		<Msg ID="652" Text="¡No puedes usar corona!" />
+		<Msg ID="653" Text="Este artículo no se puede desmontar" />
+		<Msg ID="654" Text="El comando solo se puede usar en Market Server" />
+		<Msg ID="655" Text="Doppel Ganger se abrirá después de %d minutos" />
+		<Msg ID="656" Text="Doppel Ganger comenzará después de %d segundos" />
+		<Msg ID="657" Text="La Plaza Atormentada se abrirá después de %d minutos"/>
+		<Msg ID="658" Text="Tormented Square cerrará puertas después de %d minutos"/>
+		<Msg ID="659" Text="La Plaza Atormentada está cerrada." />
+		<Msg ID="660" Text="Atormented Square se abrirá después de %d minutos"/>
+		<Msg ID="661" Text="Tormented Square se cerrará después de %d minutos"/>
+		<Msg ID="662" Text="La Plaza Atormentada está cerrada." />
+		<Msg ID="663" Text="%d segundos para ir al Mercado Loren"/>
+		<Msg ID="664" Text="No puede ingresar el mejor de los mejores partidos" />
+		<Msg ID="665" Text="Falta el equipo requerido para mudarse a esta ubicación"/>
+		<Msg ID="666" Text="Nivel demasiado bajo para usar la habilidad, debes tener al menos %d" />
+		<Msg ID="667" Text="Se han creado orbes de cristal en la zona de jefe de Ferea." />
+		<Msg ID="668" Text="El jefe de Ferea no ha sido asesinado." />
+		<Msg ID="669" Text="%s mató al Señor de Ferea." />
+		<Msg ID="670" Text="No puedes usar Invocar en %s" />
+		<Msg ID="671" Text="[CCF Entry]-> No.%d, Nombre: %s, Nivel: %d, MasterLevel: %d, Clase: %d" />
+		<Msg ID="672" Text="La recompensa de Battle Core ha sido otorgada a Gremory Case." />
+		<Msg ID="673" Text="No se puede invocar monstruo, inténtalo de nuevo más tarde." />
+		<Msg ID="674" Text="La recompensa se otorgará solo una vez que se haya seleccionado" />
+		<Msg ID="675" Text="No puedes usar Dark Raven en Chaos Castle"/>
+		<Msg ID="676" Text="No puede usarlo en esta área." />
+		<Msg ID="677" Text="¡Hola extraño, las palabrotas y las trampas serán castigadas!" />
+		<Msg ID="678" Text="¡Bienvenido a nuestro servidor Mu Online!" />
+		<Msg ID="679" Text="Warping to Loren Deep no está disponible durante la batalla de Castle Siege" />
+		<Msg ID="680" Text="Solo los propietarios de castillos y los miembros del sindicato pueden usar este warp" />
+		<Msg ID="681" Text="Warping a Atlans o Icarus es imposible durante el evento Illusion Temple" />
+		<Msg ID="682" Text="Puedes equipar armas solo si su número de ranuras no supera %d" />
+		<Msg ID="683" Text="Necesita al menos %d personas para ingresar al evento" />
+		<Msg ID="684" Text="La joya no se puede usar con este tipo de artículo" />
+		<Msg ID="685" Text="Tu nivel es demasiado bajo para ser convocado a la ubicación"/>
+		<Msg ID="686" Text="La ubicación está restringida para invocar" />
+		<Msg ID="687" Text="No se le puede invocar mientras la Tienda personal está abierta" />
+		<Msg ID="688" Text="Los asesinos no pueden invocar"/>
+		<Msg ID="689" Text="No se puede formar un grupo con PK." />
+		<Msg ID="690" Text="No puedes teletransportarte mientras tu Tienda Personal está abierta" />
+		<Msg ID="691" Text="No puedes teletransportarte a tu compañero con un nivel de PK tan alto"/>
+		<Msg ID="692" Text="Battle Core no está disponible en este momento." />
+		<Msg ID="693" Text="Esta característica no está disponible en Battle Core" />
+		<Msg ID="694" Text="Obtenido %d Zen"/>
+		<Msg ID="695" Text="Se ha utilizado una piedra misteriosa"/>
+		<Msg ID="696" Text="Error al usar la Piedra Misteriosa"/>
+		<Msg ID="697" Text="Un Forajido no puede cambiar de mapa." />
+		<Msg ID="698" Text="La alianza no se puede concluir ni romper en esta área" />
+		<Msg ID="699" Text="Se necesita el nivel %d para usar el comando"/>
+		<Msg ID="700" Text="Ya eres max quest." />
+		<Msg ID="701" Text="No hay suficientes monedas, necesito %d %s"/>
+		<Msg ID="702" Text="Nombre de clase no válido"/>
+		<Msg ID="703" Text="Cargado %d %s"/>
+		<Msg ID="704" Text="[Sintaxis de transferencia] &#60;Nombre&#61; &#60;Tipo de moneda %s/%s&#61; &#60;Cantidad superior a 0&#61;" />
+		<Msg ID="705" Text="Transferido %d %s" />
+		<Msg ID="706" Text="Recibido %d %s de %s"/>
+		<Msg ID="707" Text="Intercambiado %d GP por %d Zen"/>
+		<Msg ID="708" Text="Cambio de %d Zen por %d GP"/>
+		<Msg ID="709" Text="Te falta zen. Necesitas %d" />
+		<Msg ID="710" Text="INFORMACIÓN DE PK: MATA A %d" />
+		<Msg ID="711" Text="Tipo de moneda no válido"/>
+		<!-- 712-714 se agregará más tarde -->
+		<Msg ID="715" Text="Has alcanzado o superarás el punto máximo de compra %d" />
+		<Msg ID="716" Text="Compró %d puntos de estadísticas por %d monedas/GP. Puede comprar %d más"/>
+		<Msg ID="717" Text="Necesitas %d monedas/GP para comprar"/>
+		<Msg ID="718" Text="[%s] [%s] Asesinado [%s]" />
+		<Msg ID="719" Text="Información guardada de Maze of Dimensions. Puedes seguir jugando cuando vuelvas a entrar." />
+		<Msg ID="720" Text="[BattleCore] Obtuvo un %d de %s" />
+		<Msg ID="721" Text="%s mató al Dios de la Oscuridad!!!" />
+		<Msg ID="722" Text="¡¡El Dios de la Oscuridad ha sido asesinado!!!" />
+		<Msg ID="723" Text="El Dios de la Oscuridad no ha sido asesinado." />
+		<Msg ID="724" Text="El Pergamino solo puede ser utilizado por personajes de tercera clase" />
+		<Msg ID="725" Text="El pergamino solo puede ser utilizado por caracteres de cuarta clase" />
+		<Msg ID="726" Text="No puede cambiar de almacén ahora, el almacén está abierto o aún no se ha guardado" />
+		<Msg ID="727" Text="El almacén %d ya es el actual." />
+		<Msg ID="728" Text="No se pueden usar monturas durante el evento." />
+		<Msg ID="729" Text="%s tuvo éxito en la caza del EvoMon dorado." />
+		<Msg ID="730" Text="Primero restablezca el cuarto árbol de mejoras." />
+		<Msg ID="731" Text="Límite mínimo de restablecimiento: %d, Límite máximo de restablecimiento: %d."/>
+		<Msj ID="732" Text="%s ha surgido un golden evomon." />
+		<Msg ID="733" Text="Cerrar la ventana de mezcla de Pentagram y salir." />
+		<Msg ID="734" Text="Channel-Change no está disponible en este momento, inténtelo de nuevo más tarde" />
+		<Msg ID="735" Text="Channel-Change está disponible solo para jugadores VIP" />
+		<Msg ID="736" Text="El cambio de canal no está disponible en Battle Core" />
+		<Msg ID="737" Text="El cambio de canal no se puede usar en esta ubicación." />
+		<Msg ID="738" Text="Asistente de runas"/>
+		<Msg ID="739" Text="[SummonHelper] No se puede mover a la ubicación de destino" />
+		<Msg ID="740" Text="[SummonHelper] No hay suficiente Zen para teletransportarse a la puerta más cercana" />
+		<Msg ID="741" Text="No se puede mover a la ubicación de destino"/>
+		<Msg ID="742" Text="No hay suficiente Zen para deformar"/>
+		<Msg ID="743" Text=" [PVP] %s mató a %s en %s" />
+		<Msg ID="744" Text=" !!! [%s] acaba de mezclar con éxito %s +%d!!!" />
+		<Msg ID="745" Text=" El mínimo de restablecimientos para Gran restablecimiento es %d" />
+		<Msg ID="746" Text=" ¡Llegaste al Gran Restablecimiento máximo!" />
+		<Msg ID="747" Text=" ¡Falta de zen! Necesito %d" />
+		<Msg ID="748" Text=" [INFO] GR: [%d] RESET [%d] WCOIN [%d] GP[%d] " />
+		<Msg ID="749" Text=" [INFO] ¡Carácter %s no encontrado en línea! " />
+		<Msg ID="750" Text="El evento Scramble Words comenzará después de 5 minutos." />
+		<Msg ID="751" Text="¡Comenzó el evento de Scramble Words!" />
+		<Msg ID="752" Text="Ronda %d: descifrar esta palabra: %s" />
+		<Msg ID="753" Text="Scramble Words terminado." />
+		<Msg ID="754" Text="¡El evento no está en curso ahora!" />
+		<Msg ID="755" Text="Respuesta incorrecta, inténtelo de nuevo"/>
+		<Msg ID="756" Text="¡Felicitaciones, esta respuesta es correcta!" />
+		<Msg ID="757" Text="Nivel de dificultad: %d Pista: %s" />
+		<Msg ID="758" Text="La próxima ronda comenzará después de %d minutos" />
+		<Msg ID="759" Text="%s ha adivinado con éxito la palabra: %s!" />
+		<Msg ID="760" Text="Palabras codificadas"/>
+		<Msg ID="761" Text="Despertar exitoso, los monstruos del despertar aparecerán en breve." />
+		<Msg ID="762" Text="El despertar ha fallado debido a la falla de la probabilidad." />
+		<Msg ID="763" Text="Error al despertar, el usuario con autoridad no está dentro del rango efectivo." />
+		<Msg ID="764" Text="Error de despertar, los miembros del grupo tienen privilegio de despertar: %s" />
+		<Msg ID="765" Text="Error de despertar, hay usuarios de compensación entre los miembros del grupo: %s" />
+		<Msg ID="766" Text="Error en el Despertar, el Monstruo del Despertar está en estado de compensación." />
+		<Msg ID="767" Text="Awakening no es un monstruo con una relación de falla o permiso." />
+		<Msg ID="768" Text="%s ha obtenido %s." />
+		<Msg ID="769" Text="El monstruo de evolución de %s ha desaparecido." />
+		<!-- 770~771 -->
+		<Msj ID="772" Text="Slayer" />
+		<!-- 773 -->
+		<Msg ID="774" Text="Crear grupo solo es posible si la diferencia de nivel entre los jugadores no es superior a %d" />
+		<Msg ID="775" Text="Se pasó el tiempo máximo de %d minutos en la zona del jefe, teletransportándose a la zona segura." />
+		<Msg ID="776" Text="[OFFLEVEL] Configure Mu Helper con la habilidad de ataque básica antes de ingresar a la nivelación fuera de línea" />
+		<Msg ID="777" Text="Afortunadamente se generó en el lugar donde tu alma dejó el cuerpo la última vez" />
+		<Msg ID="778" Text="Tienes que esperar %d segundos más para montarlo de nuevo." />
+		<Msg ID="779" Text="El servidor de juegos %s ingresó al juego y está disponible en %s en %d,%d" />
+		<Msg ID="780" Text="Se ha otorgado %s de recompensa a Gremory Case." />
+		<Msg ID="781" Text="Último hombre en pie"/>
+		<Msj ID="782" Text="Restablecer" />
+		<Msg ID="783" Text="Restablecer hito"/>
+		<Msg ID="784" Text="Has excedido la cantidad de Ruud que puedes poseer." />
+		<Msg ID="785" Text="Aplastador de armas"/>
+		<Msg ID="786" Text="[Advertencia]: para usar /post necesitas %d resets"/>
+		<Msg ID="787" Text="Debe tener al menos el nivel %d para reparar elementos usted mismo" />
+		<Msg ID="788" Text="Debes tener al menos el nivel %d para usar Spirit of Blessing" />
+		<Msg ID="789" Text="Límite de nivel mínimo: %d, Límite de nivel máximo: %d."/>
+		<Msg ID="790" Text="La creación del personaje de la clase seleccionada requiere alcanzar el requisito de nivel mínimo o comprar la tarjeta de personaje."/>
+		<Msg ID="791" Text="Los duelos no están disponibles en este servidor." />
+		<Msj ID="792" Text="Agregado %d %s"/>
+		<Msj ID="793" Text="[LevelUp]: " />
+		<Msj ID="794" Text="[Restablecer]: " />
+		<Msg ID="795" Text="[Tienda personal]: " />
+		<Msj ID="796" Text="[Misión]: " />
+		<Msg ID="797" Text="Debes tener el nivel %d o superior para moverte conmigo" />
+		<Msg ID="798" Text="Puedo llevarlo a %s para %d %s y %s+%d (%d uds.)"/>
+		<Msg ID="799" Text="Puedo llevarlo a %s para %d %s"/>
+		<Msg ID="800" Text="Puedo llevarlo a %s por %s+%d (%d piezas)" />
+		<Msg ID="801" Text="Necesita %s+%d (%d uds.) para negociar contigo." />
+		<Msg ID="802" Text="White Wizard" />
+		<Msg ID="803" Text="Lemuria Mage" />
+		<Msg ID="804" Text="El comercio está disponible solo en Safe Zone, la tienda personal se ha cerrado" />
+		<Msg ID="805" Text="Los artículos de opción excelente completa no se pueden intercambiar a través de la tienda personal" />
+		<Msg ID="806" Text="Cerrar tienda personal antes de entrar en Off-Trade." />
+		<Msg ID="807" Text="%s está en el canal %d donde la moneda local es %s. Vaya al canal para seguir comerciando con él" />
+		<Msg ID="808" Text="Clikeame de nuevo para ir." />
+		<Msg ID="809" Text="The authorization relationship with the awakening monster has been reset." />	
+		<Msg ID="810" Text="No matching reset rule found, contact Administrator." />	
+	</Message>
+	<Map>
+		<Msg ID="0" Text="Lorencia" />
+		<Msg ID="1" Text="Dungeon" /> <!-- 1 ~ 3 -->
+		<Msg ID="2" Text="Devias" />
+		<Msg ID="3" Text="Noria" />
+		<Msg ID="4" Text="LostTower" />
+		<Msg ID="5" Text="Exile" />
+		<Msg ID="6" Text="Arena" />
+		<Msg ID="7" Text="Atlans" /> <!-- 1 ~ 3 -->
+		<Msg ID="8" Text="Tarkan" /> <!-- 1 ~ 2 -->
+		<Msg ID="9" Text="Devil Square" /> <!-- 1 ~ 4 -->
+		<Msg ID="10" Text="Icarus" />
+		<Msg ID="11" Text="Blood Castle 1" />
+		<Msg ID="12" Text="Blood Castle 2" />
+		<Msg ID="13" Text="Blood Castle 3" />
+		<Msg ID="14" Text="Blood Castle 4" />
+		<Msg ID="15" Text="Blood Castle 5" />
+		<Msg ID="16" Text="Blood Castle 6" />
+		<Msg ID="17" Text="Blood Castle 7" />
+		<Msg ID="18" Text="Chaos Castle 1" />
+		<Msg ID="19" Text="Chaos Castle 2" />
+		<Msg ID="20" Text="Chaos Castle 3" />
+		<Msg ID="21" Text="Chaos Castle 4" />
+		<Msg ID="22" Text="Chaos Castle 5" />
+		<Msg ID="23" Text="Chaos Castle 6" />
+		<Msg ID="24" Text="Kalima 1" />
+		<Msg ID="25" Text="Kalima 2" />
+		<Msg ID="26" Text="Kalima 3" />
+		<Msg ID="27" Text="Kalima 4" />
+		<Msg ID="28" Text="Kalima 5" />
+		<Msg ID="29" Text="Kalima 6" />
+		<Msg ID="30" Text="Valley of Loren" />
+		<Msg ID="31" Text="Land Of Trials" />
+		<Msg ID="32" Text="Devil Square" /> <!-- 5 ~ 7 -->
+		<Msg ID="33" Text="Aida" /> <!-- 1 ~ 2 -->
+		<Msg ID="34" Text="Crywolf (First Zone)" />
+		<Msg ID="35" Text="Crywolf (Second Zone)" />
+		<Msg ID="36" Text="Kalima 7 (Lost)" />
+		<Msg ID="37" Text="Kanturu Ruins" />
+		<Msg ID="38" Text="Kanturu (Remain)" /> <!-- 1 -->
+		<Msg ID="39" Text="Kanturu (Refinery Tower)" /> <!-- 2 -->
+		<Msg ID="40" Text="Silent Map" />
+		<Msg ID="41" Text="Barracks of Balgass" />
+		<Msg ID="42" Text="Balgass Refuge" />
+		<Msg ID="43" Text="Empty" />
+		<Msg ID="44" Text="Empty" />
+		<Msg ID="45" Text="Illusion Temple 1" />
+		<Msg ID="46" Text="Illusion Temple 2" />
+		<Msg ID="47" Text="Illusion Temple 3" />
+		<Msg ID="48" Text="Illusion Temple 4" />
+		<Msg ID="49" Text="Illusion Temple 5" />
+		<Msg ID="50" Text="Illusion Temple 6" />
+		<Msg ID="51" Text="Elbeland" />
+		<Msg ID="52" Text="Blood Castle 8" />
+		<Msg ID="53" Text="Chaos Castle 7" />
+		<Msg ID="54" Text="Empty" />
+		<Msg ID="55" Text="Empty" />
+		<Msg ID="56" Text="Swamp of Calmness" />
+		<Msg ID="57" Text="Raklion" />
+		<Msg ID="58" Text="Hatchery" />
+		<Msg ID="59" Text="Empty" />
+		<Msg ID="60" Text="Empty" />
+		<Msg ID="61" Text="Empty" />
+		<Msg ID="62" Text="Santa Village" />
+		<Msg ID="63" Text="Vulcanus" />
+		<Msg ID="64" Text="Duel Area" />
+		<Msg ID="65" Text="Doppelganger Snow" />
+		<Msg ID="66" Text="Doppelganger Volcan" />
+		<Msg ID="67" Text="Doppelganger Sea" />
+		<Msg ID="68" Text="Doppelganger Crystals" />
+		<Msg ID="69" Text="Imperial Fortress 1" />
+		<Msg ID="70" Text="Imperial Fortress 2" />
+		<Msg ID="71" Text="Imperial Fortress 3" />
+		<Msg ID="72" Text="Imperial Fortress 4" />
+		<Msg ID="79" Text="Loren Market" />
+		<Msg ID="80" Text="Karutan 1" />
+		<Msg ID="81" Text="Karutan 2" />
+		<Msg ID="82" Text="Doppelganger" />
+		<Msg ID="83" Text="Doppelganger" />
+		<Msg ID="84" Text="Doppelganger" />
+		<Msg ID="85" Text="Doppelganger" />
+		<Msg ID="86" Text="Doppelganger" />
+		<Msg ID="87" Text="Doppelganger" />
+		<Msg ID="88" Text="Doppelganger" />
+		<Msg ID="89" Text="Doppelganger" />
+		<Msg ID="90" Text="Doppelganger" />
+		<Msg ID="91" Text="Acheron" />
+		<Msg ID="92" Text="Arca Battle" />
+		<Msg ID="93" Text="Empty" />
+		<Msg ID="94" Text="Empty" />
+		<Msg ID="95" Text="Debenter" />
+		<Msg ID="96" Text="Debenter (Arca Battle)" />
+		<Msg ID="97" Text="Empty" />
+		<Msg ID="98" Text="Empty" />
+		<Msg ID="99" Text="Empty" />
+		<Msg ID="100" Text="Urk Mountain" />
+		<Msg ID="101" Text="Urk Mountain" />
+		<Msg ID="102" Text="Tormented Square" />
+		<Msg ID="103" Text="Tormented Square Battle" />
+		<Msg ID="104" Text="Tormented Square Battle" />
+		<Msg ID="105" Text="Tormented Square Battle" />
+		<Msg ID="106" Text="Tormented Square Battle" />
+		<Msg ID="110" Text="Nars" />
+		<Msg ID="112" Text="Ferea" />
+		<Msg ID="113" Text="Nixie Lake" />
+		<Msg ID="114" Text="Event Square Entrances" />
+		<Msg ID="115" Text="Maze Map" />
+		<Msg ID="116" Text="Deep Dungeon 1" />
+		<Msg ID="117" Text="Deep Dungeon 2" />
+		<Msg ID="118" Text="Deep Dungeon 3" />
+		<Msg ID="119" Text="Deep Dungeon 4" />
+		<Msg ID="120" Text="Deep Dungeon 5" />
+		<Msg ID="121" Text="Fourth Quest Area" />
+		<Msg ID="122" Text="Swamp of Darkness" />
+		<Msg ID="123" Text="Kubera Mine (Fire)" />
+		<Msg ID="124" Text="Kubera Mine (Water)" />
+		<Msg ID="125" Text="Kubera Mine (Earth)" />
+		<Msg ID="126" Text="Kubera Mine (Wind)" />
+		<Msg ID="127" Text="Kubera Mine (Darkness)" />
+		<Msg ID="128" Text="Abyss of Atlas 1" />
+		<Msg ID="129" Text="Abyss of Atlas 2" />
+		<Msg ID="130" Text="Abyss of Atlas 3" />
+		<Msg ID="131" Text="Scorched Canyon" />
+		<Msg ID="132" Text="Red Smoke Icarus" />
+		<Msg ID="133" Text="Temple of Arenil" />
+		<Msg ID="134" Text="Ashy Aida" />
+		<Msg ID="135" Text="Old Kethotum" />
+		<Msg ID="136" Text="Blaze Kethotum" />
+		<Msg ID="137" Text="Kanturu Undergrounds" />
+	</Map>
+</Language>

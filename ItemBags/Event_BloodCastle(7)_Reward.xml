@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+<ItemBag>
+	<BagConfig Name="Event_BloodCastle7_Reward" ItemRate="9000" SetItemRate="0" SetItemCount="1" MoneyDrop="500000000" BagUseRate="10000" BagUseEffect="0" IsPentagramForBeginnersDrop="0" MasterySetItemInclude="0" PartyDropRate="0"  PartyOneDropOnly="0" PartyShareType="0" />
+	<AddCoin Enable="1" CoinType="0" CoinValue="35" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<Ruud GainRate="0" MinValue="0" MaxValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<SummonBook Enable="0" DropRate="0" ItemCat="14" ItemIndex="217" />
+	<DropSection DisplayName="Section 1" UseMode="-1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1" DisplayName="DropAllow">
+			<Drop Rate="200" Count="1" Type="0">
+				<!--Archangel's Hammer-->
+				<Item Cat="14" Index="343" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="300" Count="1" Type="0">
+				<!--Ghost Horse-->
+				<Item Cat="12" Index="471" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="500" Count="1" Type="0">
+				<!--Divine Sword of Archangel-->
+				<Item Cat="0" Index="19" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Archangel Absolute Claws-->
+				<Item Cat="0" Index="60" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Divine Scepter of Archangel-->
+				<Item Cat="2" Index="13" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Divine Crossbow of Archangel-->
+				<Item Cat="4" Index="18" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Divine Staff of Archangel-->
+				<Item Cat="5" Index="10" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Divine Stick of the Archangel-->
+				<Item Cat="5" Index="36" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Divine Short Sword of Arch.-->
+				<Item Cat="0" Index="76" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Absolute Mace of Archangel-->
+				<Item Cat="2" Index="34" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Absolute Lance of the Arch.-->
+				<Item Cat="3" Index="26" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Archangel's Absolute Magic Gun-->
+				<Item Cat="4" Index="46" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Archangel's Absolute Orb-->
+				<Item Cat="5" Index="93" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="4500" Count="3" Type="0">
+				<!--Jewel of Chaos-->
+				<Item Cat="12" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Bless-->
+				<Item Cat="14" Index="13" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Soul-->
+				<Item Cat="14" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Guardian-->
+				<Item Cat="14" Index="31" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Life-->
+				<Item Cat="14" Index="16" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Harmony-->
+				<Item Cat="14" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Creation-->
+				<Item Cat="14" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="4500" Count="2" Type="0">
+				<!--Three Vacancies-->
+				<Item Cat="13" Index="510" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Horn of Fenrir-->
+				<Item Cat="13" Index="37" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="5" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Horn of Fenrir-->
+				<Item Cat="13" Index="37" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="4" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Elemental Rune-->
+				<Item Cat="12" Index="288" ItemMinLevel="0" ItemMaxLevel="0" Durability="100" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blessing of Spirit-->
+				<Item Cat="14" Index="320" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ruud Box (500)-->
+				<Item Cat="14" Index="485" ItemMinLevel="0" ItemMaxLevel="0" Durability="1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+	</DropSection>
+</ItemBag>

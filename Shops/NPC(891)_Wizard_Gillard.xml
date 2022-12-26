@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2010 - 2018 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+<Shop>
+	<Tab Id="1">
+		<!-- Noble Pixie Helmet-->
+		<Item Cat="7" Index="256" Level="3" Durability="70" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Noble Pixie Armor-->
+		<Item Cat="8" Index="256" Level="3" Durability="70" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Noble Pixie Pants-->
+		<Item Cat="9" Index="256" Level="3" Durability="70" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Noble Pick Market-->
+		<Item Cat="10" Index="256" Level="3" Durability="70" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Noble Pixie Boots-->
+		<Item Cat="11" Index="256" Level="3" Durability="70" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Glimmer Boots-->
+		<Item Cat="11" Index="235" Level="3" Durability="39" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Royal Orb-->
+		<Item Cat="5" Index="81" Level="3" Durability="53" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Myotis Orb-->
+		<Item Cat="5" Index="82" Level="3" Durability="53" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Blue Moon Orb-->
+		<Item Cat="5" Index="83" Level="3" Durability="53" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Marvel Burst Law Book-->
+		<Item Cat="15" Index="51" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Unleash Marvel's Book-->
+		<Item Cat="15" Index="52" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Beginner's Treatment Bead-->
+		<Item Cat="15" Index="54" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Beginner Defense Enhancement Bead-->
+		<Item Cat="15" Index="55" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Beginner Attack Power Enhancement Bead-->
+		<Item Cat="15" Index="56" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Beginner Recovery Bead-->
+		<Item Cat="15" Index="57" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	</Tab>
+	<Tab Id="2">
+		<!-- Glimmer Helmet-->
+		<Item Cat="7" Index="235" Level="3" Durability="39" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Glimmer Armor-->
+		<Item Cat="8" Index="235" Level="3" Durability="39" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Glimmer Pants-->
+		<Item Cat="9" Index="235" Level="3" Durability="39" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Glimmer Gloves-->
+		<Item Cat="10" Index="235" Level="3" Durability="39" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Glimmer Boots-->
+		<Item Cat="11" Index="235" Level="3" Durability="39" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Basic Magic Book-->
+		<Item Cat="5" Index="68" Level="3" Durability="53" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Elemental Magic Book-->
+		<Item Cat="5" Index="69" Level="3" Durability="53" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Elemental Magic Book-->
+		<Item Cat="5" Index="70" Level="3" Durability="53" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Shining Bird Law Book-->
+		<Item Cat="15" Index="47" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Dragon Violent Law Book-->
+		<Item Cat="15" Index="48" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	</Tab>
+	<Tab Id="3" />
+	<Tab Id="4" />
+	<Tab Id="5" />
+</Shop>

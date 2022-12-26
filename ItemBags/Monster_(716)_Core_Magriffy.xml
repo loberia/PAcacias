@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+<ItemBag>
+	<BagConfig Name="Monster_Core_Magriffy" ItemRate="10000" SetItemRate="0" SetItemCount="1" MoneyDrop="0" BagUseRate="10000" BagUseEffect="0" IsPentagramForBeginnersDrop="0" MasterySetItemInclude="0" PartyDropRate="0"  PartyOneDropOnly="0" PartyShareType="0" />
+	<AddCoin Enable="1" CoinType="0" CoinValue="150" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<Ruud GainRate="3000.00" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<SummonBook Enable="0" DropRate="0" ItemCat="14" ItemIndex="217" />
+	<DropSection DisplayName="Drop Section 1" UseMode="-1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="DropAllow">
+			<Drop Rate="300" Count="1" Type="0">
+				<!--Lemuria's Orb-->
+				<Item Cat="12" Index="307" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="-1" />
+				<!--Runedil's Goldentune Harp-->
+				<Item Cat="12" Index="306" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="-1" />
+				<!--Thoughtful Sage's Jewel-->
+				<Item Cat="12" Index="217" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="-1" />
+			</Drop>
+			<Drop Rate="1000" Count="3" Type="0">
+				<!--Jewel of Chaos-->
+				<Item Cat="12" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Bless-->
+				<Item Cat="14" Index="13" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Soul-->
+				<Item Cat="14" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Life-->
+				<Item Cat="14" Index="16" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Guardian-->
+				<Item Cat="14" Index="31" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Creation-->
+				<Item Cat="14" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1000" Count="5" Type="0">
+				<!--Mysterious Stone-->
+				<Item Cat="14" Index="345" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1500" Count="1" Type="0">
+				<!--Repen-->
+				<Item Cat="16" Index="326" ItemMinLevel="1" ItemMaxLevel="1" Durability="-1" Duration="2592000" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pawn-->
+				<Item Cat="16" Index="328" ItemMinLevel="1" ItemMaxLevel="1" Durability="-1" Duration="2592000" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Griffs-->
+				<Item Cat="16" Index="330" ItemMinLevel="1" ItemMaxLevel="1" Durability="-1" Duration="2592000" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1700" Count="1" Type="0">
+				<!--Jewel of Kondar-->
+				<Item Cat="20" Index="507" ItemMinLevel="0" ItemMaxLevel="0" Durability="2" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Wisdom-->
+				<Item Cat="20" Index="508" ItemMinLevel="0" ItemMaxLevel="0" Durability="2" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Kundun-->
+				<Item Cat="20" Index="506" ItemMinLevel="0" ItemMaxLevel="0" Durability="2" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="2000" Count="1" Type="0">
+				<!--Jasper Necklace-->
+				<Item Cat="20" Index="39" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Lapis Lazuli Necklace-->
+				<Item Cat="20" Index="40" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Battle Jasper Necklace-->
+				<Item Cat="20" Index="41" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Battle Lagoon Necklace-->
+				<Item Cat="20" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="2500" Count="1" Type="0">
+				<!--Cannon Magic Gun-->
+				<Item Cat="4" Index="45" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Weiwen Magic Gun-->
+				<Item Cat="4" Index="44" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Angelic Bow-->
+				<Item Cat="4" Index="25" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Devil Crossbow-->
+				<Item Cat="4" Index="26" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Inberial Staff-->
+				<Item Cat="5" Index="31" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Summon Spirit Stick-->
+				<Item Cat="5" Index="32" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Russell Light Lance-->
+				<Item Cat="3" Index="23" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Light Road Runic Mace-->
+				<Item Cat="2" Index="31" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Frost Rune Mace-->
+				<Item Cat="2" Index="30" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--El Hazard Mace-->
+				<Item Cat="2" Index="29" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Thunderbolt-->
+				<Item Cat="2" Index="19" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Horn of Steal-->
+				<Item Cat="2" Index="20" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Miracle Staff-->
+				<Item Cat="5" Index="35" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Novakura Short Sword-->
+				<Item Cat="0" Index="70" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Paring Short Sword-->
+				<Item Cat="0" Index="69" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pantera Claws-->
+				<Item Cat="0" Index="52" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Devast Claws-->
+				<Item Cat="0" Index="53" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Asura-->
+				<Item Cat="0" Index="30" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sonic Blade-->
+				<Item Cat="0" Index="29" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Rune Bastard Sword-->
+				<Item Cat="0" Index="28" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sword Breaker-->
+				<Item Cat="0" Index="27" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Flameberge-->
+				<Item Cat="0" Index="26" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+	</DropSection>
+</ItemBag>

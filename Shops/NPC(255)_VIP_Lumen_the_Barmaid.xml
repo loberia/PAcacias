@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2010 - 2018 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+<Shop>
+	<Tab Id="1">
+		<!-- Jewel of Chaos-->
+		<Item Cat="12" Index="15" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Bless-->
+		<Item Cat="14" Index="13" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Soul-->
+		<Item Cat="14" Index="14" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Creation-->
+		<Item Cat="14" Index="22" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	</Tab>
+	<Tab Id="2" />
+	<Tab Id="3" />
+	<Tab Id="4" />
+	<Tab Id="5" />
+</Shop>

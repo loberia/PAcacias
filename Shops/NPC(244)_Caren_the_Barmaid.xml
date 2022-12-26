@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2010 - 2018 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+<Shop>
+	<Tab Id="1">
+		<!-- Ale-->
+		<Item Cat="14" Index="9" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Town Portal Scroll-->
+		<Item Cat="14" Index="10" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Scroll of Archangel-->
+		<Item Cat="13" Index="16" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Scroll of Archangel-->
+		<Item Cat="13" Index="16" Level="2" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Blood Bone-->
+		<Item Cat="13" Index="17" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Blood Bone-->
+		<Item Cat="13" Index="17" Level="2" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Eye-->
+		<Item Cat="14" Index="17" Level="1" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Eye-->
+		<Item Cat="14" Index="17" Level="2" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Key-->
+		<Item Cat="14" Index="18" Level="1" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Key-->
+		<Item Cat="14" Index="18" Level="2" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Armor of Guardsman-->
+		<Item Cat="13" Index="29" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	</Tab>
+	<Tab Id="2">
+		<!-- Rune Blade-->
+	<Item Cat="0" Index="31" Level="0" Durability="0" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Knight Blade-->
+	<Item Cat="0" Index="20" Level="0" Durability="0" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Dark Reign Blade-->
+	<Item Cat="0" Index="21" Level="0" Durability="0" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Elemental Mace-->
+	<Item Cat="2" Index="7" Level="0" Durability="0" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Battle Scepter-->
+	<Item Cat="2" Index="8" Level="0" Durability="0" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Master Scepter-->
+	<Item Cat="2" Index="9" Level="0" Durability="0" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Great Scepter-->
+	<Item Cat="2" Index="10" Level="0" Durability="0" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Lord Scepter-->
+	<Item Cat="2" Index="11" Level="0" Durability="0" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Great Lord Scepter-->
+	<Item Cat="2" Index="12" Level="0" Durability="0" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Dragon Spear-->
+	<Item Cat="3" Index="10" Level="0" Durability="0" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Staff of Kundun-->
+	<Item Cat="5" Index="11" Level="0" Durability="0" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Grand Soul Shield-->
+	<Item Cat="6" Index="15" Level="0" Durability="0" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Elemental Shield-->
+	<Item Cat="6" Index="16" Level="0" Durability="0" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Dark Steel Mask-->
+	<Item Cat="7" Index="27" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Dark Steel Armor-->
+	<Item Cat="8" Index="27" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Dark Steel Pants-->
+	<Item Cat="9" Index="27" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Dark Steel Gloves-->
+	<Item Cat="10" Index="27" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Dark Steel Boots-->
+	<Item Cat="11" Index="27" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Great Reign Crossbow-->
+	<Item Cat="4" Index="19" Level="0" Durability="0" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Arrow Viper Bow-->
+	<Item Cat="4" Index="20" Level="0" Durability="0" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	</Tab>						 
+	<Tab Id="3" />
+	<Tab Id="4" />
+	<Tab Id="5" />
+</Shop>

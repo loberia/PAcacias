@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2019 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ IMPORTANT: The event must have its monsters defined only in BloodCastle_Monster.xml
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### BloodCastle ###
+//	Enable: Allow to activate or disable the event, 0/1
+//	EarlyFinishRestriction: Allows to activate restriction preventing completing the event before time specified in EarlyFinishMinTime
+//	EarlyFinishMinTime: Minimum event time the event can be completed (weapon can be returned to Archangel), seconds
+//	MonsterKillReqPerPlayer: Count of monster required to kill to get the bridge to fall down
+//
+// ### BloodCastle::Monster ###
+//	TimeToRegen: Time to respawn monster, seconds
+//
+// ### BloodCastle::Time ###
+//	ToOpen: Time the event will be opened from event start notification moment, minutes
+//	PlayDuration: Event duration, minutes
+//	ToClose: Time to move players to down after the event is finished, minutes
+//
+// ### BloodCastle::Schedule::Start ###
+//	Hour: Start hour of the event, 0-23
+//	Minute: Start minute of the event, 0-59
+//
+// ### BloodCastle::EntryLevel::Castle ###
+//	Level: Level of the event the the configuration applies to
+//	MinLevel: Minimum level of player to allow entry to specified event level
+//	MaxLevel: Maximum level of player to allow entry to specified event level, max is currently 800
+//
+// ### BloodCastle::EventSettings::Castle ###
+//	Level: Level of the event the the configuration applies to
+//	StatueHP: Maximum Health of the Statue
+//	GateHP: Maximum Health of the Gate
+//
+// ### BloodCastle::RewardExpSettings::Castle ###
+//	Level: Level of the event the the configuration applies to
+//	Multiplier: Multiplier of reward exp (received after completing the event)
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+
+<BloodCastle Enable="1" EarlyFinishRestriction="0" EarlyFinishMinTime="300" MonsterKillReqPerPlayer="40">
+<Monster TimeToRegen="10" />
+<Time ToOpen="5" PlayDuration="15" ToClose="1" />
+
+	<Schedule>
+		<Start Hour="3" Minute="10" />
+		<Start Hour="7" Minute="10" />
+		<Start Hour="12" Minute="30" />
+		<Start Hour="15" Minute="10" />
+		<Start Hour="19" Minute="10" />
+		<Start Hour="23" Minute="10" />
+	</Schedule>
+
+	<EntryLevel>
+		<Castle Level="0" MinLevel="50"  MaxLevel="399" /> <!-- Blood Castle 1 -->
+		<Castle Level="1" MinLevel="400" MaxLevel="599" /> <!-- Blood Castle 2 -->
+		<Castle Level="2" MinLevel="600" MaxLevel="699" /> <!-- Blood Castle 3 -->
+		<Castle Level="3" MinLevel="700" MaxLevel="799" /> <!-- Blood Castle 4 -->
+		<Castle Level="4" MinLevel="800" MaxLevel="899" /> <!-- Blood Castle 5 -->
+		<Castle Level="5" MinLevel="900" MaxLevel="999" /> <!-- Blood Castle 6 -->
+		<Castle Level="6" MinLevel="1000" MaxLevel="MAX" /> <!-- Blood Castle 7 -->
+	</EntryLevel>
+
+	<EventSettings>
+		<Castle Level="0" StatueHP="650000"  GateHP="1500000" /> <!-- Blood Castle 1 -->
+		<Castle Level="1" StatueHP="1050000" GateHP="2050000" /> <!-- Blood Castle 2 -->
+		<Castle Level="2" StatueHP="1450000" GateHP="2600000" /> <!-- Blood Castle 3 -->
+		<Castle Level="3" StatueHP="1850000" GateHP="3250000" /> <!-- Blood Castle 4 -->
+		<Castle Level="4" StatueHP="22500000" GateHP="4000000" /> <!-- Blood Castle 5 -->
+		<Castle Level="5" StatueHP="26500000" GateHP="4800000" /> <!-- Blood Castle 6 -->
+		<Castle Level="6" StatueHP="30500000" GateHP="5650000" /> <!-- Blood Castle 7 -->
+	</EventSettings>
+
+	<RewardExpSettings>
+		<Castle Level="0" Multiplier="2.5" /> <!-- Blood Castle 1 -->
+		<Castle Level="1" Multiplier="2.5" /> <!-- Blood Castle 2 -->
+		<Castle Level="2" Multiplier="2.0" /> <!-- Blood Castle 3 -->
+		<Castle Level="3" Multiplier="2.0" /> <!-- Blood Castle 4 -->
+		<Castle Level="4" Multiplier="1.0" /> <!-- Blood Castle 5 -->
+		<Castle Level="5" Multiplier="1.0" /> <!-- Blood Castle 6 -->
+		<Castle Level="6" Multiplier="1.0" /> <!-- Blood Castle 7 -->
+	</RewardExpSettings>
+</BloodCastle>

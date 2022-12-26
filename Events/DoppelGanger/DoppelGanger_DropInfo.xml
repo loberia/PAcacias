@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2019 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// To assign drop section to specified levels refer to DoppelGanger_EventInfo.xml
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### DoppelGanger::SectionRateSettings::Section ###
+//	ID: Defines an ID of section, 1-27
+//	SkillRate: Chance rate of getting item with Skill, n1/1000000
+//	LuckRate: Chance rate of getting item with Luck, n/1000000
+//	OptionRate: Chance rate of getting item with Option, n/1000000
+//	ExcRate: Chance rate of getting item with Excellent Option, n/1000000
+//
+// ### DoppelGanger::ItemOptionDrawSettings ###
+//	Rate1: Chance rate of getting item with Option +4, n/1000000
+//	Rate2: Chance rate of getting item with Option +8, n/1000000
+//	Rate3: Chance rate of getting item with Option +12, n/1000000
+//	Rate4: Chance rate of getting item with Option +16, n/1000000
+//	Rate5: Chance rate of getting item with Option +20, n/1000000
+//	Rate6: Chance rate of getting item with Option +24, n/1000000
+//	Rate7: Chance rate of getting item with Option +28, n/1000000
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Sum of all Rates must be equal to 1000000
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### DoppelGanger::ExcOptionCountDrawSettings ###
+//	Rate1: Chance rate of getting item with (1) excellent option, n/1000000
+//	Rate2: Chance rate of getting item with (2) excellent option, n/1000000
+//	Rate3: Chance rate of getting item with (3) excellent option, n/1000000
+//	Rate4: Chance rate of getting item with (4) excellent option, n/1000000
+//	Rate5: Chance rate of getting item with (5) excellent option, n/1000000
+//	Rate6: Chance rate of getting item with (6) excellent option, n/1000000
+//	Rate7: Chance rate of getting item with (7) excellent option, n/1000000
+//	Rate8: Chance rate of getting item with (8) excellent option, n/1000000
+//	Rate9: Chance rate of getting item with (9) excellent option, n/1000000
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Sum of all Rates must be equal to 1000000
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### DoppelGanger::Section ###
+//	ID: Refers to section ID defines in SectionRateSettings area
+//
+// ### DoppelGanger::Section::Item ###
+//	Cat: Category of the item, refer to ItemList.xml
+//	Index: Index of the item, refer to ItemLisr.xml
+//	MinLevel: Minimum level of item to drop, 0~15, must be lower or equal to MaxLevel
+//	MaxLevel: Maximum level of item to drop, 0~15, must be grater of equal to MinLevel
+//	Skill: Defines if item can drop with Skill, 0/1
+//	Luck: Defines if item can drop with Luck, 0/1
+//	Option: Defines if item can drop with Option, 0/1
+//	Exc: Defines if item can drop as Excellent
+//		0: No excellent options
+//		1: Possible Exc options (draw based on ExcRate from ExcOptionCountDrawSettings section)
+//		2: Always Exc (count based on ExcRate from ExcOptionCountDrawSettings section)
+//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Excellent items will drop with level 0, skill and Option = 2
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+
+<DoppelGanger>
+	<SectionRateSettings> <!-- All rates expressed as n/1000000 --> 
+		<Section ID="1"  SkillRate="700000" LuckRate="100000" OptionRate="120000"	ExcRate="40000" />
+		<Section ID="2"  SkillRate="700000" LuckRate="100000" OptionRate="100000"	ExcRate="40000" />
+		<Section ID="3"  SkillRate="700000" LuckRate="100000" OptionRate="50000"	ExcRate="40000" />
+		<Section ID="4"  SkillRate="700000" LuckRate="100000" OptionRate="10000"	ExcRate="40000" />
+		<Section ID="5"  SkillRate="700000" LuckRate="100000" OptionRate="120000"	ExcRate="50000" />
+		<Section ID="6"  SkillRate="700000" LuckRate="100000" OptionRate="100000"	ExcRate="50000" />
+		<Section ID="7"  SkillRate="700000" LuckRate="100000" OptionRate="50000"	ExcRate="50000" />
+		<Section ID="8"  SkillRate="700000" LuckRate="100000" OptionRate="10000"	ExcRate="50000" />
+		<Section ID="9"  SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="10" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="11" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="12" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="13" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="14" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="15" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="16" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="17" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="18" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="19" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="20" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="21" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="22" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="23" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="24" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="25" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+		<Section ID="26" SkillRate="0"      LuckRate="0"      OptionRate="0"        ExcRate="0" />
+	</SectionRateSettings>
+
+	<ItemOptionDrawSettings Rate1="850000" Rate2="100000" Rate3="50000" Rate4="0" Rate5="0" Rate6="0" Rate7="0" /> <!-- Sum of all Rates cannot exceed 1000000 -->
+	
+	<ExcOptionCountDrawSettings Rate1="950000" Rate2="50000" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" /> <!-- Sum of all Rates cannot exceed 1000000 -->
+
+	<Section ID="1"> <!-- Final Chest (1) - Level 10-90 -->
+			<!--Jewel of Dark Bless-->
+			<Item Cat="20" Index="500" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Dark Soul-->
+			<Item Cat="20" Index="501" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Chaos-->
+			<Item Cat="12" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Bless-->
+			<Item Cat="14" Index="13" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Soul-->
+			<Item Cat="14" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Durability="10" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+	</Section>
+
+	<Section ID="2"> <!-- Final Chest (1) - Level 110-190 -->
+			<!--Ring of Fire-->
+			<Item Cat="13" Index="21" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Ring of Earth-->
+			<Item Cat="13" Index="22" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Ring of Wind-->
+			<Item Cat="13" Index="23" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Pendant of Lighting-->
+			<Item Cat="13" Index="12" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Pendant of Fire-->
+			<Item Cat="13" Index="13" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Pendant of Ice-->
+			<Item Cat="13" Index="25" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Pendant of Wind-->
+			<Item Cat="13" Index="26" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Pendant of Water-->
+			<Item Cat="13" Index="27" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Ring of Magic-->
+			<Item Cat="13" Index="24" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+	</Section>
+
+	<Section ID="3"> <!-- Final Chest (1) - Level 200-290 -->
+			<!--Ring of Fire-->
+			<Item Cat="13" Index="21" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Ring of Earth-->
+			<Item Cat="13" Index="22" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Ring of Wind-->
+			<Item Cat="13" Index="23" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Pendant of Lighting-->
+			<Item Cat="13" Index="12" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Pendant of Fire-->
+			<Item Cat="13" Index="13" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Pendant of Ice-->
+			<Item Cat="13" Index="25" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Pendant of Wind-->
+			<Item Cat="13" Index="26" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Pendant of Water-->
+			<Item Cat="13" Index="27" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Ring of Magic-->
+			<Item Cat="13" Index="24" ItemMinLevel="15" ItemMaxLevel="15" Skill="0" Luck="0" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+	</Section>
+
+	<Section ID="4"> <!-- Final Chest (1) - Level 300-800 -->
+			<!--Jewel of Dark Bless-->
+			<Item Cat="20" Index="500" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Dark Soul-->
+			<Item Cat="20" Index="501" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Chaos-->
+			<Item Cat="12" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Bless-->
+			<Item Cat="14" Index="13" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Soul-->
+			<Item Cat="14" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Durability="10" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+	</Section>
+
+	<Section ID="5"> <!-- Final Chest (2) - Level 10-90 -->
+			<!--Jewel of Dark Bless-->
+			<Item Cat="20" Index="500" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Dark Soul-->
+			<Item Cat="20" Index="501" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Chaos-->
+			<Item Cat="12" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Bless-->
+			<Item Cat="14" Index="13" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Soul-->
+			<Item Cat="14" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Durability="10" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+	</Section>
+
+	<Section ID="6"> <!-- Final Chest (2) - Level 100-190 -->
+			<!--Ancestral Earring (R)-->
+			<Item Cat="12" Index="458" ItemMinLevel="0" ItemMaxLevel="15" Skill="-1" Luck="1" Option="-1" Exc="-3;3" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Ancestral Earring (L)-->
+			<Item Cat="12" Index="450" ItemMinLevel="0" ItemMaxLevel="15" Skill="-1" Luck="1" Option="-1" Exc="-3;3" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jasper Necklace-->
+			<Item Cat="20" Index="39" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="3" SocketInfo="-1" ElementalItem="0" />
+			<!--Lapis Lazuli Necklace-->
+			<Item Cat="20" Index="40" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="3" SocketInfo="-1" ElementalItem="0" />
+	</Section>
+
+	<Section ID="7"> <!-- Final Chest (2) - Level 200-290 -->
+			<!--Ancestral Earring (R)-->
+			<Item Cat="12" Index="458" ItemMinLevel="0" ItemMaxLevel="15" Skill="-1" Luck="1" Option="-1" Exc="-3;3" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Ancestral Earring (L)-->
+			<Item Cat="12" Index="450" ItemMinLevel="0" ItemMaxLevel="15" Skill="-1" Luck="1" Option="-1" Exc="-3;3" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jasper Necklace-->
+			<Item Cat="20" Index="39" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="3" SocketInfo="-1" ElementalItem="0" />
+			<!--Lapis Lazuli Necklace-->
+			<Item Cat="20" Index="40" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="3" SocketInfo="-1" ElementalItem="0" />
+	</Section>
+
+	<Section ID="8"> <!-- Final Chest (2) - Level 300-800 -->
+			<!--Manticore Knight Helm-->
+			<Item Cat="7" Index="221" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Wizard Helmet-->
+			<Item Cat="7" Index="222" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Helmet-->
+			<Item Cat="7" Index="223" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Summoner Helmet-->
+			<Item Cat="7" Index="224" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lord Helmet-->
+			<Item Cat="7" Index="226" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Fighter Helmet-->
+			<Item Cat="7" Index="227" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lancer Helmet-->
+			<Item Cat="7" Index="228" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Helmet-->
+			<Item Cat="7" Index="229" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Rune Wizard Helm-->
+			<Item Cat="7" Index="231" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Slayer Helmet-->
+			<Item Cat="7" Index="232" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Helm (Conviction)-->
+			<Item Cat="7" Index="233" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Gun Crusher Helmet-->
+			<Item Cat="7" Index="234" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore White Wizard Helmet-->
+			<Item Cat="7" Index="247" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Mage Helmet-->
+			<Item Cat="7" Index="265" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Armor-->
+			<Item Cat="8" Index="221" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Wizard Armor-->
+			<Item Cat="8" Index="222" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Armor-->
+			<Item Cat="8" Index="223" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Summoner Armor-->
+			<Item Cat="8" Index="224" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Armor-->
+			<Item Cat="8" Index="225" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lord Armor-->
+			<Item Cat="8" Index="226" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Fighter Armor-->
+			<Item Cat="8" Index="227" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lancer Armor-->
+			<Item Cat="8" Index="228" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Armor-->
+			<Item Cat="8" Index="229" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Armor-->
+			<Item Cat="8" Index="230" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Rune Wizard Armor-->
+			<Item Cat="8" Index="231" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Slayer Armor-->
+			<Item Cat="8" Index="232" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Armor (Conviction)-->
+			<Item Cat="8" Index="233" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Gun Crusher Armor-->
+			<Item Cat="8" Index="234" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore White Wizard Armor-->
+			<Item Cat="8" Index="247" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Mage Armor-->
+			<Item Cat="8" Index="265" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Pants-->
+			<Item Cat="9" Index="221" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Wizard Pants-->
+			<Item Cat="9" Index="222" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Pants-->
+			<Item Cat="9" Index="223" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Summoner Pants-->
+			<Item Cat="9" Index="224" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Pants-->
+			<Item Cat="9" Index="225" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lord Pants-->
+			<Item Cat="9" Index="226" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Fighter Pants-->
+			<Item Cat="9" Index="227" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lancer Pants-->
+			<Item Cat="9" Index="228" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Pants-->
+			<Item Cat="9" Index="229" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Pants-->
+			<Item Cat="9" Index="230" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Rune Wizard Pants-->
+			<Item Cat="9" Index="231" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Slayer Pants-->
+			<Item Cat="9" Index="232" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Pants (Conviction)-->
+			<Item Cat="9" Index="233" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Gun Crusher Pants-->
+			<Item Cat="9" Index="234" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore White Wizard Pants-->
+			<Item Cat="9" Index="247" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Mage Pants-->
+			<Item Cat="9" Index="265" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Gloves-->
+			<Item Cat="10" Index="221" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Wizard Gloves-->
+			<Item Cat="10" Index="222" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Gloves-->
+			<Item Cat="10" Index="223" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Summoner Gloves-->
+			<Item Cat="10" Index="224" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Gloves-->
+			<Item Cat="10" Index="225" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lord Gloves-->
+			<Item Cat="10" Index="226" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lancer Gloves-->
+			<Item Cat="10" Index="228" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Gloves-->
+			<Item Cat="10" Index="229" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Gloves-->
+			<Item Cat="10" Index="230" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Rune Wizard Gloves-->
+			<Item Cat="10" Index="231" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Slayer Gloves-->
+			<Item Cat="10" Index="232" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Gloves (Conviction)-->
+			<Item Cat="10" Index="233" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Gun Crusher Gloves-->
+			<Item Cat="10" Index="234" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore White Wizard Gloves-->
+			<Item Cat="10" Index="247" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Mage Gloves-->
+			<Item Cat="10" Index="265" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Boots-->
+			<Item Cat="11" Index="221" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Wizard Boots-->
+			<Item Cat="11" Index="222" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Boots-->
+			<Item Cat="11" Index="223" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Summoner Boots-->
+			<Item Cat="11" Index="224" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Boots-->
+			<Item Cat="11" Index="225" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lord Boots-->
+			<Item Cat="11" Index="226" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Fighter Boots-->
+			<Item Cat="11" Index="227" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lancer Boots-->
+			<Item Cat="11" Index="228" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Boots-->
+			<Item Cat="11" Index="229" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Boots-->
+			<Item Cat="11" Index="230" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Rune Wizard Boots-->
+			<Item Cat="11" Index="231" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Slayer Boots-->
+			<Item Cat="11" Index="232" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Boots (Conviction)-->
+			<Item Cat="11" Index="233" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Gun Crasher Boots-->
+			<Item Cat="11" Index="234" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore White Wizard Boots-->
+			<Item Cat="11" Index="247" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Mage Boots-->
+			<Item Cat="11" Index="265" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+	</Section>
+
+	<Section ID="9"> <!-- Interim Chest (1) -->
+			<!--Jasper Necklace-->
+			<Item Cat="20" Index="39" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="3" SocketInfo="-1" ElementalItem="0" />
+			<!--Lapis Lazuli Necklace-->
+			<Item Cat="20" Index="40" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="3" SocketInfo="-1" ElementalItem="0" />
+			<!--Battle Jasper Necklace-->
+			<Item Cat="20" Index="41" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="3" SocketInfo="-1" ElementalItem="0" />
+			<!--Battle Lagoon Necklace-->
+			<Item Cat="20" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="3" SocketInfo="-1" ElementalItem="0" />
+	</Section>
+
+	<Section ID="10"> <!-- Interim Chest (2) and Final Chest (3) -->
+			<!--Jewel of Chaos-->
+			<Item Cat="12" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Durability="35" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Bless-->
+			<Item Cat="14" Index="13" ItemMinLevel="0" ItemMaxLevel="0" Durability="35" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Soul-->
+			<Item Cat="14" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Durability="35" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Creation-->
+			<Item Cat="14" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Durability="35" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Guardian-->
+			<Item Cat="14" Index="31" ItemMinLevel="0" ItemMaxLevel="0" Durability="35" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Harmony-->
+			<Item Cat="14" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Durability="35" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+	</Section>
+
+	<Section ID="11"> <!-- Interim Chest (3) and Final Chest (4) -->
+			<!--Jewel of Chaos-->
+			<Item Cat="12" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Durability="35" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Bless-->
+			<Item Cat="14" Index="13" ItemMinLevel="0" ItemMaxLevel="0" Durability="35" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Soul-->
+			<Item Cat="14" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Durability="35" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Creation-->
+			<Item Cat="14" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Durability="35" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Guardian-->
+			<Item Cat="14" Index="31" ItemMinLevel="0" ItemMaxLevel="0" Durability="35" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Jewel of Harmony-->
+			<Item Cat="14" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Durability="35" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+	</Section>
+
+	<Section ID="12"> <!-- Final Chest (5) -->
+			<!--Manticore Knight Helm-->
+			<Item Cat="7" Index="221" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Wizard Helmet-->
+			<Item Cat="7" Index="222" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Helmet-->
+			<Item Cat="7" Index="223" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Summoner Helmet-->
+			<Item Cat="7" Index="224" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lord Helmet-->
+			<Item Cat="7" Index="226" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Fighter Helmet-->
+			<Item Cat="7" Index="227" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lancer Helmet-->
+			<Item Cat="7" Index="228" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Helmet-->
+			<Item Cat="7" Index="229" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Rune Wizard Helm-->
+			<Item Cat="7" Index="231" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Slayer Helmet-->
+			<Item Cat="7" Index="232" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Helm (Conviction)-->
+			<Item Cat="7" Index="233" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Gun Crusher Helmet-->
+			<Item Cat="7" Index="234" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore White Wizard Helmet-->
+			<Item Cat="7" Index="247" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Mage Helmet-->
+			<Item Cat="7" Index="265" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Armor-->
+			<Item Cat="8" Index="221" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Wizard Armor-->
+			<Item Cat="8" Index="222" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Armor-->
+			<Item Cat="8" Index="223" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Summoner Armor-->
+			<Item Cat="8" Index="224" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Armor-->
+			<Item Cat="8" Index="225" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lord Armor-->
+			<Item Cat="8" Index="226" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Fighter Armor-->
+			<Item Cat="8" Index="227" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lancer Armor-->
+			<Item Cat="8" Index="228" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Armor-->
+			<Item Cat="8" Index="229" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Armor-->
+			<Item Cat="8" Index="230" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Rune Wizard Armor-->
+			<Item Cat="8" Index="231" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Slayer Armor-->
+			<Item Cat="8" Index="232" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Armor (Conviction)-->
+			<Item Cat="8" Index="233" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Gun Crusher Armor-->
+			<Item Cat="8" Index="234" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore White Wizard Armor-->
+			<Item Cat="8" Index="247" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Mage Armor-->
+			<Item Cat="8" Index="265" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Pants-->
+			<Item Cat="9" Index="221" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Wizard Pants-->
+			<Item Cat="9" Index="222" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Pants-->
+			<Item Cat="9" Index="223" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Summoner Pants-->
+			<Item Cat="9" Index="224" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Pants-->
+			<Item Cat="9" Index="225" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lord Pants-->
+			<Item Cat="9" Index="226" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Fighter Pants-->
+			<Item Cat="9" Index="227" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lancer Pants-->
+			<Item Cat="9" Index="228" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Pants-->
+			<Item Cat="9" Index="229" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Pants-->
+			<Item Cat="9" Index="230" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Rune Wizard Pants-->
+			<Item Cat="9" Index="231" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Slayer Pants-->
+			<Item Cat="9" Index="232" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Pants (Conviction)-->
+			<Item Cat="9" Index="233" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Gun Crusher Pants-->
+			<Item Cat="9" Index="234" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore White Wizard Pants-->
+			<Item Cat="9" Index="247" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Mage Pants-->
+			<Item Cat="9" Index="265" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Gloves-->
+			<Item Cat="10" Index="221" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Wizard Gloves-->
+			<Item Cat="10" Index="222" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Gloves-->
+			<Item Cat="10" Index="223" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Summoner Gloves-->
+			<Item Cat="10" Index="224" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Gloves-->
+			<Item Cat="10" Index="225" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lord Gloves-->
+			<Item Cat="10" Index="226" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lancer Gloves-->
+			<Item Cat="10" Index="228" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Gloves-->
+			<Item Cat="10" Index="229" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Gloves-->
+			<Item Cat="10" Index="230" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Rune Wizard Gloves-->
+			<Item Cat="10" Index="231" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Slayer Gloves-->
+			<Item Cat="10" Index="232" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Gloves (Conviction)-->
+			<Item Cat="10" Index="233" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Gun Crusher Gloves-->
+			<Item Cat="10" Index="234" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore White Wizard Gloves-->
+			<Item Cat="10" Index="247" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Mage Gloves-->
+			<Item Cat="10" Index="265" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Boots-->
+			<Item Cat="11" Index="221" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Wizard Boots-->
+			<Item Cat="11" Index="222" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Boots-->
+			<Item Cat="11" Index="223" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Summoner Boots-->
+			<Item Cat="11" Index="224" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Boots-->
+			<Item Cat="11" Index="225" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lord Boots-->
+			<Item Cat="11" Index="226" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Fighter Boots-->
+			<Item Cat="11" Index="227" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lancer Boots-->
+			<Item Cat="11" Index="228" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Boots-->
+			<Item Cat="11" Index="229" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Boots-->
+			<Item Cat="11" Index="230" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Rune Wizard Boots-->
+			<Item Cat="11" Index="231" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Slayer Boots-->
+			<Item Cat="11" Index="232" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Boots (Conviction)-->
+			<Item Cat="11" Index="233" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Gun Crasher Boots-->
+			<Item Cat="11" Index="234" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore White Wizard Boots-->
+			<Item Cat="11" Index="247" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Mage Boots-->
+			<Item Cat="11" Index="265" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+	</Section>
+
+	<Section ID="13"> <!-- Final Chest (6) -->
+			<!--Manticore Knight Helm-->
+			<Item Cat="7" Index="221" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Wizard Helmet-->
+			<Item Cat="7" Index="222" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Helmet-->
+			<Item Cat="7" Index="223" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Summoner Helmet-->
+			<Item Cat="7" Index="224" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lord Helmet-->
+			<Item Cat="7" Index="226" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Fighter Helmet-->
+			<Item Cat="7" Index="227" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lancer Helmet-->
+			<Item Cat="7" Index="228" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Helmet-->
+			<Item Cat="7" Index="229" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Rune Wizard Helm-->
+			<Item Cat="7" Index="231" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Slayer Helmet-->
+			<Item Cat="7" Index="232" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Helm (Conviction)-->
+			<Item Cat="7" Index="233" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Gun Crusher Helmet-->
+			<Item Cat="7" Index="234" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore White Wizard Helmet-->
+			<Item Cat="7" Index="247" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Mage Helmet-->
+			<Item Cat="7" Index="265" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Armor-->
+			<Item Cat="8" Index="221" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Wizard Armor-->
+			<Item Cat="8" Index="222" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Armor-->
+			<Item Cat="8" Index="223" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Summoner Armor-->
+			<Item Cat="8" Index="224" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Armor-->
+			<Item Cat="8" Index="225" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lord Armor-->
+			<Item Cat="8" Index="226" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Fighter Armor-->
+			<Item Cat="8" Index="227" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lancer Armor-->
+			<Item Cat="8" Index="228" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Armor-->
+			<Item Cat="8" Index="229" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Armor-->
+			<Item Cat="8" Index="230" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Rune Wizard Armor-->
+			<Item Cat="8" Index="231" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Slayer Armor-->
+			<Item Cat="8" Index="232" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Armor (Conviction)-->
+			<Item Cat="8" Index="233" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Gun Crusher Armor-->
+			<Item Cat="8" Index="234" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore White Wizard Armor-->
+			<Item Cat="8" Index="247" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Mage Armor-->
+			<Item Cat="8" Index="265" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Pants-->
+			<Item Cat="9" Index="221" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Wizard Pants-->
+			<Item Cat="9" Index="222" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Pants-->
+			<Item Cat="9" Index="223" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Summoner Pants-->
+			<Item Cat="9" Index="224" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Pants-->
+			<Item Cat="9" Index="225" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lord Pants-->
+			<Item Cat="9" Index="226" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Fighter Pants-->
+			<Item Cat="9" Index="227" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lancer Pants-->
+			<Item Cat="9" Index="228" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Pants-->
+			<Item Cat="9" Index="229" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Pants-->
+			<Item Cat="9" Index="230" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Rune Wizard Pants-->
+			<Item Cat="9" Index="231" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Slayer Pants-->
+			<Item Cat="9" Index="232" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Pants (Conviction)-->
+			<Item Cat="9" Index="233" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Gun Crusher Pants-->
+			<Item Cat="9" Index="234" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore White Wizard Pants-->
+			<Item Cat="9" Index="247" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Mage Pants-->
+			<Item Cat="9" Index="265" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Gloves-->
+			<Item Cat="10" Index="221" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Wizard Gloves-->
+			<Item Cat="10" Index="222" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Gloves-->
+			<Item Cat="10" Index="223" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Summoner Gloves-->
+			<Item Cat="10" Index="224" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Gloves-->
+			<Item Cat="10" Index="225" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lord Gloves-->
+			<Item Cat="10" Index="226" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lancer Gloves-->
+			<Item Cat="10" Index="228" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Gloves-->
+			<Item Cat="10" Index="229" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Gloves-->
+			<Item Cat="10" Index="230" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Rune Wizard Gloves-->
+			<Item Cat="10" Index="231" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Slayer Gloves-->
+			<Item Cat="10" Index="232" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Gloves (Conviction)-->
+			<Item Cat="10" Index="233" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Gun Crusher Gloves-->
+			<Item Cat="10" Index="234" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore White Wizard Gloves-->
+			<Item Cat="10" Index="247" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Mage Gloves-->
+			<Item Cat="10" Index="265" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Boots-->
+			<Item Cat="11" Index="221" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Wizard Boots-->
+			<Item Cat="11" Index="222" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Boots-->
+			<Item Cat="11" Index="223" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Summoner Boots-->
+			<Item Cat="11" Index="224" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Boots-->
+			<Item Cat="11" Index="225" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lord Boots-->
+			<Item Cat="11" Index="226" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Fighter Boots-->
+			<Item Cat="11" Index="227" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Lancer Boots-->
+			<Item Cat="11" Index="228" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Elf Boots-->
+			<Item Cat="11" Index="229" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Magic Boots-->
+			<Item Cat="11" Index="230" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Rune Wizard Boots-->
+			<Item Cat="11" Index="231" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Slayer Boots-->
+			<Item Cat="11" Index="232" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Knight Boots (Conviction)-->
+			<Item Cat="11" Index="233" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Gun Crasher Boots-->
+			<Item Cat="11" Index="234" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore White Wizard Boots-->
+			<Item Cat="11" Index="247" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+			<!--Manticore Mage Boots-->
+			<Item Cat="11" Index="265" ItemMinLevel="9" ItemMaxLevel="12" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" SocketInfo="-1" ElementalItem="0" />
+	</Section>
+
+<!-- Free sections ~ can be activated by setting its number in DoppelGanger_EventInfo.xml file for desired chest -->
+
+	<Section ID="14">
+	</Section>
+
+	<Section ID="15">
+	</Section>
+
+	<Section ID="16">
+	</Section>
+
+	<Section ID="17">
+	</Section>
+
+	<Section ID="18">
+	</Section>
+
+	<Section ID="19">
+	</Section>
+
+	<Section ID="20">
+	</Section>
+
+	<Section ID="21">
+	</Section>
+
+	<Section ID="22">
+	</Section>
+
+	<Section ID="23">
+	</Section>
+
+	<Section ID="24">
+	</Section>
+
+	<Section ID="25">
+	</Section>
+
+	<Section ID="26">
+	</Section>
+</DoppelGanger>

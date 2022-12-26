@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2010 - 2018 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+<Shop>
+	<Tab Id="1">
+		<!-- Storm Blitz Helm-->
+		<Item Cat="7" Index="43" Level="15" Durability="0" Skill="0" Luck="1" Option="3" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Storm Blitz Armor-->
+		<Item Cat="8" Index="43" Level="15" Durability="0" Skill="0" Luck="1" Option="3" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Storm Blitz Pants-->
+		<Item Cat="9" Index="43" Level="15" Durability="0" Skill="0" Luck="1" Option="3" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Storm Blitz Gloves-->
+		<Item Cat="10" Index="43" Level="15" Durability="0" Skill="0" Luck="1" Option="3" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Storm Blitz Boots-->
+		<Item Cat="11" Index="43" Level="15" Durability="0" Skill="0" Luck="1" Option="3" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Storm Blitz Stick-->
+		<Item Cat="5" Index="19" Level="15" Durability="0" Skill="0" Luck="1" Option="3" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Book of Lagle-->
+		<Item Cat="5" Index="23" Level="15" Durability="0" Skill="1" Luck="1" Option="3" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	</Tab>
+	<Tab Id="2" />
+	<Tab Id="3" />
+	<Tab Id="4" />
+	<Tab Id="5" />
+</Shop>

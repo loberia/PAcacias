@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2010 - 2018 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+<Shop>
+	<Tab Id="1">
+		<!-- Scroll of Archangel-->
+		<Item Cat="13" Index="16" Level="1" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Scroll of Archangel-->
+		<Item Cat="13" Index="16" Level="2" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Scroll of Archangel-->
+		<Item Cat="13" Index="16" Level="3" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Scroll of Archangel-->
+		<Item Cat="13" Index="16" Level="4" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Scroll of Archangel-->
+		<Item Cat="13" Index="16" Level="5" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Scroll of Archangel-->
+		<Item Cat="13" Index="16" Level="6" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Scroll of Archangel-->
+		<Item Cat="13" Index="16" Level="7" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Blood Bone-->
+		<Item Cat="13" Index="17" Level="1" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Blood Bone-->
+		<Item Cat="13" Index="17" Level="2" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Blood Bone-->
+		<Item Cat="13" Index="17" Level="3" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Blood Bone-->
+		<Item Cat="13" Index="17" Level="4" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Blood Bone-->
+		<Item Cat="13" Index="17" Level="5" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Blood Bone-->
+		<Item Cat="13" Index="17" Level="6" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Blood Bone-->
+		<Item Cat="13" Index="17" Level="7" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Eye-->
+		<Item Cat="14" Index="17" Level="1" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Eye-->
+		<Item Cat="14" Index="17" Level="2" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Eye-->
+		<Item Cat="14" Index="17" Level="3" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Eye-->
+		<Item Cat="14" Index="17" Level="4" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Eye-->
+		<Item Cat="14" Index="17" Level="5" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Eye-->
+		<Item Cat="14" Index="17" Level="6" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Eye-->
+		<Item Cat="14" Index="17" Level="7" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Key-->
+		<Item Cat="14" Index="18" Level="1" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Key-->
+		<Item Cat="14" Index="18" Level="2" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Key-->
+		<Item Cat="14" Index="18" Level="3" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Key-->
+		<Item Cat="14" Index="18" Level="4" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Key-->
+		<Item Cat="14" Index="18" Level="5" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Key-->
+		<Item Cat="14" Index="18" Level="6" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Devil's Key-->
+		<Item Cat="14" Index="18" Level="7" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Armor of Guardsman-->
+		<Item Cat="13" Index="29" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Ale-->
+		<Item Cat="14" Index="9" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Town Portal Scroll-->
+		<Item Cat="14" Index="10" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Small Healing Potion-->
+		<Item Cat="14" Index="1" Level="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Healing Potion-->
+		<Item Cat="14" Index="2" Level="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Large Healing Potion-->
+		<Item Cat="14" Index="3" Level="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Small Mana Potion-->
+		<Item Cat="14" Index="4" Level="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Mana Potion-->
+		<Item Cat="14" Index="5" Level="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Large Mana Potion-->
+		<Item Cat="14" Index="6" Level="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Antidote-->
+		<Item Cat="14" Index="8" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Antidote-->
+		<Item Cat="14" Index="8" Level="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Small Healing Potion-->
+		<Item Cat="14" Index="1" Level="1" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Healing Potion-->
+		<Item Cat="14" Index="2" Level="1" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Large Healing Potion-->
+		<Item Cat="14" Index="3" Level="1" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Bolt-->
+		<Item Cat="4" Index="7" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Bolt-->
+		<Item Cat="4" Index="7" Level="1" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Bolt-->
+		<Item Cat="4" Index="7" Level="2" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Bolt-->
+		<Item Cat="4" Index="7" Level="3" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Arrow-->
+		<Item Cat="4" Index="15" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Arrow-->
+		<Item Cat="4" Index="15" Level="1" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Arrow-->
+		<Item Cat="4" Index="15" Level="2" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Arrow-->
+		<Item Cat="4" Index="15" Level="3" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	</Tab>
+	<Tab Id="2">
+		<!--Excellent Town Portal Scroll-->
+	<Item Cat="14" Index="10" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Scroll of the Emperor-->
+	<Item Cat="14" Index="23" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Broken Sword-->
+	<Item Cat="14" Index="24" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Tear of Elf-->
+	<Item Cat="14" Index="25" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Soul Shard of Wizard-->
+	<Item Cat="14" Index="26" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Abyssal Eye-->
+	<Item Cat="14" Index="68" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Healing Potion-->
+	<Item Cat="14" Index="2" Level="11" Durability="255" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Mana Potion-->
+	<Item Cat="14" Index="5" Level="11" Durability="255" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Large Healing Potion-->
+	<Item Cat="14" Index="3" Level="11" Durability="255" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Large Mana Potion-->
+	<Item Cat="14" Index="6" Level="11" Durability="255" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Small Healing Potion-->
+	<Item Cat="14" Index="1" Level="0" Durability="40" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Small Mana Potion-->
+	<Item Cat="14" Index="4" Level="0" Durability="40" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Healing Potion-->
+	<Item Cat="14" Index="2" Level="0" Durability="40" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Mana Potion-->
+	<Item Cat="14" Index="5" Level="0" Durability="40" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Splinter of Armor-->
+	<Item Cat="13" Index="32" Level="0" Durability="20" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Bless of Guardian-->
+	<Item Cat="13" Index="33" Level="0" Durability="20" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Claw of Beast-->
+	<Item Cat="13" Index="34" Level="0" Durability="10" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Chaos Dragon Axe-->
+	<Item Cat="2" Index="6" Level="7" Durability="0" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Thunder Blade-->
+	<Item Cat="0" Index="18" Level="0" Durability="0" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Bill of Balrog-->
+	<Item Cat="3" Index="9" Level="5" Durability="0" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Dark Breaker-->
+	<Item Cat="0" Index="17" Level="0" Durability="0" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Celestial Bow-->
+	<Item Cat="4" Index="17" Level="0" Durability="0" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Saint Crossbow-->
+	<Item Cat="4" Index="16" Level="5" Durability="0" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Broken Sword-->
+	<Item Cat="14" Index="24" Level="1" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Scroll of FireBurst-->
+	<Item Cat="12" Index="21" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Scroll of Summon-->
+	<Item Cat="12" Index="22" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Scroll of Critical Damage-->
+	<Item Cat="12" Index="23" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Scroll of Electric Spark-->
+	<Item Cat="12" Index="24" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Scroll of Fire Scream-->
+	<Item Cat="12" Index="35" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Moonstone Pendant-->
+	<Item Cat="13" Index="38" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Condor Flame-->
+	<Item Cat="13" Index="52" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Pandora Pick (Two-Handed)-->
+	<Item Cat="0" Index="41" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Invisibility Cloak-->
+	<Item Cat="13" Index="18" Level="7" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Invisibility Cloak-->
+	<Item Cat="13" Index="18" Level="6" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Invisibility Cloak-->
+	<Item Cat="13" Index="18" Level="5" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Invisibility Cloak-->
+	<Item Cat="13" Index="18" Level="4" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Invisibility Cloak-->
+	<Item Cat="13" Index="18" Level="3" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Invisibility Cloak-->
+	<Item Cat="13" Index="18" Level="2" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Invisibility Cloak-->
+	<Item Cat="13" Index="18" Level="1" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	</Tab>
+	<Tab Id="3" />
+	<Tab Id="4" />
+	<Tab Id="5" />
+</Shop>
