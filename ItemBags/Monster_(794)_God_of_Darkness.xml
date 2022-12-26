@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+<ItemBag>
+	<BagConfig Name="Monster_(794)_God_of_Darkness" ItemRate="10000" SetItemRate="0" SetItemCount="1" MoneyDrop="200000" BagUseRate="10000" BagUseEffect="0" IsPentagramForBeginnersDrop="0" MasterySetItemInclude="0" PartyDropRate="0"  PartyOneDropOnly="0" PartyShareType="0" />
+	<AddCoin Enable="1" CoinType="0" CoinValue="190" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<SummonBook Enable="0" DropRate="0" ItemCat="14" ItemIndex="217" />
+	<DropSection DisplayName="Drop Section 1" UseMode="-1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="DropAllow">
+			<Drop Rate="100" Count="1" Type="0">
+				<!--Runedil's Goldentune Harp-->
+				<Item Cat="12" Index="306" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" />
+				<!--Lemuria's Orb-->
+				<Item Cat="12" Index="307" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" />
+				<!--Norrwen's Bloodstring Lyra-->
+				<Item Cat="12" Index="308" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" />
+				<!--Horn of Fenrir-->
+				<Item Cat="13" Index="37" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="3" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="300" Count="1" Type="0">
+				<!--Dandelion Fairy-->
+				<Item Cat="16" Index="154" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" />
+				<!--Uma King-->
+				<Item Cat="16" Index="152" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" />
+				<!--Fairy Lara-->
+				<Item Cat="16" Index="148" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" />
+				<!--The Great Fairy Kara-->
+				<Item Cat="16" Index="107" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" />
+				<!--Fairy Queen Runedil-->
+				<Item Cat="16" Index="138" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" />
+				<!--Prince-->
+				<Item Cat="16" Index="69" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" />
+			</Drop>
+			<Drop Rate="700" Count="1" Type="0">
+				<!--Expansion Scroll Radiance Slo-->
+				<Item Cat="14" Index="316" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" />
+			</Drop>
+			<Drop Rate="1400" Count="1" Type="0">
+				<!--Silver Heart Sword-->
+				<Item Cat="0" Index="81" ItemMinLevel="0" ItemMaxLevel="10" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Magic Sword-->
+				<Item Cat="0" Index="82" ItemMinLevel="0" ItemMaxLevel="10" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Claws-->
+				<Item Cat="0" Index="83" ItemMinLevel="0" ItemMaxLevel="10" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Short Sword-->
+				<Item Cat="0" Index="84" ItemMinLevel="0" ItemMaxLevel="10" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Scepter-->
+				<Item Cat="2" Index="42" ItemMinLevel="0" ItemMaxLevel="10" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Rune Mace-->
+				<Item Cat="2" Index="43" ItemMinLevel="0" ItemMaxLevel="10" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Lance-->
+				<Item Cat="3" Index="30" ItemMinLevel="0" ItemMaxLevel="10" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Bow-->
+				<Item Cat="4" Index="56" ItemMinLevel="0" ItemMaxLevel="10" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Arrow Box-->
+				<Item Cat="4" Index="57" ItemMinLevel="0" ItemMaxLevel="10" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Staff-->
+				<Item Cat="5" Index="64" ItemMinLevel="0" ItemMaxLevel="10" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Stick-->
+				<Item Cat="5" Index="65" ItemMinLevel="0" ItemMaxLevel="10" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Book-->
+				<Item Cat="5" Index="66" ItemMinLevel="0" ItemMaxLevel="10" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Shield-->
+				<Item Cat="6" Index="49" ItemMinLevel="0" ItemMaxLevel="10" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Magic Gun-->
+				<Item Cat="4" Index="53" ItemMinLevel="0" ItemMaxLevel="10" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1500" Count="1" Type="0">
+				<!--Archangel's Hammer-->
+				<Item Cat="14" Index="343" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="2500" Count="5" Type="0">
+				<!--Jewel of Kundun-->
+				<Item Cat="20" Index="506" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Kondar-->
+				<Item Cat="20" Index="507" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Excess-->
+				<Item Cat="20" Index="503" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Luck-->
+				<Item Cat="20" Index="504" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Dark Life-->
+				<Item Cat="20" Index="502" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Dark Soul-->
+				<Item Cat="20" Index="501" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="3500" Count="2" Type="0">
+				<!--Manticore Knight Gloves-->
+				<Item Cat="10" Index="221" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Knight Gloves (Conviction)-->
+				<Item Cat="10" Index="233" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Wizard Boots-->
+				<Item Cat="11" Index="222" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Elf Boots-->
+				<Item Cat="11" Index="223" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Summoner Boots-->
+				<Item Cat="11" Index="224" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Magic Boots-->
+				<Item Cat="11" Index="225" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Lord Boots-->
+				<Item Cat="11" Index="226" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Fighter Boots-->
+				<Item Cat="11" Index="227" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Lancer Boots-->
+				<Item Cat="11" Index="228" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Elf Boots-->
+				<Item Cat="11" Index="229" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Magic Boots-->
+				<Item Cat="11" Index="230" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Rune Wizard Boots-->
+				<Item Cat="11" Index="231" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Slayer Boots-->
+				<Item Cat="11" Index="232" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Gun Crusher Gloves-->
+				<Item Cat="10" Index="234" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Gun Crasher Boots-->
+				<Item Cat="11" Index="234" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+	</DropSection>
+</ItemBag>

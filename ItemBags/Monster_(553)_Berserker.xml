@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+<ItemBag>
+	<BagConfig Name="Monster_Selupan" ItemRate="10000" SetItemRate="0" SetItemCount="1" MoneyDrop="0" BagUseRate="10000" BagUseEffect="-1" IsPentagramForBeginnersDrop="0" MasterySetItemInclude="0" PartyDropRate="0"  PartyOneDropOnly="0" PartyShareType="0" />
+	<AddCoin Enable="0" CoinType="0" CoinValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<SummonBook Enable="0" DropRate="0" ItemCat="14" ItemIndex="217" />
+	<DropSection DisplayName="Drop Section 1" UseMode="-1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="DropAllow">
+			<Drop Rate="200" Count="2" Type="0">
+				<!--Bone Blade-->
+				<Item Cat="0" Index="22" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Explosion Blade-->
+				<Item Cat="0" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Phoenix Soul Star-->
+				<Item Cat="0" Index="35" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Soleil Scepter-->
+				<Item Cat="2" Index="14" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sylph Wind Bow-->
+				<Item Cat="4" Index="21" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Storm Blitz Stick-->
+				<Item Cat="5" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Grand Viper Staff-->
+				<Item Cat="5" Index="12" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Grand Soul Shield-->
+				<Item Cat="6" Index="15" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Elemental Shield-->
+				<Item Cat="6" Index="16" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Cross Shield-->
+				<Item Cat="6" Index="21" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="200" Count="2" Type="0">
+				<!--Bone Blade-->
+				<Item Cat="0" Index="22" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="14" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Explosion Blade-->
+				<Item Cat="0" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="14" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Phoenix Soul Star-->
+				<Item Cat="0" Index="35" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="14" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Soleil Scepter-->
+				<Item Cat="2" Index="14" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="14" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sylph Wind Bow-->
+				<Item Cat="4" Index="21" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="14" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Storm Blitz Stick-->
+				<Item Cat="5" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="14" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Grand Viper Staff-->
+				<Item Cat="5" Index="12" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="14" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Grand Soul Shield-->
+				<Item Cat="6" Index="15" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="14" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Elemental Shield-->
+				<Item Cat="6" Index="16" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="14" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Cross Shield-->
+				<Item Cat="6" Index="21" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="14" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="200" Count="1" Type="0">
+				<!--Sonic Blade-->
+				<Item Cat="0" Index="29" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Asura-->
+				<Item Cat="0" Index="30" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Cyclone Sword-->
+				<Item Cat="0" Index="36" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Blast Break-->
+				<Item Cat="0" Index="37" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Horn of Steal-->
+				<Item Cat="2" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Thunderbolt-->
+				<Item Cat="2" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Magmus Peer-->
+				<Item Cat="3" Index="12" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Angelic Bow-->
+				<Item Cat="4" Index="25" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Devil Crossbow-->
+				<Item Cat="4" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Miracle Staff-->
+				<Item Cat="5" Index="35" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Spite Staff-->
+				<Item Cat="5" Index="37" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Summon Spirit Stick-->
+				<Item Cat="5" Index="32" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Lazy Wind Shield-->
+				<Item Cat="6" Index="22" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Light Lord Shield-->
+				<Item Cat="6" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Dark Devil Shield-->
+				<Item Cat="6" Index="24" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Magic Knight Shield-->
+				<Item Cat="6" Index="25" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Ambition Shield-->
+				<Item Cat="6" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="300" Count="2" Type="0">
+				<!--Bone Blade-->
+				<Item Cat="0" Index="22" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="49" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Explosion Blade-->
+				<Item Cat="0" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="49" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Phoenix Soul Star-->
+				<Item Cat="0" Index="35" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="49" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Soleil Scepter-->
+				<Item Cat="2" Index="14" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="49" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sylph Wind Bow-->
+				<Item Cat="4" Index="21" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="49" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Storm Blitz Stick-->
+				<Item Cat="5" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="49" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Grand Viper Staff-->
+				<Item Cat="5" Index="12" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="49" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Grand Soul Shield-->
+				<Item Cat="6" Index="15" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="49" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Elemental Shield-->
+				<Item Cat="6" Index="16" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="49" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Cross Shield-->
+				<Item Cat="6" Index="21" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="49" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="300" Count="2" Type="0">
+				<!--Bone Blade-->
+				<Item Cat="0" Index="22" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="56" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Explosion Blade-->
+				<Item Cat="0" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="56" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Phoenix Soul Star-->
+				<Item Cat="0" Index="35" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="56" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Soleil Scepter-->
+				<Item Cat="2" Index="14" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="56" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sylph Wind Bow-->
+				<Item Cat="4" Index="21" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="56" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Storm Blitz Stick-->
+				<Item Cat="5" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="56" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Grand Viper Staff-->
+				<Item Cat="5" Index="12" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="56" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Grand Soul Shield-->
+				<Item Cat="6" Index="15" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="56" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Elemental Shield-->
+				<Item Cat="6" Index="16" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="56" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Cross Shield-->
+				<Item Cat="6" Index="21" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="56" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="300" Count="2" Type="0">
+				<!--Bone Blade-->
+				<Item Cat="0" Index="22" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="60" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Explosion Blade-->
+				<Item Cat="0" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="60" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Phoenix Soul Star-->
+				<Item Cat="0" Index="35" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="60" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Soleil Scepter-->
+				<Item Cat="2" Index="14" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="60" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sylph Wind Bow-->
+				<Item Cat="4" Index="21" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="60" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Storm Blitz Stick-->
+				<Item Cat="5" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="60" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Grand Viper Staff-->
+				<Item Cat="5" Index="12" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="60" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Grand Soul Shield-->
+				<Item Cat="6" Index="15" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="60" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Elemental Shield-->
+				<Item Cat="6" Index="16" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="60" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Cross Shield-->
+				<Item Cat="6" Index="21" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="60" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="600" Count="1" Type="0">
+				<!--Sonic Blade-->
+				<Item Cat="0" Index="29" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Asura-->
+				<Item Cat="0" Index="30" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Cyclone Sword-->
+				<Item Cat="0" Index="36" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Blast Break-->
+				<Item Cat="0" Index="37" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Horn of Steal-->
+				<Item Cat="2" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Thunderbolt-->
+				<Item Cat="2" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Magmus Peer-->
+				<Item Cat="3" Index="12" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Angelic Bow-->
+				<Item Cat="4" Index="25" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Devil Crossbow-->
+				<Item Cat="4" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Miracle Staff-->
+				<Item Cat="5" Index="35" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Spite Staff-->
+				<Item Cat="5" Index="37" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Summon Spirit Stick-->
+				<Item Cat="5" Index="32" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Lazy Wind Shield-->
+				<Item Cat="6" Index="22" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Light Lord Shield-->
+				<Item Cat="6" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Dark Devil Shield-->
+				<Item Cat="6" Index="24" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Magic Knight Shield-->
+				<Item Cat="6" Index="25" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Ambition Shield-->
+				<Item Cat="6" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="600" Count="1" Type="0">
+				<!--Sonic Blade-->
+				<Item Cat="0" Index="29" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Asura-->
+				<Item Cat="0" Index="30" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Cyclone Sword-->
+				<Item Cat="0" Index="36" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Blast Break-->
+				<Item Cat="0" Index="37" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Horn of Steal-->
+				<Item Cat="2" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Thunderbolt-->
+				<Item Cat="2" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Magmus Peer-->
+				<Item Cat="3" Index="12" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Angelic Bow-->
+				<Item Cat="4" Index="25" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Devil Crossbow-->
+				<Item Cat="4" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Miracle Staff-->
+				<Item Cat="5" Index="35" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Spite Staff-->
+				<Item Cat="5" Index="37" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Summon Spirit Stick-->
+				<Item Cat="5" Index="32" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Lazy Wind Shield-->
+				<Item Cat="6" Index="22" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Light Lord Shield-->
+				<Item Cat="6" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Dark Devil Shield-->
+				<Item Cat="6" Index="24" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Magic Knight Shield-->
+				<Item Cat="6" Index="25" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Ambition Shield-->
+				<Item Cat="6" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="600" Count="2" Type="0">
+				<!--Sonic Blade-->
+				<Item Cat="0" Index="29" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Asura-->
+				<Item Cat="0" Index="30" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Cyclone Sword-->
+				<Item Cat="0" Index="36" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Blast Break-->
+				<Item Cat="0" Index="37" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Horn of Steal-->
+				<Item Cat="2" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Thunderbolt-->
+				<Item Cat="2" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Magmus Peer-->
+				<Item Cat="3" Index="12" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Angelic Bow-->
+				<Item Cat="4" Index="25" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Devil Crossbow-->
+				<Item Cat="4" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Miracle Staff-->
+				<Item Cat="5" Index="35" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Spite Staff-->
+				<Item Cat="5" Index="37" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Summon Spirit Stick-->
+				<Item Cat="5" Index="32" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Lazy Wind Shield-->
+				<Item Cat="6" Index="22" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Light Lord Shield-->
+				<Item Cat="6" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Dark Devil Shield-->
+				<Item Cat="6" Index="24" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Magic Knight Shield-->
+				<Item Cat="6" Index="25" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Ambition Shield-->
+				<Item Cat="6" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="600" Count="3" Type="0">
+				<!--Jack O'Lantern Blessings-->
+				<Item Cat="14" Index="46" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jack O'Lantern Wrath-->
+				<Item Cat="14" Index="47" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jack O'Lantern Cry-->
+				<Item Cat="14" Index="48" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jack O'Lantern Food-->
+				<Item Cat="14" Index="49" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jack O'Lantern Drink-->
+				<Item Cat="14" Index="50" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jack Olantern Ring-->
+				<Item Cat="13" Index="40" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="700" Count="2" Type="0">
+				<!--Flameberge-->
+				<Item Cat="0" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Sword Breaker-->
+				<Item Cat="0" Index="27" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Rune Bastard Sword-->
+				<Item Cat="0" Index="28" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Absolute Scepter-->
+				<Item Cat="2" Index="17" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Frost Mace-->
+				<Item Cat="2" Index="16" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Dark Stinger-->
+				<Item Cat="4" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Eternal Wing Stick-->
+				<Item Cat="5" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Inberial Staff-->
+				<Item Cat="5" Index="31" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Deadly Staff-->
+				<Item Cat="5" Index="30" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Crimson Glory-->
+				<Item Cat="6" Index="17" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Salamander Shield-->
+				<Item Cat="6" Index="18" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Frost Barrier-->
+				<Item Cat="6" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Guardian Shield-->
+				<Item Cat="6" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="700" Count="2" Type="0">
+				<!--Flameberge-->
+				<Item Cat="0" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Sword Breaker-->
+				<Item Cat="0" Index="27" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Rune Bastard Sword-->
+				<Item Cat="0" Index="28" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Absolute Scepter-->
+				<Item Cat="2" Index="17" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Frost Mace-->
+				<Item Cat="2" Index="16" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Dark Stinger-->
+				<Item Cat="4" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Eternal Wing Stick-->
+				<Item Cat="5" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Inberial Staff-->
+				<Item Cat="5" Index="31" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Deadly Staff-->
+				<Item Cat="5" Index="30" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Crimson Glory-->
+				<Item Cat="6" Index="17" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Salamander Shield-->
+				<Item Cat="6" Index="18" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Frost Barrier-->
+				<Item Cat="6" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Guardian Shield-->
+				<Item Cat="6" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="14" SetItem="0" SocketCount="5" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="700" Count="2" Type="0">
+				<!--Flameberge-->
+				<Item Cat="0" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Sword Breaker-->
+				<Item Cat="0" Index="27" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Rune Bastard Sword-->
+				<Item Cat="0" Index="28" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Absolute Scepter-->
+				<Item Cat="2" Index="17" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Frost Mace-->
+				<Item Cat="2" Index="16" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Dark Stinger-->
+				<Item Cat="4" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Eternal Wing Stick-->
+				<Item Cat="5" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Inberial Staff-->
+				<Item Cat="5" Index="31" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Deadly Staff-->
+				<Item Cat="5" Index="30" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Crimson Glory-->
+				<Item Cat="6" Index="17" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Salamander Shield-->
+				<Item Cat="6" Index="18" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Frost Barrier-->
+				<Item Cat="6" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Guardian Shield-->
+				<Item Cat="6" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="49" SetItem="0" SocketCount="5" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="700" Count="1" Type="0">
+				<!--Flameberge-->
+				<Item Cat="0" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Sword Breaker-->
+				<Item Cat="0" Index="27" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Rune Bastard Sword-->
+				<Item Cat="0" Index="28" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Absolute Scepter-->
+				<Item Cat="2" Index="17" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Frost Mace-->
+				<Item Cat="2" Index="16" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Dark Stinger-->
+				<Item Cat="4" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Eternal Wing Stick-->
+				<Item Cat="5" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Inberial Staff-->
+				<Item Cat="5" Index="31" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Deadly Staff-->
+				<Item Cat="5" Index="30" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Crimson Glory-->
+				<Item Cat="6" Index="17" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Salamander Shield-->
+				<Item Cat="6" Index="18" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Frost Barrier-->
+				<Item Cat="6" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Guardian Shield-->
+				<Item Cat="6" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="56" SetItem="0" SocketCount="5" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="700" Count="1" Type="0">
+				<!--Flameberge-->
+				<Item Cat="0" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Sword Breaker-->
+				<Item Cat="0" Index="27" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Rune Bastard Sword-->
+				<Item Cat="0" Index="28" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Absolute Scepter-->
+				<Item Cat="2" Index="17" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Frost Mace-->
+				<Item Cat="2" Index="16" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Dark Stinger-->
+				<Item Cat="4" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Eternal Wing Stick-->
+				<Item Cat="5" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Inberial Staff-->
+				<Item Cat="5" Index="31" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Deadly Staff-->
+				<Item Cat="5" Index="30" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Crimson Glory-->
+				<Item Cat="6" Index="17" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Salamander Shield-->
+				<Item Cat="6" Index="18" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Frost Barrier-->
+				<Item Cat="6" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Guardian Shield-->
+				<Item Cat="6" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="60" SetItem="0" SocketCount="5" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="700" Count="2" Type="0">
+				<!--Sonic Blade-->
+				<Item Cat="0" Index="29" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Asura-->
+				<Item Cat="0" Index="30" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Cyclone Sword-->
+				<Item Cat="0" Index="36" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Blast Break-->
+				<Item Cat="0" Index="37" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Horn of Steal-->
+				<Item Cat="2" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Thunderbolt-->
+				<Item Cat="2" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Magmus Peer-->
+				<Item Cat="3" Index="12" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Angelic Bow-->
+				<Item Cat="4" Index="25" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Devil Crossbow-->
+				<Item Cat="4" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Miracle Staff-->
+				<Item Cat="5" Index="35" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Spite Staff-->
+				<Item Cat="5" Index="37" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Summon Spirit Stick-->
+				<Item Cat="5" Index="32" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Lazy Wind Shield-->
+				<Item Cat="6" Index="22" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Light Lord Shield-->
+				<Item Cat="6" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Dark Devil Shield-->
+				<Item Cat="6" Index="24" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Magic Knight Shield-->
+				<Item Cat="6" Index="25" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+				<!--Ambition Shield-->
+				<Item Cat="6" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="5" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+	</DropSection>
+</ItemBag>

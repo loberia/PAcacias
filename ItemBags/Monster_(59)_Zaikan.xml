@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+<ItemBag>
+	<BagConfig Name="Monster_(59)_Zaikan" ItemRate="8000" SetItemRate="0" SetItemCount="1" MoneyDrop="10000000" BagUseRate="10000" BagUseEffect="-1" IsPentagramForBeginnersDrop="0" MasterySetItemInclude="0" PartyDropRate="0"  PartyOneDropOnly="0" PartyShareType="0" />
+	<AddCoin Enable="1" CoinType="0" CoinValue="30" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<SummonBook Enable="0" DropRate="0" ItemCat="14" ItemIndex="217" />
+	<DropSection DisplayName="Drop Section 1" UseMode="-1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="DropAllow">
+			<Drop Rate="500" Count="1" Type="0">
+				<!--Pendant of Ability-->
+				<Item Cat="13" Index="28" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;4" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Water-->
+				<Item Cat="13" Index="27" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;4" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Wind-->
+				<Item Cat="13" Index="26" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;4" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Ice-->
+				<Item Cat="13" Index="25" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;4" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Fire-->
+				<Item Cat="13" Index="13" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;4" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Lighting-->
+				<Item Cat="13" Index="12" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;4" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Ice-->
+				<Item Cat="13" Index="8" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;4" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Poison-->
+				<Item Cat="13" Index="9" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;4" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Fire-->
+				<Item Cat="13" Index="21" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;4" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Earth-->
+				<Item Cat="13" Index="22" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;4" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Wind-->
+				<Item Cat="13" Index="23" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;4" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="2000" Count="2" Type="0">
+				<!--Jewel of Chaos-->
+				<Item Cat="12" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Durability="10" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Bless-->
+				<Item Cat="14" Index="13" ItemMinLevel="0" ItemMaxLevel="0" Durability="10" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Soul-->
+				<Item Cat="14" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Durability="10" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Life-->
+				<Item Cat="14" Index="16" ItemMinLevel="0" ItemMaxLevel="0" Durability="10" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Creation-->
+				<Item Cat="14" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Durability="10" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="2500" Count="2" Type="0">
+				<!--Bone Blade-->
+				<Item Cat="0" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sylph Wind Bow-->
+				<Item Cat="4" Index="21" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Grand Viper Staff-->
+				<Item Cat="5" Index="12" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Storm Blitz Stick-->
+				<Item Cat="5" Index="19" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Phoenix Soul Star-->
+				<Item Cat="0" Index="35" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Explosion Blade-->
+				<Item Cat="0" Index="23" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Soleil Scepter-->
+				<Item Cat="2" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Dragon Knight Helm-->
+				<Item Cat="7" Index="29" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Dragon Knight Armor-->
+				<Item Cat="8" Index="29" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Dragon Knight Pants-->
+				<Item Cat="9" Index="29" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Dragon Knight Gloves-->
+				<Item Cat="10" Index="29" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Dragon Knight Boots-->
+				<Item Cat="11" Index="29" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Venom Mist Helm-->
+				<Item Cat="7" Index="30" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Venom Mist Armor-->
+				<Item Cat="8" Index="30" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Venom Mist Pants-->
+				<Item Cat="9" Index="30" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Venom Mist Gloves-->
+				<Item Cat="10" Index="30" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Venom Mist Boots-->
+				<Item Cat="11" Index="30" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sylphid Ray Helm-->
+				<Item Cat="7" Index="31" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sylphid Ray Armor-->
+				<Item Cat="8" Index="31" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sylphid Ray Pants-->
+				<Item Cat="9" Index="31" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sylphid Ray Gloves-->
+				<Item Cat="10" Index="31" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sylphid Ray Boots-->
+				<Item Cat="11" Index="31" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Storm Blitz Helm-->
+				<Item Cat="7" Index="43" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Storm Blitz Armor-->
+				<Item Cat="8" Index="43" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Storm Blitz Pants-->
+				<Item Cat="9" Index="43" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Storm Blitz Gloves-->
+				<Item Cat="10" Index="43" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Storm Blitz Boots-->
+				<Item Cat="11" Index="43" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Phoenix Soul Helmet-->
+				<Item Cat="7" Index="73" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Phoenix Soul Armor-->
+				<Item Cat="8" Index="73" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Phoenix Soul Pants-->
+				<Item Cat="9" Index="73" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Phoenix Soul Boots-->
+				<Item Cat="11" Index="73" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Volcano Armor-->
+				<Item Cat="8" Index="32" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Volcano Pants-->
+				<Item Cat="9" Index="32" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Volcano Gloves-->
+				<Item Cat="10" Index="32" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Volcano Boots-->
+				<Item Cat="11" Index="32" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sunlight Mask-->
+				<Item Cat="7" Index="33" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sunlight Armor-->
+				<Item Cat="8" Index="33" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sunlight Pants-->
+				<Item Cat="9" Index="33" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sunlight Gloves-->
+				<Item Cat="10" Index="33" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sunlight Boots-->
+				<Item Cat="11" Index="33" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="5000" Count="1" Type="0">
+				<!--Ring of Ice-->
+				<Item Cat="13" Index="8" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;3" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Poison-->
+				<Item Cat="13" Index="9" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;3" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Fire-->
+				<Item Cat="13" Index="21" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;3" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Earth-->
+				<Item Cat="13" Index="22" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;3" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Wind-->
+				<Item Cat="13" Index="23" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;3" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Lighting-->
+				<Item Cat="13" Index="12" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;3" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Fire-->
+				<Item Cat="13" Index="13" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;3" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Ice-->
+				<Item Cat="13" Index="25" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;3" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Wind-->
+				<Item Cat="13" Index="26" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;3" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Water-->
+				<Item Cat="13" Index="27" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;3" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+	</DropSection>
+</ItemBag>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2010 - 2018 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+<Shop>
+	<Tab Id="1">
+		<!-- Spin Step Scroll-->
+		<Item Cat="12" Index="271" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Harsh Strike Scroll-->
+		<Item Cat="12" Index="274" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Magic Pin Scroll-->
+		<Item Cat="12" Index="273" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Breche Scroll-->
+		<Item Cat="12" Index="277" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Shining Peak Scroll-->
+		<Item Cat="12" Index="275" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Obsidian Scroll-->
+		<Item Cat="12" Index="272" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Wrath Scroll-->
+		<Item Cat="12" Index="276" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Robust Helmet-->
+		<Item Cat="7" Index="91" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Robust Armor-->
+		<Item Cat="8" Index="91" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Robust Pants-->
+		<Item Cat="9" Index="91" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Robust Gloves-->
+		<Item Cat="10" Index="91" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Robust Boots-->
+		<Item Cat="11" Index="91" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Lapid Shield-->
+		<Item Cat="6" Index="29" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Alacran Shield-->
+		<Item Cat="6" Index="31" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Lapid Lance-->
+		<Item Cat="3" Index="13" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	</Tab>
+	<Tab Id="2">
+		<!-- Burst Act-->
+		<Item Cat="15" Index="40" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Haste Act-->
+		<Item Cat="15" Index="41" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Kenaz Hood-->
+		<Item Cat="7" Index="119" Level="3" Durability="70" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Kanaz Armor-->
+		<Item Cat="8" Index="119" Level="3" Durability="70" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Kanaz Pants-->
+		<Item Cat="9" Index="119" Level="3" Durability="70" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Kanaz Gloves-->
+		<Item Cat="10" Index="119" Level="3" Durability="70" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Kanaz Boots-->
+		<Item Cat="11" Index="119" Level="3" Durability="70" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- El Hazard Mace-->
+		<Item Cat="2" Index="29" Level="3" Durability="3" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- El Hazard Shield-->
+		<Item Cat="6" Index="42" Level="3" Durability="68" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	</Tab>
+	<Tab Id="3">
+		<!-- Nightwing Helm-->
+		<Item Cat="7" Index="177" Level="3" Durability="73" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Nightwing Armor-->
+		<Item Cat="8" Index="177" Level="3" Durability="73" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Night Wing Pants-->
+		<Item Cat="9" Index="177" Level="3" Durability="73" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Nightwing Gloves-->
+		<Item Cat="10" Index="177" Level="3" Durability="73" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Night Wing Boots-->
+		<Item Cat="11" Index="177" Level="3" Durability="73" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Bat Flock Bead-->
+		<Item Cat="12" Index="477" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Sword Inertia Bead-->
+		<Item Cat="12" Index="476" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Detection Bead-->
+		<Item Cat="12" Index="478" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Flat Short Sword-->
+		<Item Cat="0" Index="66" Level="3" Durability="23" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Dacia Short Sword-->
+		<Item Cat="0" Index="67" Level="3" Durability="48" Skill="0" Luck="1" Option="4" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	</Tab>
+	<Tab Id="4">
+		<!-- Frere Helmet-->
+		<Item Cat="7" Index="209" Level="3" Durability="71" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Frere Armor-->
+		<Item Cat="8" Index="209" Level="3" Durability="71" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Frere Pants-->
+		<Item Cat="9" Index="209" Level="3" Durability="71" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Frere Boots-->
+		<Item Cat="11" Index="209" Level="3" Durability="71" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Frere Gloves-->
+		<Item Cat="10" Index="209" Level="3" Durability="71" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Frere Magic Gun-->
+		<Item Cat="4" Index="43" Level="3" Durability="3" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Entropy Gun-->
+		<Item Cat="4" Index="42" Level="3" Durability="3" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Ice Break Bead-->
+		<Item Cat="12" Index="492" Level="0" Durability="0" Skill="0" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	</Tab>
+	<Tab Id="5" />
+</Shop>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+<ItemBag>
+	<BagConfig Name="Monster_Selupan" ItemRate="10000" SetItemRate="0" SetItemCount="1" MoneyDrop="0" BagUseRate="10000" BagUseEffect="0" IsPentagramForBeginnersDrop="0" MasterySetItemInclude="0" PartyDropRate="0"  PartyOneDropOnly="0" PartyShareType="0" />
+	<AddCoin Enable="1" CoinType="0" CoinValue="700" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<SummonBook Enable="0" DropRate="0" ItemCat="14" ItemIndex="217" />
+	<DropSection DisplayName="Drop Section 1" UseMode="-1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="DropAllow">
+			<Drop Rate="500" Count="1" Type="0">
+				<!--Golden Sentence-->
+				<Item Cat="13" Index="468" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Duration="-1" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Steel of Heaven-->
+				<Item Cat="14" Index="342" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Duration="-1" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ruud Box (2000)-->
+				<Item Cat="14" Index="447" ItemMinLevel="0" ItemMaxLevel="0" Durability="1" Duration="-1" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="500" Count="1" Type="0">
+				<!--Serufan-->
+				<Item Cat="16" Index="114" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1000" Count="2" Type="0">
+				<!--Ancestral Earring (R)-->
+				<Item Cat="12" Index="458" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="-1" Exc="-3;3" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ancestral Earring (L)-->
+				<Item Cat="12" Index="450" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="-1" Exc="-3;3" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1500" Count="2" Type="0">
+				<!--Jasper Necklace-->
+				<Item Cat="20" Index="39" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Lapis Lazuli Necklace-->
+				<Item Cat="20" Index="40" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Battle Jasper Necklace-->
+				<Item Cat="20" Index="41" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Battle Lagoon Necklace-->
+				<Item Cat="20" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="3000" Count="1" Type="0">
+				<!--Silver Heart Sword-->
+				<Item Cat="0" Index="81" ItemMinLevel="0" ItemMaxLevel="5" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Magic Sword-->
+				<Item Cat="0" Index="82" ItemMinLevel="0" ItemMaxLevel="5" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Claws-->
+				<Item Cat="0" Index="83" ItemMinLevel="0" ItemMaxLevel="5" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Short Sword-->
+				<Item Cat="0" Index="84" ItemMinLevel="0" ItemMaxLevel="5" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Scepter-->
+				<Item Cat="2" Index="42" ItemMinLevel="0" ItemMaxLevel="5" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Rune Mace-->
+				<Item Cat="2" Index="43" ItemMinLevel="0" ItemMaxLevel="5" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Lance-->
+				<Item Cat="3" Index="30" ItemMinLevel="0" ItemMaxLevel="5" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Magic Gun-->
+				<Item Cat="4" Index="53" ItemMinLevel="0" ItemMaxLevel="5" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Bow-->
+				<Item Cat="4" Index="56" ItemMinLevel="0" ItemMaxLevel="5" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Arrow Box-->
+				<Item Cat="4" Index="57" ItemMinLevel="0" ItemMaxLevel="5" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Staff-->
+				<Item Cat="5" Index="64" ItemMinLevel="0" ItemMaxLevel="5" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Stick-->
+				<Item Cat="5" Index="65" ItemMinLevel="0" ItemMaxLevel="5" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Book-->
+				<Item Cat="5" Index="66" ItemMinLevel="0" ItemMaxLevel="5" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Shield-->
+				<Item Cat="6" Index="49" ItemMinLevel="0" ItemMaxLevel="5" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Magic Book-->
+				<Item Cat="5" Index="78" ItemMinLevel="0" ItemMaxLevel="5" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Orb-->
+				<Item Cat="5" Index="91" ItemMinLevel="0" ItemMaxLevel="5" Durability="-1" Duration="-1" Skill="-1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="3500" Count="3" Type="0">
+				<!--Jewel of Dark Bless-->
+				<Item Cat="20" Index="500" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Duration="-1" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Dark Soul-->
+				<Item Cat="20" Index="501" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Duration="-1" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Chaos-->
+				<Item Cat="12" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Duration="-1" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Bless-->
+				<Item Cat="14" Index="13" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Duration="-1" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Soul-->
+				<Item Cat="14" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Durability="10" Duration="-1" Skill="1" Luck="-1" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+	</DropSection>
+</ItemBag>

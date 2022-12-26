@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2010 - 2018 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+<Shop>
+	<!--Excellent Apple-->
+	<Item Cat="14" Index="0" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Small Healing Potion-->
+	<Item Cat="14" Index="1" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Healing Potion-->
+	<Item Cat="14" Index="2" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Large Healing Potion-->
+	<Item Cat="14" Index="3" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Small Mana Potion-->
+	<Item Cat="14" Index="4" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Mana Potion-->
+	<Item Cat="14" Index="5" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Large Mana Potion-->
+	<Item Cat="14" Index="6" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Antidote-->
+	<Item Cat="14" Index="8" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Apple-->
+	<Item Cat="14" Index="0" Level="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Small Healing Potion-->
+	<Item Cat="14" Index="1" Level="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Healing Potion-->
+	<Item Cat="14" Index="2" Level="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Large Healing Potion-->
+	<Item Cat="14" Index="3" Level="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Small Mana Potion-->
+	<Item Cat="14" Index="4" Level="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Mana Potion-->
+	<Item Cat="14" Index="5" Level="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Large Mana Potion-->
+	<Item Cat="14" Index="6" Level="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Antidote-->
+	<Item Cat="14" Index="8" Level="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Apple-->
+	<Item Cat="14" Index="0" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Small Healing Potion-->
+	<Item Cat="14" Index="1" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Healing Potion-->
+	<Item Cat="14" Index="2" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Large Healing Potion-->
+	<Item Cat="14" Index="3" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Apple-->
+	<Item Cat="14" Index="0" Level="1" Durability="3" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Small Healing Potion-->
+	<Item Cat="14" Index="1" Level="1" Durability="3" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Healing Potion-->
+	<Item Cat="14" Index="2" Level="1" Durability="3" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Large Healing Potion-->
+	<Item Cat="14" Index="3" Level="1" Durability="3" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Bolt-->
+	<Item Cat="4" Index="7" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Bolt-->
+	<Item Cat="4" Index="7" Level="1" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Bolt-->
+	<Item Cat="4" Index="7" Level="2" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Arrow-->
+	<Item Cat="4" Index="15" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Arrow-->
+	<Item Cat="4" Index="15" Level="1" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!-- Arrow-->
+	<Item Cat="4" Index="15" Level="2" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Contract (Summon)-->
+	<Item Cat="13" Index="7" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Contract (Summon)-->
+	<Item Cat="13" Index="7" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Town Portal Scroll-->
+	<Item Cat="14" Index="10" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	<!--Excellent Armor of Guardsman-->
+	<Item Cat="13" Index="29" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+</Shop>

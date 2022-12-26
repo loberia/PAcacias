@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+<ItemBag>
+	<BagConfig Name="Monster_(746)_Knicks" ItemRate="9800" SetItemRate="0" SetItemCount="1" MoneyDrop="200000000" BagUseRate="10000" BagUseEffect="0" IsPentagramForBeginnersDrop="0" MasterySetItemInclude="0" PartyDropRate="0"  PartyOneDropOnly="0" PartyShareType="0" />
+	<AddCoin Enable="1" CoinType="0" CoinValue="100" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<SummonBook Enable="0" DropRate="0" ItemCat="14" ItemIndex="217" />
+	<DropSection DisplayName="Drop Section 1" UseMode="-1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="DropAllow">
+			<Drop Rate="100" Count="1" Type="0">
+				<!--Runedil's Goldentune Harp-->
+				<Item Cat="12" Index="306" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" />
+				<!--Lemuria's Orb-->
+				<Item Cat="12" Index="307" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" />
+				<!--Norrwen's Bloodstring Lyra-->
+				<Item Cat="12" Index="308" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" />
+			</Drop>
+			<Drop Rate="300" Count="1" Type="0">
+				<!--Knicks-->
+				<Item Cat="16" Index="112" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="500" Count="1" Type="0">
+				<!--Ice Dragon-->
+				<Item Cat="12" Index="483" ItemMinLevel="0" ItemMaxLevel="7" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ghost Horse-->
+				<Item Cat="12" Index="471" ItemMinLevel="0" ItemMaxLevel="7" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="900" Count="1" Type="0">
+				<!--Fragment of Radiance slot (1)-->
+				<Item Cat="14" Index="309" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Fragment of Radiance slot (2)-->
+				<Item Cat="14" Index="310" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Fragment of Radiance slot (3)-->
+				<Item Cat="14" Index="311" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Fragment of Radiance slot (4)-->
+				<Item Cat="14" Index="312" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blessing of Spirit-->
+				<Item Cat="14" Index="320" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Talisman Element Change-->
+				<Item Cat="14" Index="317" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1000" Count="1" Type="0">
+				<!--Manticore Knight Gloves (Conviction)-->
+				<Item Cat="10" Index="233" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Knight Gloves-->
+				<Item Cat="10" Index="221" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Wizard Boots-->
+				<Item Cat="11" Index="222" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Elf Boots-->
+				<Item Cat="11" Index="223" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Summoner Boots-->
+				<Item Cat="11" Index="224" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Magic Boots-->
+				<Item Cat="11" Index="225" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Lord Boots-->
+				<Item Cat="11" Index="226" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Fighter Boots-->
+				<Item Cat="11" Index="227" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Lancer Boots-->
+				<Item Cat="11" Index="228" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Elf Boots-->
+				<Item Cat="11" Index="229" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Magic Boots-->
+				<Item Cat="11" Index="230" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Rune Wizard Boots-->
+				<Item Cat="11" Index="231" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Slayer Boots-->
+				<Item Cat="11" Index="232" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Gun Crasher Boots-->
+				<Item Cat="11" Index="234" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Manticore Gun Crusher Gloves-->
+				<Item Cat="10" Index="234" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1200" Count="2" Type="0">
+				<!--BA Armor of Sealed Fury-->
+				<Item Cat="13" Index="351" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Helm of Sealed Fury-->
+				<Item Cat="13" Index="352" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Pants of Sealed Fury-->
+				<Item Cat="13" Index="353" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Boots of Sealed Fury-->
+				<Item Cat="13" Index="354" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Armor of Sealed Vengeance-->
+				<Item Cat="13" Index="355" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Helm of Sealed Vengeance-->
+				<Item Cat="13" Index="356" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Pants of Sealed Vengeance-->
+				<Item Cat="13" Index="357" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Gloves of Sealed Vengeance-->
+				<Item Cat="13" Index="358" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Armor of Sealed Transcendence-->
+				<Item Cat="13" Index="359" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Helm of Sealed Transcendence-->
+				<Item Cat="13" Index="360" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Pants of Sealed Transcendence-->
+				<Item Cat="13" Index="361" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Gloves of Sealed Transcendence-->
+				<Item Cat="13" Index="362" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Armor of Sealed Destruction-->
+				<Item Cat="13" Index="391" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Helm of Sealed Destruction-->
+				<Item Cat="13" Index="392" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Pants of Sealed Destruction-->
+				<Item Cat="13" Index="393" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Boots of Sealed Destruction-->
+				<Item Cat="13" Index="394" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sealed Defense's Bloodangel Helm (Conviction)-->
+				<Item Cat="13" Index="395" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sealed Defense Bloodangel Armor (Conviction)-->
+				<Item Cat="13" Index="396" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sealed Defense Bloodangel Pants (Conviction)-->
+				<Item Cat="13" Index="397" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Sealed Defense Bloodangel Boots (Conviction)-->
+				<Item Cat="13" Index="398" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Armor of Sealed Tenacity-->
+				<Item Cat="13" Index="399" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Helm of Sealed Tenacity-->
+				<Item Cat="13" Index="400" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Pants of Sealed Tenacity-->
+				<Item Cat="13" Index="401" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Gloves of Sealed Tenacity-->
+				<Item Cat="13" Index="402" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel Helm of Sealed Ritual-->
+				<Item Cat="13" Index="403" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel Armor of Sealed Ritual-->
+				<Item Cat="13" Index="404" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel Pants of Sealed Ritual-->
+				<Item Cat="13" Index="405" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel Boots of Sealed Ritual-->
+				<Item Cat="13" Index="406" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1500" Count="1" Type="0">
+				<!--BA Armor of Sealed Captivation-->
+				<Item Cat="13" Index="375" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Boots of Sealed Captivation-->
+				<Item Cat="13" Index="376" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Pants of Sealed Captivation-->
+				<Item Cat="13" Index="377" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Gloves of Sealed Captivation-->
+				<Item Cat="13" Index="378" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Armor of Sealed Conquest-->
+				<Item Cat="13" Index="379" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Helm of Sealed Conquest-->
+				<Item Cat="13" Index="380" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Pants of Sealed Conquest-->
+				<Item Cat="13" Index="381" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Gloves of Sealed Conquest-->
+				<Item Cat="13" Index="382" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Sealed Armor of Hertless-->
+				<Item Cat="13" Index="383" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Sealed Helm of Heartless-->
+				<Item Cat="13" Index="384" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Sealed Pants of Heartless-->
+				<Item Cat="13" Index="385" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Sealed Gloves of Heartless-->
+				<Item Cat="13" Index="386" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Armor of Sealed Honor-->
+				<Item Cat="13" Index="387" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Helm of Sealed Honor-->
+				<Item Cat="13" Index="388" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Pants of Sealed Honor-->
+				<Item Cat="13" Index="389" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Gloves of Sealed Honor-->
+				<Item Cat="13" Index="390" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="2000" Count="2" Type="0">
+				<!--Jewel of Kundun-->
+				<Item Cat="20" Index="506" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Kondar-->
+				<Item Cat="20" Index="507" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Duration="-1" Skill="0" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="2500" Count="1" Type="0">
+				<!--BA Armor of Sealed Flurry-->
+				<Item Cat="13" Index="363" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Helm of Sealed Flurry-->
+				<Item Cat="13" Index="364" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Pants of Sealed Flurry-->
+				<Item Cat="13" Index="365" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Gloves of Sealed Flurry-->
+				<Item Cat="13" Index="366" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Armor of Sealed Redemption-->
+				<Item Cat="13" Index="367" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Helm of Sealed Redemption-->
+				<Item Cat="13" Index="368" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Pants of Sealed Redemption-->
+				<Item Cat="13" Index="369" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Gloves of Sealed Redemption-->
+				<Item Cat="13" Index="370" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Armor of Sealed Extremity-->
+				<Item Cat="13" Index="371" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Boots of Sealed Extremity-->
+				<Item Cat="13" Index="372" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Pants of Sealed Extremity-->
+				<Item Cat="13" Index="373" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--BA Gloves of Sealed Extremity-->
+				<Item Cat="13" Index="374" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+	</DropSection>
+</ItemBag>

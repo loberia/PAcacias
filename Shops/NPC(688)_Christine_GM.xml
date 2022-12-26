@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2010 - 2018 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+<Shop>
+	<!-- Jewel of Kondar-->
+	<Item Cat="14" Index="507" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Jewel of Kundun-->
+	<Item Cat="14" Index="506" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Jewel of Science-->
+	<Item Cat="14" Index="505" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Jewel of Luck-->
+	<Item Cat="14" Index="504" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Jewel of Excess-->
+	<Item Cat="14" Index="503" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Jewel of Dark Life-->
+	<Item Cat="14" Index="502" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Jewel of Dark Soul-->
+	<Item Cat="14" Index="501" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Jewel of Dark Bless-->
+	<Item Cat="14" Index="500" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Jewel of Wisdom-->
+	<Item Cat="14" Index="508" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Fire)-->
+	<Item Cat="12" Index="60" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Fire)-->
+	<Item Cat="12" Index="60" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Fire)-->
+	<Item Cat="12" Index="60" Level="2" Durability="2" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Fire)-->
+	<Item Cat="12" Index="60" Level="3" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Fire)-->
+	<Item Cat="12" Index="60" Level="4" Durability="4" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Water)-->
+	<Item Cat="12" Index="61" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Water)-->
+	<Item Cat="12" Index="61" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Water)-->
+	<Item Cat="12" Index="61" Level="2" Durability="2" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Water)-->
+	<Item Cat="12" Index="61" Level="3" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Water)-->
+	<Item Cat="12" Index="61" Level="4" Durability="4" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Ice)-->
+	<Item Cat="12" Index="62" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Ice)-->
+	<Item Cat="12" Index="62" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Ice)-->
+	<Item Cat="12" Index="62" Level="2" Durability="2" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Ice)-->
+	<Item Cat="12" Index="62" Level="3" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Wind)-->
+	<Item Cat="12" Index="63" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Wind)-->
+	<Item Cat="12" Index="63" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Wind)-->
+	<Item Cat="12" Index="63" Level="2" Durability="2" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Wind)-->
+	<Item Cat="12" Index="63" Level="3" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Wind)-->
+	<Item Cat="12" Index="63" Level="4" Durability="4" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Lightning)-->
+	<Item Cat="12" Index="64" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Lightning)-->
+	<Item Cat="12" Index="64" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Lightning)-->
+	<Item Cat="12" Index="64" Level="2" Durability="2" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Lightning)-->
+	<Item Cat="12" Index="64" Level="3" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Lightning)-->
+	<Item Cat="12" Index="64" Level="4" Durability="4" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Seed (Earth)-->
+	<Item Cat="12" Index="65" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Sphere (Tetra)-->
+	<Item Cat="12" Index="73" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Sphere Upgrade Rune-->
+	<Item Cat="12" Index="401" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Bundle of Jewel of Bless-->
+	<Item Cat="12" Index="30" Level="2" Durability="2" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Bundle of Jewel of Soul-->
+	<Item Cat="12" Index="31" Level="2" Durability="2" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Jewel of Life Bundle-->
+	<Item Cat="12" Index="136" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Jewel of Creation Bundle-->
+	<Item Cat="12" Index="137" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Jewel of Harmony Bundle-->
+	<Item Cat="12" Index="140" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Jewel of Chaos Bundle-->
+	<Item Cat="12" Index="141" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	<!-- Ruud Box 3000)-->
+	<Item Cat="14" Index="448" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+</Shop>

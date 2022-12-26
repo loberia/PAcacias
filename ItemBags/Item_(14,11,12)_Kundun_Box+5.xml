@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+<ItemBag>
+	<BagConfig Name="Item_Box_of_Kundun+5" ItemRate="10000" SetItemRate="0" SetItemCount="1" MoneyDrop="0" BagUseRate="10000" BagUseEffect="0" IsPentagramForBeginnersDrop="0" MasterySetItemInclude="0" PartyDropRate="0"  PartyOneDropOnly="0" PartyShareType="0" />
+	<AddCoin Enable="1" CoinType="0" CoinValue="50" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<Ruud GainRate="1000" MinValue="200" MaxValue="400" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<SummonBook Enable="0" DropRate="0" ItemCat="14" ItemIndex="217" />
+	<DropSection DisplayName="Drop Section 1" UseMode="-1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="DropAllow">
+			<Drop Rate="300" Count="1" Type="0">
+				<!--Pentagram Emblem-->
+				<Item Cat="12" Index="509" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ertel Emblem-->
+				<Item Cat="12" Index="510" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="300" Count="1" Type="0">
+				<!--Blessing of Spirit-->
+				<Item Cat="14" Index="320" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="300" Count="3" Type="0">
+				<!--Elemental Talisman of Luck-->
+				<Item Cat="14" Index="189" ItemMinLevel="0" ItemMaxLevel="3" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Elemental Talisman of Chaos-->
+				<Item Cat="14" Index="190" ItemMinLevel="0" ItemMaxLevel="3" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Fragment of Radiance slot (1)-->
+				<Item Cat="14" Index="309" ItemMinLevel="0" ItemMaxLevel="3" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Fragment of Radiance slot (2)-->
+				<Item Cat="14" Index="310" ItemMinLevel="0" ItemMaxLevel="3" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Fragment of Radiance slot (3)-->
+				<Item Cat="14" Index="311" ItemMinLevel="0" ItemMaxLevel="3" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Fragment of Radiance slot (4)-->
+				<Item Cat="14" Index="312" ItemMinLevel="0" ItemMaxLevel="3" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Expansion Scroll Radiance Slo-->
+				<Item Cat="14" Index="316" ItemMinLevel="0" ItemMaxLevel="3" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Talisman Element Change-->
+				<Item Cat="14" Index="317" ItemMinLevel="0" ItemMaxLevel="3" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="500" Count="1" Type="0">
+				<!--Ring of Ice-->
+				<Item Cat="13" Index="8" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-3;5" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Poison-->
+				<Item Cat="13" Index="9" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-3;5" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Lighting-->
+				<Item Cat="13" Index="12" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-3;5" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Fire-->
+				<Item Cat="13" Index="13" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-3;5" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Ice-->
+				<Item Cat="13" Index="25" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-3;5" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Wind-->
+				<Item Cat="13" Index="26" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-3;5" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Water-->
+				<Item Cat="13" Index="27" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-3;5" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Earth-->
+				<Item Cat="13" Index="22" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-3;5" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Wind-->
+				<Item Cat="13" Index="23" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-3;5" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Fire-->
+				<Item Cat="13" Index="21" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-3;5" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Magic-->
+				<Item Cat="13" Index="24" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-3;5" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Ability-->
+				<Item Cat="13" Index="28" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-3;5" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="500" Count="1" Type="0">
+				<!--Silverheart Slayer Helm-->
+				<Item Cat="7" Index="185" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Knight Helm-->
+				<Item Cat="7" Index="189" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Wizard Helm-->
+				<Item Cat="7" Index="190" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Elf Helm (A)-->
+				<Item Cat="7" Index="191" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Summoner Helm-->
+				<Item Cat="7" Index="192" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Lord Helm-->
+				<Item Cat="7" Index="194" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Fighter Helm-->
+				<Item Cat="7" Index="195" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Lancer Helm-->
+				<Item Cat="7" Index="196" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Elf Helm (B)-->
+				<Item Cat="7" Index="197" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Runist Helm-->
+				<Item Cat="7" Index="199" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Knight Helm (Conviction)-->
+				<Item Cat="7" Index="205" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Gun Crusher Helmet-->
+				<Item Cat="7" Index="217" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart White Wizard Helmet-->
+				<Item Cat="7" Index="246" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Mage Helmet-->
+				<Item Cat="7" Index="264" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Slayer Armor-->
+				<Item Cat="8" Index="185" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Knight Armor-->
+				<Item Cat="8" Index="189" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Wizard Armor-->
+				<Item Cat="8" Index="190" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Elf Armor (A)-->
+				<Item Cat="8" Index="191" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Summoner Armor-->
+				<Item Cat="8" Index="192" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Magic Armor (A)-->
+				<Item Cat="8" Index="193" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Fighter Armor-->
+				<Item Cat="8" Index="195" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Lord Armor-->
+				<Item Cat="8" Index="194" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Lancer Armor-->
+				<Item Cat="8" Index="196" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Elf Armor (B)-->
+				<Item Cat="8" Index="197" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Magic Armor (B)-->
+				<Item Cat="8" Index="198" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Runist Armor-->
+				<Item Cat="8" Index="199" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Knight Armor (Conviction)-->
+				<Item Cat="8" Index="205" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Gun Crusher Armor-->
+				<Item Cat="8" Index="217" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart White Wizard Armor-->
+				<Item Cat="8" Index="246" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Mage Armor-->
+				<Item Cat="8" Index="264" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Slayer Pants-->
+				<Item Cat="9" Index="185" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Knight Pants-->
+				<Item Cat="9" Index="189" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Wizard Pants-->
+				<Item Cat="9" Index="190" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Elf Pants (A)-->
+				<Item Cat="9" Index="191" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Summoner Pants-->
+				<Item Cat="9" Index="192" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Magic Pants (A)-->
+				<Item Cat="9" Index="193" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Lord Pants-->
+				<Item Cat="9" Index="194" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Fighter Pants-->
+				<Item Cat="9" Index="195" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Lancer Pants-->
+				<Item Cat="9" Index="196" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Elf Pants (B)-->
+				<Item Cat="9" Index="197" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Magic Pants (B)-->
+				<Item Cat="9" Index="198" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Runist Pants-->
+				<Item Cat="9" Index="199" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Knight Pants (Conviction)-->
+				<Item Cat="9" Index="205" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Gun Crusher Pants-->
+				<Item Cat="9" Index="217" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart White Wizard Pants-->
+				<Item Cat="9" Index="246" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Mage Pants-->
+				<Item Cat="9" Index="264" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Slayer Gloves-->
+				<Item Cat="10" Index="185" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Knight Gloves-->
+				<Item Cat="10" Index="189" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Wizard Gloves-->
+				<Item Cat="10" Index="190" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Elf Gloves (A)-->
+				<Item Cat="10" Index="191" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Summoner Gloves-->
+				<Item Cat="10" Index="192" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Magic Gloves (A)-->
+				<Item Cat="10" Index="193" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Lord Gloves-->
+				<Item Cat="10" Index="194" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Lancer Gloves-->
+				<Item Cat="10" Index="196" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Elf Gloves (B)-->
+				<Item Cat="10" Index="197" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Magic Gloves (B)-->
+				<Item Cat="10" Index="198" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Runist Gloves-->
+				<Item Cat="10" Index="199" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Knight Gloves (Conviction)-->
+				<Item Cat="10" Index="205" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Gun Crasher Gloves-->
+				<Item Cat="10" Index="217" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart White Wizard Gloves-->
+				<Item Cat="10" Index="246" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Mage Gloves-->
+				<Item Cat="10" Index="264" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Slayer Boots-->
+				<Item Cat="11" Index="185" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Knight Boots-->
+				<Item Cat="11" Index="189" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Wizard Boots-->
+				<Item Cat="11" Index="190" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Elf Boots (A)-->
+				<Item Cat="11" Index="191" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Summoner Boots-->
+				<Item Cat="11" Index="192" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Magic Boots (A)-->
+				<Item Cat="11" Index="193" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Lord Boots-->
+				<Item Cat="11" Index="194" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Fighter Boots-->
+				<Item Cat="11" Index="195" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Lancer Boots-->
+				<Item Cat="11" Index="196" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Elf Boots (B)-->
+				<Item Cat="11" Index="197" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Magic Boots (B)-->
+				<Item Cat="11" Index="198" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silverheart Runist Boots-->
+				<Item Cat="11" Index="199" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Knight Boots (Conviction)-->
+				<Item Cat="11" Index="205" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Gun Crasher Boots-->
+				<Item Cat="11" Index="217" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart White Wizard Boots-->
+				<Item Cat="11" Index="246" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Silver Heart Mage Boots-->
+				<Item Cat="11" Index="264" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1000" Count="1" Type="0">
+				<!--Flameberge-->
+				<Item Cat="0" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Sword Breaker-->
+				<Item Cat="0" Index="27" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Rune Bastard Sword-->
+				<Item Cat="0" Index="28" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Absolute Scepter-->
+				<Item Cat="2" Index="17" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Frost Mace-->
+				<Item Cat="2" Index="16" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Dark Stinger-->
+				<Item Cat="4" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Eternal Wing Stick-->
+				<Item Cat="5" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Inberial Staff-->
+				<Item Cat="5" Index="31" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Deadly Staff-->
+				<Item Cat="5" Index="30" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Crimson Glory-->
+				<Item Cat="6" Index="17" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Frost Barrier-->
+				<Item Cat="6" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Guardian Shield-->
+				<Item Cat="6" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Paring Short Sword-->
+				<Item Cat="0" Index="69" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Novakura Short Sword-->
+				<Item Cat="0" Index="70" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Devast Claws-->
+				<Item Cat="0" Index="53" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Pantera Claws-->
+				<Item Cat="0" Index="52" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Light Road Runic Mace-->
+				<Item Cat="2" Index="31" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Frost Rune Mace-->
+				<Item Cat="2" Index="30" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Russell Light Lance-->
+				<Item Cat="3" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Rectuus Lance-->
+				<Item Cat="3" Index="22" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Devilwood Quiver-->
+				<Item Cat="4" Index="33" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Weiwen Magic Gun-->
+				<Item Cat="4" Index="44" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Cannon Magic Gun-->
+				<Item Cat="4" Index="45" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Shining Feather Magic Book-->
+				<Item Cat="5" Index="98" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Almandin Orb-->
+				<Item Cat="5" Index="85" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1000" Count="1" Type="0">
+				<!--Blue Eye Runist Helm-->
+				<Item Cat="7" Index="129" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Knight Helm-->
+				<Item Cat="7" Index="164" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Wizard Helm-->
+				<Item Cat="7" Index="165" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Elf Helm (A)-->
+				<Item Cat="7" Index="166" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Summoner Helm-->
+				<Item Cat="7" Index="167" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Lord Helm-->
+				<Item Cat="7" Index="169" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Fighter Helm-->
+				<Item Cat="7" Index="170" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Lancer Helmet-->
+				<Item Cat="7" Index="171" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Elf Helm (B)-->
+				<Item Cat="7" Index="172" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Slayer Helm-->
+				<Item Cat="7" Index="184" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eight Knight Helm (Conviction)-->
+				<Item Cat="7" Index="204" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Gun Crusher Helmet-->
+				<Item Cat="7" Index="216" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye White Wizard Helmet-->
+				<Item Cat="7" Index="245" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Mage Helmet-->
+				<Item Cat="7" Index="263" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Runist Armor-->
+				<Item Cat="8" Index="129" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Knight Armor-->
+				<Item Cat="8" Index="164" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Wizard Armor-->
+				<Item Cat="8" Index="165" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Elf Armor (A)-->
+				<Item Cat="8" Index="166" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Summoner Armor-->
+				<Item Cat="8" Index="167" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Magic Armor (A)-->
+				<Item Cat="8" Index="168" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Lord Armor-->
+				<Item Cat="8" Index="169" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Fighter Armor-->
+				<Item Cat="8" Index="170" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Lancer Armor-->
+				<Item Cat="8" Index="171" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Elf Armor (B)-->
+				<Item Cat="8" Index="172" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Magic Armor (B)-->
+				<Item Cat="8" Index="173" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Slayer Armor-->
+				<Item Cat="8" Index="184" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eight Night Armor (Conviction)-->
+				<Item Cat="8" Index="204" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Gun Crusher Armor-->
+				<Item Cat="8" Index="216" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Mage Armor-->
+				<Item Cat="8" Index="263" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Runist Pants-->
+				<Item Cat="9" Index="129" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Knight Pants-->
+				<Item Cat="9" Index="164" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Wizard Pants-->
+				<Item Cat="9" Index="165" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Elf Pants (A)-->
+				<Item Cat="9" Index="166" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Summoner Pants-->
+				<Item Cat="9" Index="167" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Magic Pants (A)-->
+				<Item Cat="9" Index="168" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Lord Pants-->
+				<Item Cat="9" Index="169" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Fighter Pants-->
+				<Item Cat="9" Index="170" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Lancer Pants-->
+				<Item Cat="9" Index="171" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Elf Pants (B)-->
+				<Item Cat="9" Index="172" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Magic Pants (B)-->
+				<Item Cat="9" Index="173" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Slayer Pants-->
+				<Item Cat="9" Index="184" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Knight Pants (Conviction)-->
+				<Item Cat="9" Index="204" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Gun Crusher Pants-->
+				<Item Cat="9" Index="216" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye White Wizard Pants-->
+				<Item Cat="9" Index="245" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Mage Pants-->
+				<Item Cat="9" Index="263" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Runist Gloves-->
+				<Item Cat="10" Index="129" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Knight Gloves-->
+				<Item Cat="10" Index="164" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Wizard Gloves-->
+				<Item Cat="10" Index="165" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Elf Gloves (A)-->
+				<Item Cat="10" Index="166" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Summoner Gloves-->
+				<Item Cat="10" Index="167" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Magic Gloves (A)-->
+				<Item Cat="10" Index="168" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Lord Gloves-->
+				<Item Cat="10" Index="169" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Lancer Gloves-->
+				<Item Cat="10" Index="171" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Elf Gloves (B)-->
+				<Item Cat="10" Index="172" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Magic Gloves (B)-->
+				<Item Cat="10" Index="173" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Slayer Gloves-->
+				<Item Cat="10" Index="184" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Knight Gloves (Conviction)-->
+				<Item Cat="10" Index="204" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Gun Crusher Gloves-->
+				<Item Cat="10" Index="216" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye White Wizard Gloves-->
+				<Item Cat="10" Index="245" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Mage Gloves-->
+				<Item Cat="10" Index="263" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Runist Boots-->
+				<Item Cat="11" Index="129" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Knight Boots-->
+				<Item Cat="11" Index="164" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Wizard Boots-->
+				<Item Cat="11" Index="165" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Elf Boots (A)-->
+				<Item Cat="11" Index="166" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Summoner Boots-->
+				<Item Cat="11" Index="167" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Magic Boots (A)-->
+				<Item Cat="11" Index="168" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Lord Boots-->
+				<Item Cat="11" Index="169" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Fighter Boots-->
+				<Item Cat="11" Index="170" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Lancer Boots-->
+				<Item Cat="11" Index="171" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Elf Boots (B)-->
+				<Item Cat="11" Index="172" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Magic Boots (B)-->
+				<Item Cat="11" Index="173" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Slayer Boots-->
+				<Item Cat="11" Index="184" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Knight Boots (Conviction)-->
+				<Item Cat="11" Index="204" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Gun Crusher Boots-->
+				<Item Cat="11" Index="216" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye White Wizard Boots-->
+				<Item Cat="11" Index="245" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Mage Boots-->
+				<Item Cat="11" Index="263" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="2000" Count="1" Type="0">
+				<!--Sonic Blade-->
+				<Item Cat="0" Index="29" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Asura-->
+				<Item Cat="0" Index="30" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Cyclone Sword-->
+				<Item Cat="0" Index="36" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Blast Break-->
+				<Item Cat="0" Index="37" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Horn of Steal-->
+				<Item Cat="2" Index="20" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Thunderbolt-->
+				<Item Cat="2" Index="19" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Magmus Peer-->
+				<Item Cat="3" Index="12" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Angelic Bow-->
+				<Item Cat="4" Index="25" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Devil Crossbow-->
+				<Item Cat="4" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Spite Staff-->
+				<Item Cat="5" Index="37" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Summon Spirit Stick-->
+				<Item Cat="5" Index="32" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Ambition Shield-->
+				<Item Cat="6" Index="26" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Magic Knight Shield-->
+				<Item Cat="6" Index="25" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Dark Devil Shield-->
+				<Item Cat="6" Index="24" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Light Lord Shield-->
+				<Item Cat="6" Index="23" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Lazy Wind Shield-->
+				<Item Cat="6" Index="22" ItemMinLevel="0" ItemMaxLevel="11" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-1" SetItem="0" SocketCount="3" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+	</DropSection>
+</ItemBag>

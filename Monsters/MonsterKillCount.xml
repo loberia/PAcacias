@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2019 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == Modify if you know what you do only!
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// ### MonsterKillCount::Monster ###
+//	Index: Index of a monster, see MonsterList.xml
+//	Enable: Allows to enable or disable specified record, 0/1
+//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Kill count of monsters for which Index was configured will be recorded 
+//~~ in database -> MuOnline.[dbo].[C_Monster_KillCount]
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+
+<MonsterKillCount>
+	<Monster Index="1" Enable="0" />
+	<Monster Index="275" Enable="1" /> <!-- Kundum -->
+	<Monster Index="349" Enable="1" /> <!-- Balgass -->
+	<Monster Index="361" Enable="1" /> <!-- Nightmare -->
+	<Monster Index="459" Enable="1" /> <!-- Selupan -->
+	<Monster Index="561" Enable="1" /> <!-- Medusa -->
+	<Monster Index="673" Enable="1" /> <!-- Lord Silvester -->
+	<Monster Index="734" Enable="1" /> <!-- Lord of Ferea -->
+	<Monster Index="746" Enable="1" /> <!-- Knicks -->
+	<Monster Index="794" Enable="1" /> <!-- God of Darkness -->
+</MonsterKillCount>

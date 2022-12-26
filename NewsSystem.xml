@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2018 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == Modify if you know what you do only!
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// ### NewsSystem ###
+//	Enable: Activates or deactivates entire system, 0/1
+//	DisplayInterval: Interval time the news will be displayed, minutes
+//
+// ### NewsSystem::News ###
+//	ID: ID of the news, unique, starts from 0
+//
+// ### NewsSystem::Line ###
+//	Number: Number of news line
+//		~ 0: First line
+//		~ 1: Second line
+//		~ 2: Third line
+//	Text: Message of the news
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+<NewsSystem Enable="1" DisplayInterval="5"> <!-- Minutes -->
+	<News ID="0">
+		<Line Number="0" Text="Nuevo sistema ANTILAG" />
+		<Line Number="1" Text="escribe /antilag" />
+		<Line Number="2" Text="para mas info" />
+	</News>
+	<News ID="1">
+		<Line Number="0" Text="No tienes el correo" />
+		<Line Number="1" Text="asociado a tu cuenta?" />
+		<Line Number="2" Text="entra al foro informate" />
+	</News>
+	<News ID="2">
+		<Line Number="0" Text="Por cada 8 minutos" />
+		<Line Number="1" Text="Que estas online" />
+		<Line Number="2" Text="te damos 1ANCoin" />
+	</News>
+	<News ID="3">
+		<Line Number="0" Text="Necesitas ayuda?" />
+		<Line Number="1" Text="visita el foro" />
+		<Line Number="2" Text="acaciasnetworks.com" />	
+	</News>
+	<News ID="4">
+		<Line Number="0" Text="Las cuentas no ve venden" />
+		<Line Number="1" Text="ni se prestan" />
+		<Line Number="2" Text="podrias ser sancionado" />
+	</News>
+	<News ID="5">
+		<Line Number="0" Text="No des tu clave a" />
+		<Line Number="1" Text="nadie ni a los admin" />
+		<Line Number="2" Text="cuida tu cuenta" />
+	</News>
+	<News ID="6">
+		<Line Number="0" Text="Visita nuestro" />
+		<Line Number="1" Text="servidor de discord" />
+		<Line Number="2" Text="discord.gg/XCdkEPN" />
+	</News>
+	<News ID="7">
+		<Line Number="0" Text="Visita nuestra" />
+		<Line Number="1" Text="pagina de guias" />
+		<Line Number="2" Text="guias.muacacias.net" />
+	</News>
+	<News ID="8">
+		<Line Number="0" Text="Recuerda eliminar" />
+		<Line Number="1" Text="tus opc Harmony" />
+		<Line Number="2" Text="antiguas en el NPC" />
+	</News>
+</NewsSystem>

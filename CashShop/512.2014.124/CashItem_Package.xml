@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+<CashItemPackage>
+	<Package GUID="0" ID="0" ItemSequence="0" UniqueID1="431" UniqueID2="500" Description="Pet Panda (7 Day)_P" />
+	<Package GUID="1" ID="0" ItemSequence="1" UniqueID1="432" UniqueID2="501" Description="Seal of Healing (7 Day)_P" />
+	<Package GUID="2" ID="0" ItemSequence="2" UniqueID1="433" UniqueID2="502" Description="Bundle of Jewel of Bless (10)_P" />
+	<Package GUID="3" ID="0" ItemSequence="3" UniqueID1="434" UniqueID2="503" Description="Bundle of Jewel of Soul (10)_P" />
+	<Package GUID="4" ID="0" ItemSequence="4" UniqueID1="439" UniqueID2="508" Description="Scroll of Evil Spirit_P" />
+	<Package GUID="5" ID="0" ItemSequence="5" UniqueID1="455" UniqueID2="524" Description="Scroll of Gigantic Storm_P" />
+	<Package GUID="6" ID="0" ItemSequence="6" UniqueID1="456" UniqueID2="525" Description="Scroll of Cometfall_P" />
+	<Package GUID="7" ID="0" ItemSequence="7" UniqueID1="457" UniqueID2="526" Description="Scroll of Flame Strike_P" />
+	<Package GUID="0" ID="1" ItemSequence="0" UniqueID1="1684" UniqueID2="2714" Description="Mysterious Stone" />
+	<Package GUID="1" ID="1" ItemSequence="1" UniqueID1="1684" UniqueID2="2714" Description="Mysterious Stone" />
+	<Package GUID="2" ID="1" ItemSequence="2" UniqueID1="1684" UniqueID2="2714" Description="Mysterious Stone" />
+	<Package GUID="3" ID="1" ItemSequence="3" UniqueID1="1684" UniqueID2="2714" Description="Mysterious Stone" />
+	<Package GUID="4" ID="1" ItemSequence="4" UniqueID1="1684" UniqueID2="2714" Description="Mysterious Stone" />
+	<Package GUID="5" ID="1" ItemSequence="5" UniqueID1="1684" UniqueID2="2714" Description="Mysterious Stone" />
+	<Package GUID="6" ID="1" ItemSequence="6" UniqueID1="1684" UniqueID2="2714" Description="Mysterious Stone" />
+	<Package GUID="7" ID="1" ItemSequence="7" UniqueID1="1684" UniqueID2="2714" Description="Mysterious Stone" />
+	<Package GUID="8" ID="1" ItemSequence="8" UniqueID1="1684" UniqueID2="2714" Description="Mysterious Stone" />
+	<Package GUID="9" ID="1" ItemSequence="9" UniqueID1="1684" UniqueID2="2714" Description="Mysterious Stone" />
+	<Package GUID="10" ID="1" ItemSequence="10" UniqueID1="1684" UniqueID2="2714" Description="Mysterious Stone" />
+	<Package GUID="0" ID="2" ItemSequence="0" UniqueID1="10" UniqueID2="15" Description="Seal of Wealth 7D" />
+	<Package GUID="1" ID="2" ItemSequence="1" UniqueID1="915" UniqueID2="1135" Description="Seal of Ascension 7D" />
+	<Package GUID="2" ID="2" ItemSequence="2" UniqueID1="2029" UniqueID2="3435" Description="10x Bless of Light (Greater)" />
+	<Package GUID="3" ID="2" ItemSequence="3" UniqueID1="1875" UniqueID2="3099" Description="Talisman of Ascension IIl 7D" />
+	<Package GUID="4" ID="2" ItemSequence="4" UniqueID1="1876" UniqueID2="3104" Description="Seal of Healing 7D" />
+	<Package GUID="5" ID="2" ItemSequence="5" UniqueID1="57" UniqueID2="94" Description="Panda Ring 7 D" />
+	<Package GUID="0" ID="3" ItemSequence="0" UniqueID1="57" UniqueID2="94" Description="Panda Ring 7 D" />
+	<Package GUID="1" ID="3" ItemSequence="1" UniqueID1="1510" UniqueID2="2397" Description="1x [Bound] Bless of Light (Greater)" />
+	<Package GUID="2" ID="3" ItemSequence="2" UniqueID1="1510" UniqueID2="2397" Description="1x [Bound] Bless of Light (Greater)" />
+	<Package GUID="3" ID="3" ItemSequence="3" UniqueID1="1510" UniqueID2="2397" Description="1x [Bound] Bless of Light (Greater)" />
+	<Package GUID="4" ID="3" ItemSequence="4" UniqueID1="915" UniqueID2="1134" Description="Seal of Ascension 3D" />
+	<Package GUID="5" ID="3" ItemSequence="5" UniqueID1="1876" UniqueID2="3103" Description="Seal of Healing 3D" />
+	<Package GUID="6" ID="3" ItemSequence="6" UniqueID1="1871" UniqueID2="3083" Description="Party EXP Scroll 3D" />
+	<Package GUID="0" ID="4" ItemSequence="0" UniqueID1="281" UniqueID2="349" Description="Magic Backpack" />
+	<Package GUID="1" ID="4" ItemSequence="1" UniqueID1="1514" UniqueID2="2405" Description="Pink Panda Ring 7D" />
+	<Package GUID="2" ID="4" ItemSequence="2" UniqueID1="10" UniqueID2="15" Description="Seal of Wealth 7D" />
+	<Package GUID="3" ID="4" ItemSequence="3" UniqueID1="1229" UniqueID2="1822" Description="Pet Panda 7D" />
+	<Package GUID="4" ID="4" ItemSequence="4" UniqueID1="2029" UniqueID2="3435" Description="10x Bless of Light (Greater)" />
+	<Package GUID="5" ID="4" ItemSequence="5" UniqueID1="915" UniqueID2="1135" Description="Seal of Ascension 7D" />
+	<Package GUID="0" ID="5" ItemSequence="0" UniqueID1="1515" UniqueID2="2407" Description="Miracle Coin" />
+	<Package GUID="1" ID="5" ItemSequence="1" UniqueID1="1515" UniqueID2="2407" Description="Miracle Coin" />
+	<Package GUID="2" ID="5" ItemSequence="2" UniqueID1="1515" UniqueID2="2407" Description="Miracle Coin" />
+	<Package GUID="3" ID="5" ItemSequence="3" UniqueID1="1515" UniqueID2="2407" Description="Miracle Coin" />
+	<Package GUID="4" ID="5" ItemSequence="4" UniqueID1="1515" UniqueID2="2407" Description="Miracle Coin" />
+	<Package GUID="5" ID="5" ItemSequence="5" UniqueID1="1515" UniqueID2="2407" Description="Miracle Coin" />
+	<Package GUID="6" ID="5" ItemSequence="6" UniqueID1="1515" UniqueID2="2407" Description="Miracle Coin" />
+	<Package GUID="7" ID="5" ItemSequence="7" UniqueID1="1515" UniqueID2="2407" Description="Miracle Coin" />
+	<Package GUID="8" ID="5" ItemSequence="8" UniqueID1="1515" UniqueID2="2407" Description="Miracle Coin" />
+	<Package GUID="9" ID="5" ItemSequence="9" UniqueID1="1515" UniqueID2="2407" Description="Miracle Coin" />
+	<Package GUID="10" ID="5" ItemSequence="10" UniqueID1="1515" UniqueID2="2407" Description="Miracle Coin" />
+	<Package GUID="0" ID="6" ItemSequence="0" UniqueID1="18" UniqueID2="28" Description="Reset Fruit Control" />
+	<Package GUID="1" ID="6" ItemSequence="1" UniqueID1="17" UniqueID2="27" Description="Reset Fruit Energy" />
+	<Package GUID="2" ID="6" ItemSequence="2" UniqueID1="16" UniqueID2="26" Description="Reset Fruit Health" />
+	<Package GUID="3" ID="6" ItemSequence="3" UniqueID1="15" UniqueID2="25" Description="Reset Fruit Quickness" />
+	<Package GUID="4" ID="6" ItemSequence="4" UniqueID1="14" UniqueID2="24" Description="Reset Fruit Strength" />
+	<Package GUID="0" ID="7" ItemSequence="0" UniqueID1="2029" UniqueID2="3435" Description="10x Bless of Light (Greater)" />
+	<Package GUID="1" ID="7" ItemSequence="1" UniqueID1="1875" UniqueID2="3099" Description="Talisman of Ascension IIl 7D" />
+	<Package GUID="2" ID="7" ItemSequence="2" UniqueID1="1876" UniqueID2="3104" Description="Seal of Healing 7D" />
+	<Package GUID="3" ID="7" ItemSequence="3" UniqueID1="57" UniqueID2="94" Description="Panda Ring 7 D" />
+	<Package GUID="4" ID="7" ItemSequence="4" UniqueID1="916" UniqueID2="1140" Description="Master Seal of Wealth 7D" />
+	<Package GUID="5" ID="7" ItemSequence="5" UniqueID1="917" UniqueID2="1144" Description="Master Seal of Ascension 7D" />
+	<Package GUID="0" ID="10" ItemSequence="0" UniqueID1="2190" UniqueID2="3613" Description="Bronze Boots" />
+	<Package GUID="1" ID="10" ItemSequence="1" UniqueID1="2189" UniqueID2="3612" Description="Bronze Gloves" />
+	<Package GUID="2" ID="10" ItemSequence="2" UniqueID1="2188" UniqueID2="3611" Description="Bronze Pants" />
+	<Package GUID="3" ID="10" ItemSequence="3" UniqueID1="2187" UniqueID2="3610" Description="Bronze Armor" />
+	<Package GUID="4" ID="10" ItemSequence="4" UniqueID1="2186" UniqueID2="3609" Description="Bronze Helm" />
+	<Package GUID="0" ID="11" ItemSequence="0" UniqueID1="2195" UniqueID2="3618" Description="Dragon Boots" />
+	<Package GUID="1" ID="11" ItemSequence="1" UniqueID1="2194" UniqueID2="3617" Description="Dragon Gloves" />
+	<Package GUID="2" ID="11" ItemSequence="2" UniqueID1="2193" UniqueID2="3616" Description="Dragon Pants" />
+	<Package GUID="3" ID="11" ItemSequence="3" UniqueID1="2192" UniqueID2="3615" Description="Dragon Armor" />
+	<Package GUID="4" ID="11" ItemSequence="4" UniqueID1="2196" UniqueID2="3619" Description="Dragon Helm" />
+	<Package GUID="0" ID="14" ItemSequence="0" UniqueID1="2201" UniqueID2="3624" Description="Leather Boots" />
+	<Package GUID="1" ID="14" ItemSequence="1" UniqueID1="2200" UniqueID2="3623" Description="Leather Gloves" />
+	<Package GUID="2" ID="14" ItemSequence="2" UniqueID1="2199" UniqueID2="3622" Description="Leather Pants" />
+	<Package GUID="3" ID="14" ItemSequence="3" UniqueID1="2198" UniqueID2="3621" Description="Leather Armor" />
+	<Package GUID="4" ID="14" ItemSequence="4" UniqueID1="2202" UniqueID2="3625" Description="Leather Helm" />
+	<Package GUID="0" ID="15" ItemSequence="0" UniqueID1="2207" UniqueID2="3630" Description="Scale Boots" />
+	<Package GUID="1" ID="15" ItemSequence="1" UniqueID1="2206" UniqueID2="3629" Description="Scale Gloves" />
+	<Package GUID="2" ID="15" ItemSequence="2" UniqueID1="2205" UniqueID2="3628" Description="Scale Pants" />
+	<Package GUID="3" ID="15" ItemSequence="3" UniqueID1="2204" UniqueID2="3627" Description="Scale Armor" />
+	<Package GUID="4" ID="15" ItemSequence="4" UniqueID1="2203" UniqueID2="3626" Description="Scale Helm" />
+	<Package GUID="0" ID="17" ItemSequence="0" UniqueID1="2212" UniqueID2="3635" Description="Brass Boots" />
+	<Package GUID="1" ID="17" ItemSequence="1" UniqueID1="2211" UniqueID2="3634" Description="Brass Gloves" />
+	<Package GUID="2" ID="17" ItemSequence="2" UniqueID1="2210" UniqueID2="3633" Description="Brass Pants" />
+	<Package GUID="3" ID="17" ItemSequence="3" UniqueID1="2209" UniqueID2="3632" Description="Brass Armor" />
+	<Package GUID="4" ID="17" ItemSequence="4" UniqueID1="2208" UniqueID2="3631" Description="Brass Helm" />
+	<Package GUID="0" ID="18" ItemSequence="0" UniqueID1="2217" UniqueID2="3640" Description="Plate Boots" />
+	<Package GUID="1" ID="18" ItemSequence="1" UniqueID1="2216" UniqueID2="3639" Description="Plate Gloves" />
+	<Package GUID="2" ID="18" ItemSequence="2" UniqueID1="2215" UniqueID2="3638" Description="Plate Pants" />
+	<Package GUID="3" ID="18" ItemSequence="3" UniqueID1="2214" UniqueID2="3637" Description="Plate Armor" />
+	<Package GUID="4" ID="18" ItemSequence="4" UniqueID1="2213" UniqueID2="3636" Description="Plate Helm" />
+	<Package GUID="0" ID="19" ItemSequence="0" UniqueID1="2252" UniqueID2="3675" Description="Vine Boots" />
+	<Package GUID="1" ID="19" ItemSequence="1" UniqueID1="2251" UniqueID2="3674" Description="Vine Gloves" />
+	<Package GUID="2" ID="19" ItemSequence="2" UniqueID1="2250" UniqueID2="3673" Description="Vine Pants" />
+	<Package GUID="3" ID="19" ItemSequence="3" UniqueID1="2249" UniqueID2="3672" Description="Vine Armor" />
+	<Package GUID="4" ID="19" ItemSequence="4" UniqueID1="2248" UniqueID2="3671" Description="Vine Helm" />
+	<Package GUID="0" ID="20" ItemSequence="0" UniqueID1="2257" UniqueID2="3680" Description="Silk Boots" />
+	<Package GUID="1" ID="20" ItemSequence="1" UniqueID1="2256" UniqueID2="3679" Description="Silk Gloves" />
+	<Package GUID="2" ID="20" ItemSequence="2" UniqueID1="2255" UniqueID2="3678" Description="Silk Pants" />
+	<Package GUID="3" ID="20" ItemSequence="3" UniqueID1="2254" UniqueID2="3677" Description="Silk Armor" />
+	<Package GUID="4" ID="20" ItemSequence="4" UniqueID1="2253" UniqueID2="3676" Description="Silk Helm" />
+	<Package GUID="0" ID="21" ItemSequence="0" UniqueID1="2262" UniqueID2="3685" Description="Wind Boots" />
+	<Package GUID="1" ID="21" ItemSequence="1" UniqueID1="2261" UniqueID2="3684" Description="Wind Gloves" />
+	<Package GUID="2" ID="21" ItemSequence="2" UniqueID1="2260" UniqueID2="3683" Description="Wind Pants" />
+	<Package GUID="3" ID="21" ItemSequence="3" UniqueID1="2259" UniqueID2="3682" Description="Wind Armor" />
+	<Package GUID="4" ID="21" ItemSequence="4" UniqueID1="2258" UniqueID2="3681" Description="Wind Helm" />
+	<Package GUID="0" ID="22" ItemSequence="0" UniqueID1="2267" UniqueID2="3690" Description="Spirit Boots" />
+	<Package GUID="1" ID="22" ItemSequence="1" UniqueID1="2266" UniqueID2="3689" Description="Spirit Gloves" />
+	<Package GUID="2" ID="22" ItemSequence="2" UniqueID1="2265" UniqueID2="3688" Description="Spirit Pants" />
+	<Package GUID="3" ID="22" ItemSequence="3" UniqueID1="2264" UniqueID2="3687" Description="Spirit Armor" />
+	<Package GUID="4" ID="22" ItemSequence="4" UniqueID1="2263" UniqueID2="3686" Description="Spirit Helm" />
+	<Package GUID="0" ID="23" ItemSequence="0" UniqueID1="2272" UniqueID2="3695" Description="Guardian Boots" />
+	<Package GUID="1" ID="23" ItemSequence="1" UniqueID1="2271" UniqueID2="3694" Description="Guardian Gloves" />
+	<Package GUID="2" ID="23" ItemSequence="2" UniqueID1="2270" UniqueID2="3693" Description="Guardian Pants" />
+	<Package GUID="3" ID="23" ItemSequence="3" UniqueID1="2269" UniqueID2="3692" Description="Guardian Armor" />
+	<Package GUID="4" ID="23" ItemSequence="4" UniqueID1="2268" UniqueID2="3691" Description="Guardian Helm" />
+	<Package GUID="0" ID="24" ItemSequence="0" UniqueID1="2222" UniqueID2="3645" Description="Black Dragon Boots" />
+	<Package GUID="1" ID="24" ItemSequence="1" UniqueID1="2221" UniqueID2="3644" Description="Black Dragon Gloves" />
+	<Package GUID="2" ID="24" ItemSequence="2" UniqueID1="2220" UniqueID2="3643" Description="Black Dragon Pants" />
+	<Package GUID="3" ID="24" ItemSequence="3" UniqueID1="2219" UniqueID2="3642" Description="Black Dragon Armor" />
+	<Package GUID="4" ID="24" ItemSequence="4" UniqueID1="2218" UniqueID2="3641" Description="Black Dragon Helm" />
+	<Package GUID="0" ID="25" ItemSequence="0" UniqueID1="2227" UniqueID2="3650" Description="Dark Phoenix Boots" />
+	<Package GUID="1" ID="25" ItemSequence="1" UniqueID1="2226" UniqueID2="3649" Description="Dark Phoenix Gloves" />
+	<Package GUID="2" ID="25" ItemSequence="2" UniqueID1="2225" UniqueID2="3648" Description="Dark Phoenix Pants" />
+	<Package GUID="3" ID="25" ItemSequence="3" UniqueID1="2224" UniqueID2="3647" Description="Dark Phoenix Armor" />
+	<Package GUID="4" ID="25" ItemSequence="4" UniqueID1="2223" UniqueID2="3646" Description="Dark Phoenix Helm" />
+	<Package GUID="0" ID="27" ItemSequence="0" UniqueID1="2277" UniqueID2="3700" Description="Holy Spirit Boots" />
+	<Package GUID="1" ID="27" ItemSequence="1" UniqueID1="2276" UniqueID2="3699" Description="Holy Spirit Gloves" />
+	<Package GUID="2" ID="27" ItemSequence="2" UniqueID1="2275" UniqueID2="3698" Description="Holy Spirit Pants" />
+	<Package GUID="3" ID="27" ItemSequence="3" UniqueID1="2274" UniqueID2="3697" Description="Holy Spirit Armor" />
+	<Package GUID="4" ID="27" ItemSequence="4" UniqueID1="2273" UniqueID2="3696" Description="Holy Spirit Helm" />
+	<Package GUID="0" ID="28" ItemSequence="0" UniqueID1="2232" UniqueID2="3655" Description="Great Dragon Boots" />
+	<Package GUID="1" ID="28" ItemSequence="1" UniqueID1="2231" UniqueID2="3654" Description="Great Dragon Gloves" />
+	<Package GUID="2" ID="28" ItemSequence="2" UniqueID1="2230" UniqueID2="3653" Description="Great Dragon Pants" />
+	<Package GUID="3" ID="28" ItemSequence="3" UniqueID1="2229" UniqueID2="3652" Description="Great Dragon Armor" />
+	<Package GUID="4" ID="28" ItemSequence="4" UniqueID1="2228" UniqueID2="3651" Description="Great Dragon Helm" />
+	<Package GUID="0" ID="30" ItemSequence="0" UniqueID1="2282" UniqueID2="3705" Description="Red Spirit Boots" />
+	<Package GUID="1" ID="30" ItemSequence="1" UniqueID1="2281" UniqueID2="3704" Description="Red Spirit Gloves" />
+	<Package GUID="2" ID="30" ItemSequence="2" UniqueID1="2280" UniqueID2="3703" Description="Red Spirit Pants" />
+	<Package GUID="3" ID="30" ItemSequence="3" UniqueID1="2279" UniqueID2="3702" Description="Red Spirit Armor" />
+	<Package GUID="4" ID="30" ItemSequence="4" UniqueID1="2278" UniqueID2="3701" Description="Red Spirit Helm" />
+	<Package GUID="0" ID="31" ItemSequence="0" UniqueID1="2292" UniqueID2="3715" Description="Light Plate Boots" />
+	<Package GUID="1" ID="31" ItemSequence="1" UniqueID1="2291" UniqueID2="3714" Description="Light Plate Gloves" />
+	<Package GUID="2" ID="31" ItemSequence="2" UniqueID1="2290" UniqueID2="3713" Description="Light Plate Pants" />
+	<Package GUID="3" ID="31" ItemSequence="3" UniqueID1="2289" UniqueID2="3712" Description="Light Plate Armor" />
+	<Package GUID="4" ID="31" ItemSequence="4" UniqueID1="2288" UniqueID2="3711" Description="Light Plate Mask" />
+	<Package GUID="0" ID="32" ItemSequence="0" UniqueID1="2297" UniqueID2="3720" Description="Adamantine Boots" />
+	<Package GUID="1" ID="32" ItemSequence="1" UniqueID1="2296" UniqueID2="3719" Description="Adamantine Gloves" />
+	<Package GUID="2" ID="32" ItemSequence="2" UniqueID1="2295" UniqueID2="3718" Description="Adamantine Pants" />
+	<Package GUID="3" ID="32" ItemSequence="3" UniqueID1="2294" UniqueID2="3717" Description="Adamantine Armor" />
+	<Package GUID="4" ID="32" ItemSequence="4" UniqueID1="2293" UniqueID2="3716" Description="Adamantine Mask" />
+	<Package GUID="0" ID="33" ItemSequence="0" UniqueID1="2302" UniqueID2="3725" Description="Dark Steel Boots" />
+	<Package GUID="1" ID="33" ItemSequence="1" UniqueID1="2301" UniqueID2="3724" Description="Dark Steel Gloves" />
+	<Package GUID="2" ID="33" ItemSequence="2" UniqueID1="2300" UniqueID2="3723" Description="Dark Steel Pants" />
+	<Package GUID="3" ID="33" ItemSequence="3" UniqueID1="2299" UniqueID2="3722" Description="Dark Steel Armor" />
+	<Package GUID="4" ID="33" ItemSequence="4" UniqueID1="2298" UniqueID2="3721" Description="Dark Steel Mask" />
+	<Package GUID="0" ID="34" ItemSequence="0" UniqueID1="2307" UniqueID2="3730" Description="Dark Master Boots" />
+	<Package GUID="1" ID="34" ItemSequence="1" UniqueID1="2306" UniqueID2="3729" Description="Dark Master Gloves" />
+	<Package GUID="2" ID="34" ItemSequence="2" UniqueID1="2305" UniqueID2="3728" Description="Dark Master Pants" />
+	<Package GUID="3" ID="34" ItemSequence="3" UniqueID1="2304" UniqueID2="3727" Description="Dark Master Armor" />
+	<Package GUID="4" ID="34" ItemSequence="4" UniqueID1="2303" UniqueID2="3726" Description="Dark Master Mask" />
+	<Package GUID="0" ID="37" ItemSequence="0" UniqueID1="2287" UniqueID2="3710" Description="Sylphid Ray Boots" />
+	<Package GUID="1" ID="37" ItemSequence="1" UniqueID1="2286" UniqueID2="3709" Description="Sylphid Ray Gloves" />
+	<Package GUID="2" ID="37" ItemSequence="2" UniqueID1="2285" UniqueID2="3708" Description="Sylphid Ray Pants" />
+	<Package GUID="3" ID="37" ItemSequence="3" UniqueID1="2284" UniqueID2="3707" Description="Sylphid Ray Armor" />
+	<Package GUID="4" ID="37" ItemSequence="4" UniqueID1="2283" UniqueID2="3706" Description="Sylphid Ray Helm" />
+	<Package GUID="0" ID="41" ItemSequence="0" UniqueID1="2163" UniqueID2="3586" Description="Eclipse Boots" />
+	<Package GUID="1" ID="41" ItemSequence="1" UniqueID1="2162" UniqueID2="3585" Description="Eclipse Gloves" />
+	<Package GUID="2" ID="41" ItemSequence="2" UniqueID1="2161" UniqueID2="3584" Description="Eclipse Pants" />
+	<Package GUID="3" ID="41" ItemSequence="3" UniqueID1="2160" UniqueID2="3583" Description="Eclipse Armor" />
+	<Package GUID="4" ID="41" ItemSequence="4" UniqueID1="2159" UniqueID2="3582" Description="Eclipse Helm" />
+	<Package GUID="0" ID="43" ItemSequence="0" UniqueID1="2338" UniqueID2="3761" Description="Violent Wind Boots" />
+	<Package GUID="1" ID="43" ItemSequence="1" UniqueID1="2337" UniqueID2="3760" Description="Violent Wind Gloves" />
+	<Package GUID="2" ID="43" ItemSequence="2" UniqueID1="2336" UniqueID2="3759" Description="Violent Wind Pants" />
+	<Package GUID="3" ID="43" ItemSequence="3" UniqueID1="2335" UniqueID2="3758" Description="Violent Wind Armor" />
+	<Package GUID="4" ID="43" ItemSequence="4" UniqueID1="2334" UniqueID2="3757" Description="Violent Wind Helm" />
+	<Package GUID="0" ID="44" ItemSequence="0" UniqueID1="2343" UniqueID2="3766" Description="Red Wing Boots" />
+	<Package GUID="1" ID="44" ItemSequence="1" UniqueID1="2342" UniqueID2="3765" Description="Red Wing Gloves" />
+	<Package GUID="2" ID="44" ItemSequence="2" UniqueID1="2341" UniqueID2="3764" Description="Red Wing Pants" />
+	<Package GUID="3" ID="44" ItemSequence="3" UniqueID1="2340" UniqueID2="3763" Description="Red Wing Armor" />
+	<Package GUID="4" ID="44" ItemSequence="4" UniqueID1="2339" UniqueID2="3762" Description="Red Wing Helm" />
+	<Package GUID="0" ID="45" ItemSequence="0" UniqueID1="2348" UniqueID2="3771" Description="Ancient Boots" />
+	<Package GUID="1" ID="45" ItemSequence="1" UniqueID1="2347" UniqueID2="3770" Description="Ancient Gloves" />
+	<Package GUID="2" ID="45" ItemSequence="2" UniqueID1="2346" UniqueID2="3769" Description="Ancient Pants" />
+	<Package GUID="3" ID="45" ItemSequence="3" UniqueID1="2345" UniqueID2="3768" Description="Ancient Armor" />
+	<Package GUID="4" ID="45" ItemSequence="4" UniqueID1="2344" UniqueID2="3767" Description="Ancient Helm" />
+	<Package GUID="0" ID="46" ItemSequence="0" UniqueID1="2353" UniqueID2="3776" Description="Demonic Boots" />
+	<Package GUID="1" ID="46" ItemSequence="1" UniqueID1="2352" UniqueID2="3775" Description="Demonic Gloves" />
+	<Package GUID="2" ID="46" ItemSequence="2" UniqueID1="2351" UniqueID2="3774" Description="Demonic Pants" />
+	<Package GUID="3" ID="46" ItemSequence="3" UniqueID1="2350" UniqueID2="3773" Description="Demonic Armor" />
+	<Package GUID="4" ID="46" ItemSequence="4" UniqueID1="2349" UniqueID2="3772" Description="Demonic Helm" />
+	<Package GUID="0" ID="47" ItemSequence="0" UniqueID1="2358" UniqueID2="3781" Description="Storm Blitz Boots" />
+	<Package GUID="1" ID="47" ItemSequence="1" UniqueID1="2357" UniqueID2="3780" Description="Storm Blitz Gloves" />
+	<Package GUID="2" ID="47" ItemSequence="2" UniqueID1="2356" UniqueID2="3779" Description="Storm Blitz Pants" />
+	<Package GUID="3" ID="47" ItemSequence="3" UniqueID1="2355" UniqueID2="3778" Description="Storm Blitz Armor" />
+	<Package GUID="4" ID="47" ItemSequence="4" UniqueID1="2354" UniqueID2="3777" Description="Storm Blitz Helm" />
+	<Package GUID="0" ID="48" ItemSequence="0" UniqueID1="2153" UniqueID2="3576" Description="Dark Soul Boots" />
+	<Package GUID="1" ID="48" ItemSequence="1" UniqueID1="2152" UniqueID2="3575" Description="Dark Soul Gloves" />
+	<Package GUID="2" ID="48" ItemSequence="2" UniqueID1="2151" UniqueID2="3574" Description="Dark Soul Pants" />
+	<Package GUID="3" ID="48" ItemSequence="3" UniqueID1="2150" UniqueID2="3573" Description="Dark Soul Armor" />
+	<Package GUID="4" ID="48" ItemSequence="4" UniqueID1="2149" UniqueID2="3572" Description="Dark Soul Helm" />
+	<Package GUID="0" ID="49" ItemSequence="0" UniqueID1="2148" UniqueID2="3571" Description="Grand Soul Boots" />
+	<Package GUID="1" ID="49" ItemSequence="1" UniqueID1="2147" UniqueID2="3570" Description="Grand Soul Gloves" />
+	<Package GUID="2" ID="49" ItemSequence="2" UniqueID1="2146" UniqueID2="3569" Description="Grand Soul Pants" />
+	<Package GUID="3" ID="49" ItemSequence="3" UniqueID1="2145" UniqueID2="3568" Description="Grand Soul Armor" />
+	<Package GUID="4" ID="49" ItemSequence="4" UniqueID1="2144" UniqueID2="3567" Description="Grand Soul Helm" />
+	<Package GUID="0" ID="50" ItemSequence="0" UniqueID1="2139" UniqueID2="3562" Description="Sphinx Mask" />
+	<Package GUID="1" ID="50" ItemSequence="1" UniqueID1="2140" UniqueID2="3563" Description="Sphinx Armor" />
+	<Package GUID="2" ID="50" ItemSequence="2" UniqueID1="2141" UniqueID2="3564" Description="Sphinx Pants" />
+	<Package GUID="3" ID="50" ItemSequence="3" UniqueID1="2142" UniqueID2="3565" Description="Sphinx Gloves" />
+	<Package GUID="4" ID="50" ItemSequence="4" UniqueID1="2143" UniqueID2="3566" Description="Sphinx Boots" />
+	<Package GUID="0" ID="51" ItemSequence="0" UniqueID1="2134" UniqueID2="3557" Description="Bone Helm" />
+	<Package GUID="1" ID="51" ItemSequence="1" UniqueID1="2135" UniqueID2="3558" Description="Bone Armor" />
+	<Package GUID="2" ID="51" ItemSequence="2" UniqueID1="2136" UniqueID2="3559" Description="Bone Pants" />
+	<Package GUID="3" ID="51" ItemSequence="3" UniqueID1="2137" UniqueID2="3560" Description="Bone Gloves" />
+	<Package GUID="4" ID="51" ItemSequence="4" UniqueID1="2138" UniqueID2="3561" Description="Bone Boots" />
+	<Package GUID="0" ID="52" ItemSequence="0" UniqueID1="2495" UniqueID2="3918" Description="Mage Sphinx Boots" />
+	<Package GUID="1" ID="52" ItemSequence="1" UniqueID1="2494" UniqueID2="3917" Description="Mage Sphinx Gloves" />
+	<Package GUID="2" ID="52" ItemSequence="2" UniqueID1="2493" UniqueID2="3916" Description="Mage Sphinx Pants" />
+	<Package GUID="3" ID="52" ItemSequence="3" UniqueID1="2492" UniqueID2="3915" Description="Mage Sphinx Armor" />
+	<Package GUID="4" ID="52" ItemSequence="4" UniqueID1="2491" UniqueID2="3914" Description="Mage Sphinx Mask" />
+	<Package GUID="0" ID="53" ItemSequence="0" UniqueID1="2500" UniqueID2="3923" Description="Mage Legendary Boots" />
+	<Package GUID="1" ID="53" ItemSequence="1" UniqueID1="2499" UniqueID2="3922" Description="Mage Legendary Gloves" />
+	<Package GUID="2" ID="53" ItemSequence="2" UniqueID1="2498" UniqueID2="3921" Description="Mage Legendary Pants" />
+	<Package GUID="3" ID="53" ItemSequence="3" UniqueID1="2497" UniqueID2="3920" Description="Mage Legendary Armor" />
+	<Package GUID="4" ID="53" ItemSequence="4" UniqueID1="2496" UniqueID2="3919" Description="Mage legendary Helmet" />
+	<Package GUID="0" ID="54" ItemSequence="0" UniqueID1="2167" UniqueID2="3590" Description="Storm Crow Boots" />
+	<Package GUID="1" ID="54" ItemSequence="1" UniqueID1="2166" UniqueID2="3589" Description="Storm Crow Gloves" />
+	<Package GUID="2" ID="54" ItemSequence="2" UniqueID1="2165" UniqueID2="3588" Description="Storm Crow Pants" />
+	<Package GUID="3" ID="54" ItemSequence="3" UniqueID1="2164" UniqueID2="3587" Description="Storm Crow Armor" />
+	<Package GUID="0" ID="55" ItemSequence="0" UniqueID1="2171" UniqueID2="3594" Description="Thunder Hawk Boots" />
+	<Package GUID="1" ID="55" ItemSequence="1" UniqueID1="2170" UniqueID2="3593" Description="Thunder Hawk Gloves" />
+	<Package GUID="2" ID="55" ItemSequence="2" UniqueID1="2169" UniqueID2="3592" Description="Thunder Hawk Pants" />
+	<Package GUID="3" ID="55" ItemSequence="3" UniqueID1="2168" UniqueID2="3591" Description="Thunder Hawk Armor" />
+	<Package GUID="0" ID="56" ItemSequence="0" UniqueID1="2175" UniqueID2="3598" Description="Hurricane Boots" />
+	<Package GUID="1" ID="56" ItemSequence="1" UniqueID1="2174" UniqueID2="3597" Description="Hurricane Gloves" />
+	<Package GUID="2" ID="56" ItemSequence="2" UniqueID1="2173" UniqueID2="3596" Description="Hurricane Pants" />
+	<Package GUID="3" ID="56" ItemSequence="3" UniqueID1="2172" UniqueID2="3595" Description="Hurricane Armor" />
+	<Package GUID="0" ID="59" ItemSequence="0" UniqueID1="2321" UniqueID2="3744" Description="Sacred Fire Boots" />
+	<Package GUID="1" ID="59" ItemSequence="1" UniqueID1="2320" UniqueID2="3743" Description="Sacred Fire Pants" />
+	<Package GUID="2" ID="59" ItemSequence="2" UniqueID1="2319" UniqueID2="3742" Description="Sacred Fire Armor" />
+	<Package GUID="3" ID="59" ItemSequence="3" UniqueID1="2318" UniqueID2="3741" Description="Sacred Fire Helm" />
+	<Package GUID="0" ID="60" ItemSequence="0" UniqueID1="2325" UniqueID2="3748" Description="Storm Jahad Boots" />
+	<Package GUID="1" ID="60" ItemSequence="1" UniqueID1="2324" UniqueID2="3747" Description="Storm Jahad Pants" />
+	<Package GUID="2" ID="60" ItemSequence="2" UniqueID1="2323" UniqueID2="3746" Description="Storm Jahad Armor" />
+	<Package GUID="3" ID="60" ItemSequence="3" UniqueID1="2322" UniqueID2="3745" Description="Storm Jahad Helm" />
+	<Package GUID="0" ID="61" ItemSequence="0" UniqueID1="2329" UniqueID2="3752" Description="Piercing Groove Boots" />
+	<Package GUID="1" ID="61" ItemSequence="1" UniqueID1="2328" UniqueID2="3751" Description="Piercing Groove Pants" />
+	<Package GUID="2" ID="61" ItemSequence="2" UniqueID1="2327" UniqueID2="3750" Description="Piercing Groove Armor" />
+	<Package GUID="3" ID="61" ItemSequence="3" UniqueID1="2326" UniqueID2="3749" Description="Piercing Groove Helm" />
+	<Package GUID="0" ID="62" ItemSequence="0" UniqueID1="2333" UniqueID2="3756" Description="Phoenix Soul Boots" />
+	<Package GUID="1" ID="62" ItemSequence="1" UniqueID1="2332" UniqueID2="3755" Description="Phoenix Soul Pants" />
+	<Package GUID="2" ID="62" ItemSequence="2" UniqueID1="2331" UniqueID2="3754" Description="Phoenix Soul Armor" />
+	<Package GUID="3" ID="62" ItemSequence="3" UniqueID1="2330" UniqueID2="3753" Description="Phoenix Soul Helmet" />
+	<Package GUID="0" ID="63" ItemSequence="0" UniqueID1="2410" UniqueID2="3833" Description="Robust Boots" />
+	<Package GUID="1" ID="63" ItemSequence="1" UniqueID1="2409" UniqueID2="3832" Description="Robust Gloves" />
+	<Package GUID="2" ID="63" ItemSequence="2" UniqueID1="2408" UniqueID2="3831" Description="Robust Pants" />
+	<Package GUID="3" ID="63" ItemSequence="3" UniqueID1="2407" UniqueID2="3830" Description="Robust Armor" />
+	<Package GUID="4" ID="63" ItemSequence="4" UniqueID1="2406" UniqueID2="3829" Description="Robust Helmet" />
+	<Package GUID="0" ID="64" ItemSequence="0" UniqueID1="2415" UniqueID2="3838" Description="Gru Hill Boots" />
+	<Package GUID="1" ID="64" ItemSequence="1" UniqueID1="2414" UniqueID2="3837" Description="Gru Hill Gloves" />
+	<Package GUID="2" ID="64" ItemSequence="2" UniqueID1="2413" UniqueID2="3836" Description="Gru Hill Pants" />
+	<Package GUID="3" ID="64" ItemSequence="3" UniqueID1="2412" UniqueID2="3835" Description="Gru Hill Armor" />
+	<Package GUID="4" ID="64" ItemSequence="4" UniqueID1="2411" UniqueID2="3834" Description="Gru hill Helmet" />
+	<Package GUID="0" ID="65" ItemSequence="0" UniqueID1="2420" UniqueID2="3843" Description="Princie Boots" />
+	<Package GUID="1" ID="65" ItemSequence="1" UniqueID1="2419" UniqueID2="3842" Description="Princie Gloves" />
+	<Package GUID="2" ID="65" ItemSequence="2" UniqueID1="2418" UniqueID2="3841" Description="Princie Pants" />
+	<Package GUID="3" ID="65" ItemSequence="3" UniqueID1="2417" UniqueID2="3840" Description="Princie Armor" />
+	<Package GUID="4" ID="65" ItemSequence="4" UniqueID1="2416" UniqueID2="3839" Description="Princie Helmet" />
+	<Package GUID="0" ID="68" ItemSequence="0" UniqueID1="2368" UniqueID2="3791" Description="Rune Pad Boots" />
+	<Package GUID="1" ID="68" ItemSequence="1" UniqueID1="2367" UniqueID2="3790" Description="Rune Pads Gloves" />
+	<Package GUID="2" ID="68" ItemSequence="2" UniqueID1="2366" UniqueID2="3789" Description="Rune Pad Pants" />
+	<Package GUID="3" ID="68" ItemSequence="3" UniqueID1="2365" UniqueID2="3788" Description="Rune Pad Armor" />
+	<Package GUID="4" ID="68" ItemSequence="4" UniqueID1="2364" UniqueID2="3787" Description="Rune Pad Helm" />
+	<Package GUID="0" ID="69" ItemSequence="0" UniqueID1="2373" UniqueID2="3796" Description="Rune Spink Boots" />
+	<Package GUID="1" ID="69" ItemSequence="1" UniqueID1="2372" UniqueID2="3795" Description="Rune Spink Gloves" />
+	<Package GUID="2" ID="69" ItemSequence="2" UniqueID1="2371" UniqueID2="3794" Description="Rune Spink Pants" />
+	<Package GUID="3" ID="69" ItemSequence="3" UniqueID1="2370" UniqueID2="3793" Description="Rune Spink Armor" />
+	<Package GUID="4" ID="69" ItemSequence="4" UniqueID1="2369" UniqueID2="3792" Description="Rune Spink Mask" />
+	<Package GUID="0" ID="70" ItemSequence="0" UniqueID1="2378" UniqueID2="3801" Description="Rune Legendary Boots" />
+	<Package GUID="1" ID="70" ItemSequence="1" UniqueID1="2377" UniqueID2="3800" Description="Rune Legendary Gloves" />
+	<Package GUID="2" ID="70" ItemSequence="2" UniqueID1="2376" UniqueID2="3799" Description="Rune Legendary Pants" />
+	<Package GUID="3" ID="70" ItemSequence="3" UniqueID1="2375" UniqueID2="3798" Description="Rune Legendary Armor" />
+	<Package GUID="4" ID="70" ItemSequence="4" UniqueID1="2374" UniqueID2="3797" Description="Rune Legendary Helmet" />
+	<Package GUID="0" ID="71" ItemSequence="0" UniqueID1="2383" UniqueID2="3806" Description="Kanaz Boots" />
+	<Package GUID="1" ID="71" ItemSequence="1" UniqueID1="2382" UniqueID2="3805" Description="Kanaz Gloves" />
+	<Package GUID="2" ID="71" ItemSequence="2" UniqueID1="2381" UniqueID2="3804" Description="Kanaz Pants" />
+	<Package GUID="3" ID="71" ItemSequence="3" UniqueID1="2380" UniqueID2="3803" Description="Kanaz Armor" />
+	<Package GUID="4" ID="71" ItemSequence="4" UniqueID1="2379" UniqueID2="3802" Description="Kenaz Hood" />
+	<Package GUID="0" ID="72" ItemSequence="0" UniqueID1="2388" UniqueID2="3811" Description="Slayer Red Wing Boots" />
+	<Package GUID="1" ID="72" ItemSequence="1" UniqueID1="2387" UniqueID2="3810" Description="Slayer Red Wing Gloves" />
+	<Package GUID="2" ID="72" ItemSequence="2" UniqueID1="2386" UniqueID2="3809" Description="Slayer Red Wing Pants" />
+	<Package GUID="3" ID="72" ItemSequence="3" UniqueID1="2385" UniqueID2="3808" Description="Slayer Red Wing Armor" />
+	<Package GUID="4" ID="72" ItemSequence="4" UniqueID1="2384" UniqueID2="3807" Description="Slayer Red Wing Helm" />
+	<Package GUID="0" ID="74" ItemSequence="0" UniqueID1="2435" UniqueID2="3858" Description="Leather Gunner Boots" />
+	<Package GUID="1" ID="74" ItemSequence="1" UniqueID1="2434" UniqueID2="3857" Description="Leather Gunner Gloves" />
+	<Package GUID="2" ID="74" ItemSequence="2" UniqueID1="2433" UniqueID2="3856" Description="Leather Gunner Pants" />
+	<Package GUID="3" ID="74" ItemSequence="3" UniqueID1="2432" UniqueID2="3855" Description="Leather Gunner Armor" />
+	<Package GUID="4" ID="74" ItemSequence="4" UniqueID1="2431" UniqueID2="3854" Description="Leather Gunner Helmet" />
+	<Package GUID="0" ID="75" ItemSequence="0" UniqueID1="2440" UniqueID2="3863" Description="Scale Gunner Boots" />
+	<Package GUID="1" ID="75" ItemSequence="1" UniqueID1="2439" UniqueID2="3862" Description="Scale Gunner Glove" />
+	<Package GUID="2" ID="75" ItemSequence="2" UniqueID1="2438" UniqueID2="3861" Description="Scale Gunner Pants" />
+	<Package GUID="3" ID="75" ItemSequence="3" UniqueID1="2437" UniqueID2="3860" Description="Scale Gunner Armor" />
+	<Package GUID="4" ID="75" ItemSequence="4" UniqueID1="2436" UniqueID2="3859" Description="Scale Gunner Helmet" />
+	<Package GUID="0" ID="76" ItemSequence="0" UniqueID1="2445" UniqueID2="3868" Description="Round Gunner Boots" />
+	<Package GUID="1" ID="76" ItemSequence="1" UniqueID1="2444" UniqueID2="3867" Description="Round Gunner Gloves" />
+	<Package GUID="2" ID="76" ItemSequence="2" UniqueID1="2443" UniqueID2="3866" Description="Round Gunner Pants" />
+	<Package GUID="3" ID="76" ItemSequence="3" UniqueID1="2442" UniqueID2="3865" Description="Round Gunner Armor" />
+	<Package GUID="4" ID="76" ItemSequence="4" UniqueID1="2441" UniqueID2="3864" Description="Round Gunner helmet" />
+	<Package GUID="0" ID="77" ItemSequence="0" UniqueID1="2450" UniqueID2="3873" Description="Frere Boots" />
+	<Package GUID="1" ID="77" ItemSequence="1" UniqueID1="2449" UniqueID2="3872" Description="Frere Gloves" />
+	<Package GUID="2" ID="77" ItemSequence="2" UniqueID1="2448" UniqueID2="3871" Description="Frere Pants" />
+	<Package GUID="3" ID="77" ItemSequence="3" UniqueID1="2447" UniqueID2="3870" Description="Frere Armor" />
+	<Package GUID="4" ID="77" ItemSequence="4" UniqueID1="2446" UniqueID2="3869" Description="Frere Helmet" />
+	<Package GUID="0" ID="78" ItemSequence="0" UniqueID1="2455" UniqueID2="3878" Description="Glimmer Boots" />
+	<Package GUID="1" ID="78" ItemSequence="1" UniqueID1="2454" UniqueID2="3877" Description="Glimmer Gloves" />
+	<Package GUID="2" ID="78" ItemSequence="2" UniqueID1="2453" UniqueID2="3876" Description="Glimmer Pants" />
+	<Package GUID="3" ID="78" ItemSequence="3" UniqueID1="2452" UniqueID2="3875" Description="Glimmer Armor" />
+	<Package GUID="4" ID="78" ItemSequence="4" UniqueID1="2451" UniqueID2="3874" Description="Glimmer Helmet" />
+	<Package GUID="0" ID="79" ItemSequence="0" UniqueID1="2460" UniqueID2="3883" Description="Light Ray Boots" />
+	<Package GUID="1" ID="79" ItemSequence="1" UniqueID1="2459" UniqueID2="3882" Description="Light Ray Gloves" />
+	<Package GUID="2" ID="79" ItemSequence="2" UniqueID1="2458" UniqueID2="3881" Description="Light Ray Pants" />
+	<Package GUID="3" ID="79" ItemSequence="3" UniqueID1="2457" UniqueID2="3880" Description="Light Ray Armor" />
+	<Package GUID="4" ID="79" ItemSequence="4" UniqueID1="2456" UniqueID2="3879" Description="Light Ray Helmet" />
+	<Package GUID="0" ID="80" ItemSequence="0" UniqueID1="2465" UniqueID2="3888" Description="Flash Boots" />
+	<Package GUID="1" ID="80" ItemSequence="1" UniqueID1="2464" UniqueID2="3887" Description="Flasg Gloves" />
+	<Package GUID="2" ID="80" ItemSequence="2" UniqueID1="2463" UniqueID2="3886" Description="Flash Pants" />
+	<Package GUID="3" ID="80" ItemSequence="3" UniqueID1="2462" UniqueID2="3885" Description="Flash Armor" />
+	<Package GUID="4" ID="80" ItemSequence="4" UniqueID1="2461" UniqueID2="3884" Description="Flash helmet" />
+	<Package GUID="0" ID="81" ItemSequence="0" UniqueID1="2470" UniqueID2="3893" Description="Magic Flare Boots" />
+	<Package GUID="1" ID="81" ItemSequence="1" UniqueID1="2469" UniqueID2="3892" Description="Magic Flare Gloves" />
+	<Package GUID="2" ID="81" ItemSequence="2" UniqueID1="2468" UniqueID2="3891" Description="Magic Flare Pants" />
+	<Package GUID="3" ID="81" ItemSequence="3" UniqueID1="2467" UniqueID2="3890" Description="Magic Flare Armor" />
+	<Package GUID="4" ID="81" ItemSequence="4" UniqueID1="2466" UniqueID2="3889" Description="Magic Flare Helmet" />
+	<Package GUID="0" ID="82" ItemSequence="0" UniqueID1="2044" UniqueID2="3467" Description="Legendary Helm" />
+	<Package GUID="1" ID="82" ItemSequence="1" UniqueID1="2045" UniqueID2="3468" Description="Legendary Armor" />
+	<Package GUID="2" ID="82" ItemSequence="2" UniqueID1="2046" UniqueID2="3469" Description="Legendary Pants" />
+	<Package GUID="3" ID="82" ItemSequence="3" UniqueID1="2048" UniqueID2="3471" Description="Legendary Gloves" />
+	<Package GUID="4" ID="82" ItemSequence="4" UniqueID1="2049" UniqueID2="3472" Description="Legendary Boots" />
+	<Package GUID="5" ID="82" ItemSequence="5" UniqueID1="2132" UniqueID2="3555" Description="Legendary Staff" />
+	<Package GUID="6" ID="82" ItemSequence="6" UniqueID1="2133" UniqueID2="3556" Description="Legendary Shield" />
+	<Package GUID="0" ID="83" ItemSequence="0" UniqueID1="2549" UniqueID2="3973" Description="Pad Boots" />
+	<Package GUID="1" ID="83" ItemSequence="1" UniqueID1="2548" UniqueID2="3972" Description="Pad Gloves" />
+	<Package GUID="2" ID="83" ItemSequence="2" UniqueID1="2547" UniqueID2="3971" Description="Pad Pants" />
+	<Package GUID="3" ID="83" ItemSequence="3" UniqueID1="2546" UniqueID2="3970" Description="Pad Armor" />
+	<Package GUID="4" ID="83" ItemSequence="4" UniqueID1="2545" UniqueID2="3969" Description="Pad Helm" />
+	<Package GUID="0" ID="84" ItemSequence="0" UniqueID1="2158" UniqueID2="3581" Description="Venom Mist Boots" />
+	<Package GUID="1" ID="84" ItemSequence="1" UniqueID1="2157" UniqueID2="3580" Description="Venom Mist Gloves" />
+	<Package GUID="2" ID="84" ItemSequence="2" UniqueID1="2156" UniqueID2="3579" Description="Venom Mist Pants" />
+	<Package GUID="3" ID="84" ItemSequence="3" UniqueID1="2155" UniqueID2="3578" Description="Venom Mist Armor" />
+	<Package GUID="4" ID="84" ItemSequence="4" UniqueID1="2154" UniqueID2="3577" Description="Venom Mist Helm" />
+	<Package GUID="0" ID="86" ItemSequence="0" UniqueID1="2183" UniqueID2="3606" Description="Valiant Boots" />
+	<Package GUID="1" ID="86" ItemSequence="1" UniqueID1="2182" UniqueID2="3605" Description="Valiant Gloves" />
+	<Package GUID="2" ID="86" ItemSequence="2" UniqueID1="2181" UniqueID2="3604" Description="Valiant Pants" />
+	<Package GUID="3" ID="86" ItemSequence="3" UniqueID1="2180" UniqueID2="3603" Description="Valiant Armor" />
+	<Package GUID="0" ID="87" ItemSequence="0" UniqueID1="2505" UniqueID2="3928" Description="Noble Pick Market" />
+	<Package GUID="1" ID="87" ItemSequence="1" UniqueID1="2504" UniqueID2="3927" Description="Noble Pixie Boots" />
+	<Package GUID="2" ID="87" ItemSequence="2" UniqueID1="2503" UniqueID2="3926" Description="Noble Pixie Pants" />
+	<Package GUID="3" ID="87" ItemSequence="3" UniqueID1="2502" UniqueID2="3925" Description="Noble Pixie Armor" />
+	<Package GUID="4" ID="87" ItemSequence="4" UniqueID1="2506" UniqueID2="3929" Description="Noble Pixie Helmet" />
+	<Package GUID="0" ID="90" ItemSequence="0" UniqueID1="2179" UniqueID2="3602" Description="Volcano Boots" />
+	<Package GUID="1" ID="90" ItemSequence="1" UniqueID1="2178" UniqueID2="3601" Description="Volcano Gloves" />
+	<Package GUID="2" ID="90" ItemSequence="2" UniqueID1="2177" UniqueID2="3600" Description="Volcano Pants" />
+	<Package GUID="3" ID="90" ItemSequence="3" UniqueID1="2176" UniqueID2="3599" Description="Volcano Armor" />
+	<Package GUID="0" ID="91" ItemSequence="0" UniqueID1="2247" UniqueID2="3670" Description="Iris Boots" />
+	<Package GUID="1" ID="91" ItemSequence="1" UniqueID1="2246" UniqueID2="3669" Description="Iris Gloves" />
+	<Package GUID="2" ID="91" ItemSequence="2" UniqueID1="2245" UniqueID2="3668" Description="Iris Pants" />
+	<Package GUID="3" ID="91" ItemSequence="3" UniqueID1="2244" UniqueID2="3667" Description="Iris Armor" />
+	<Package GUID="4" ID="91" ItemSequence="4" UniqueID1="2243" UniqueID2="3666" Description="Iris Helm" />
+	<Package GUID="0" ID="95" ItemSequence="0" UniqueID1="2242" UniqueID2="3665" Description="Ashcrow Boots" />
+	<Package GUID="1" ID="95" ItemSequence="1" UniqueID1="2241" UniqueID2="3664" Description="Ashcrow Gloves" />
+	<Package GUID="2" ID="95" ItemSequence="2" UniqueID1="2240" UniqueID2="3663" Description="Ashcrow Pants" />
+	<Package GUID="3" ID="95" ItemSequence="3" UniqueID1="2239" UniqueID2="3662" Description="Ashcrow Armor" />
+	<Package GUID="4" ID="95" ItemSequence="4" UniqueID1="2238" UniqueID2="3661" Description="Ashcrow Helm" />
+	<Package GUID="0" ID="96" ItemSequence="0" UniqueID1="2237" UniqueID2="3660" Description="Dragon Knight Boots" />
+	<Package GUID="1" ID="96" ItemSequence="1" UniqueID1="2236" UniqueID2="3659" Description="Dragon Knight Gloves" />
+	<Package GUID="2" ID="96" ItemSequence="2" UniqueID1="2235" UniqueID2="3658" Description="Dragon Knight Pants" />
+	<Package GUID="3" ID="96" ItemSequence="3" UniqueID1="2234" UniqueID2="3657" Description="Dragon Knight Armor" />
+	<Package GUID="4" ID="96" ItemSequence="4" UniqueID1="2233" UniqueID2="3656" Description="Dragon Knight Helm" />
+	<Package GUID="0" ID="98" ItemSequence="0" UniqueID1="2317" UniqueID2="3740" Description="Glorious Boots" />
+	<Package GUID="1" ID="98" ItemSequence="1" UniqueID1="2316" UniqueID2="3739" Description="Glorious Gloves" />
+	<Package GUID="2" ID="98" ItemSequence="2" UniqueID1="2315" UniqueID2="3738" Description="Glorious Pants" />
+	<Package GUID="3" ID="98" ItemSequence="3" UniqueID1="2314" UniqueID2="3737" Description="Glorious Armor" />
+	<Package GUID="4" ID="98" ItemSequence="4" UniqueID1="2313" UniqueID2="3736" Description="Glorious Mask" />
+	<Package GUID="0" ID="99" ItemSequence="0" UniqueID1="2312" UniqueID2="3735" Description="Sunlight Boots" />
+	<Package GUID="1" ID="99" ItemSequence="1" UniqueID1="2311" UniqueID2="3734" Description="Sunlight Gloves" />
+	<Package GUID="2" ID="99" ItemSequence="2" UniqueID1="2310" UniqueID2="3733" Description="Sunlight Pants" />
+	<Package GUID="3" ID="99" ItemSequence="3" UniqueID1="2309" UniqueID2="3732" Description="Sunlight Armor" />
+	<Package GUID="4" ID="99" ItemSequence="4" UniqueID1="2308" UniqueID2="3731" Description="Sunlight Mask" />
+	<Package GUID="0" ID="101" ItemSequence="0" UniqueID1="2400" UniqueID2="3823" Description="Slayer Boots (A)" />
+	<Package GUID="1" ID="101" ItemSequence="1" UniqueID1="2399" UniqueID2="3822" Description="Slayer Gloves (A)" />
+	<Package GUID="2" ID="101" ItemSequence="2" UniqueID1="2398" UniqueID2="3821" Description="Slayer Pants (A)" />
+	<Package GUID="3" ID="101" ItemSequence="3" UniqueID1="2397" UniqueID2="3820" Description="Slayer Armor (A)" />
+	<Package GUID="4" ID="101" ItemSequence="4" UniqueID1="2396" UniqueID2="3819" Description="Slayer Helm (A)" />
+	<Package GUID="0" ID="102" ItemSequence="0" UniqueID1="2405" UniqueID2="3828" Description="Slayer Demonic Boots (A)" />
+	<Package GUID="1" ID="102" ItemSequence="1" UniqueID1="2404" UniqueID2="3827" Description="Slayer Demonic Gloves (A)" />
+	<Package GUID="2" ID="102" ItemSequence="2" UniqueID1="2403" UniqueID2="3826" Description="Slayer Demonic Pants (A)" />
+	<Package GUID="3" ID="102" ItemSequence="3" UniqueID1="2402" UniqueID2="3825" Description="Slayer Demonic Armor (A)" />
+	<Package GUID="4" ID="102" ItemSequence="4" UniqueID1="2401" UniqueID2="3824" Description="Slayer Demonic Helm (A)" />
+	<Package GUID="0" ID="103" ItemSequence="0" UniqueID1="2393" UniqueID2="3816" Description="Night Wing Boots" />
+	<Package GUID="1" ID="103" ItemSequence="1" UniqueID1="2392" UniqueID2="3815" Description="Nightwing Gloves" />
+	<Package GUID="2" ID="103" ItemSequence="2" UniqueID1="2391" UniqueID2="3814" Description="Night Wing Pants" />
+	<Package GUID="3" ID="103" ItemSequence="3" UniqueID1="2390" UniqueID2="3813" Description="Nightwing Armor" />
+	<Package GUID="4" ID="103" ItemSequence="4" UniqueID1="2389" UniqueID2="3812" Description="Nightwing Helm" />
+	<Package GUID="0" ID="105" ItemSequence="0" UniqueID1="2430" UniqueID2="3853" Description="Sate Boots" />
+	<Package GUID="1" ID="105" ItemSequence="1" UniqueID1="2429" UniqueID2="3852" Description="Sate Gloves" />
+	<Package GUID="2" ID="105" ItemSequence="2" UniqueID1="2428" UniqueID2="3851" Description="Sate Pants" />
+	<Package GUID="3" ID="105" ItemSequence="3" UniqueID1="2427" UniqueID2="3850" Description="Sate Armor" />
+	<Package GUID="4" ID="105" ItemSequence="4" UniqueID1="2426" UniqueID2="3849" Description="Sate Helmet" />
+	<Package GUID="0" ID="106" ItemSequence="0" UniqueID1="2425" UniqueID2="3848" Description="Hirat Boots" />
+	<Package GUID="1" ID="106" ItemSequence="1" UniqueID1="2424" UniqueID2="3847" Description="Hirat Gloves" />
+	<Package GUID="2" ID="106" ItemSequence="2" UniqueID1="2423" UniqueID2="3846" Description="Hirat Pants" />
+	<Package GUID="3" ID="106" ItemSequence="3" UniqueID1="2422" UniqueID2="3845" Description="Hirat Armor" />
+	<Package GUID="4" ID="106" ItemSequence="4" UniqueID1="2421" UniqueID2="3844" Description="Hirat Helmet" />
+</CashItemPackage>

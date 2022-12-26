@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2010 - 2018 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+<Shop>
+	<Tab Id="1">
+		<!-- Chaos Blade Orb-->
+		<Item Cat="12" Index="162" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Havok Spear Scroll-->
+		<Item Cat="12" Index="163" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Spiral Charge Orb-->
+		<Item Cat="12" Index="164" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Crusher Charge Orb-->
+		<Item Cat="12" Index="165" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Elemental Charge Scroll-->
+		<Item Cat="12" Index="166" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Orb of Fire Blow-->
+		<Item Cat="12" Index="289" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Scroll of Meteor Strike-->
+		<Item Cat="12" Index="290" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Scroll of Meteor Storm-->
+		<Item Cat="12" Index="291" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Scroll of Soul Seeker-->
+		<Item Cat="12" Index="292" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Orb of Focus Shot-->
+		<Item Cat="12" Index="293" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Parchment of Fire Beast-->
+		<Item Cat="12" Index="295" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Parchment of Aqua Beast-->
+		<Item Cat="12" Index="296" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Orb of Ice Blood-->
+		<Item Cat="12" Index="297" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Orb of Fire Blood-->
+		<Item Cat="12" Index="298" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Scroll of Dark Blast-->
+		<Item Cat="12" Index="299" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Scroll of Meteor Strike-->
+		<Item Cat="12" Index="300" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Scroll of Wind Soul-->
+		<Item Cat="12" Index="303" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Dark Phoenix Shot Parchment-->
+		<Item Cat="12" Index="305" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Busting Flare Bead-->
+		<Item Cat="12" Index="495" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Solid Protection Bead-->
+		<Item Cat="12" Index="488" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Strong Belief Bead-->
+		<Item Cat="12" Index="487" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Sword Blow Bead-->
+		<Item Cat="12" Index="486" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Swordsman's Wrath-->
+		<Item Cat="12" Index="485" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Deathfire Orb-->
+		<Item Cat="12" Index="494" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Ertel Emblem-->
+		<Item Cat="12" Index="510" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Pentagram Emblem-->
+		<Item Cat="12" Index="509" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Pierce Lion's Seal-->
+		<Item Cat="14" Index="510" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Fixed Fire Bead-->
+		<Item Cat="15" Index="59" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Dark Bless-->
+		<Item Cat="20" Index="500" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Dark Soul-->
+		<Item Cat="20" Index="501" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Dark Life-->
+		<Item Cat="20" Index="502" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Excess-->
+		<Item Cat="20" Index="503" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Luck-->
+		<Item Cat="20" Index="504" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Science-->
+		<Item Cat="20" Index="505" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Kundun-->
+		<Item Cat="20" Index="506" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Kondar-->
+		<Item Cat="20" Index="507" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Wisdom-->
+		<Item Cat="20" Index="508" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Chaos-->
+		<Item Cat="12" Index="15" Level="0" Durability="30" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Bless-->
+		<Item Cat="14" Index="13" Level="0" Durability="30" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Soul-->
+		<Item Cat="14" Index="14" Level="0" Durability="30" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Life-->
+		<Item Cat="14" Index="16" Level="0" Durability="30" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Creation-->
+		<Item Cat="14" Index="22" Level="0" Durability="30" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Harmony-->
+		<Item Cat="14" Index="42" Level="0" Durability="30" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Jewel of Guardian-->
+		<Item Cat="14" Index="31" Level="0" Durability="30" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Ruud Box (3000)-->
+		<Item Cat="14" Index="448" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Reset Fruit Strength-->
+		<Item Cat="13" Index="54" Level="0" Durability="100" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Reset Fruit Quickness-->
+		<Item Cat="13" Index="55" Level="0" Durability="100" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Reset Fruit Health-->
+		<Item Cat="13" Index="56" Level="0" Durability="100" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Reset Fruit Energy-->
+		<Item Cat="13" Index="57" Level="0" Durability="100" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Reset Fruit Control-->
+		<Item Cat="13" Index="58" Level="0" Durability="100" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Fruits-->
+		<Item Cat="13" Index="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Scroll of Gray Oblivion-->
+		<Item Cat="13" Index="155" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Scroll of Red Oblivion-->
+		<Item Cat="13" Index="154" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Scroll of Blue Oblivion-->
+		<Item Cat="13" Index="153" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Scroll of Green Oblivion-->
+		<Item Cat="13" Index="152" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Fruits-->
+		<Item Cat="13" Index="15" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Fruits-->
+		<Item Cat="13" Index="15" Level="2" Durability="2" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Fruits-->
+		<Item Cat="13" Index="15" Level="3" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Fruits-->
+		<Item Cat="13" Index="15" Level="4" Durability="4" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Scroll of Black Oblivion-->
+		<Item Cat="13" Index="509" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+		<!-- Errtel of Anger-->
+		<Item Cat="12" Index="221" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="1" Serial="1" />
+		<!-- Errtel of Anger-->
+		<Item Cat="12" Index="221" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="2" Serial="1" />
+		<!-- Errtel of Anger-->
+		<Item Cat="12" Index="221" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="3" Serial="1" />
+		<!-- Errtel of Anger-->
+		<Item Cat="12" Index="221" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="4" Serial="1" />
+		<!-- Errtel of Anger-->
+		<Item Cat="12" Index="221" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="5" Serial="1" />
+		<!-- Errtel of Blessing-->
+		<Item Cat="12" Index="231" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="5" Serial="1" />
+		<!-- Errtel of Blessing-->
+		<Item Cat="12" Index="231" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="4" Serial="1" />
+		<!-- Errtel of Blessing-->
+		<Item Cat="12" Index="231" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="3" Serial="1" />
+		<!-- Errtel of Blessing-->
+		<Item Cat="12" Index="231" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="2" Serial="1" />
+		<!-- Errtel of Blessing-->
+		<Item Cat="12" Index="231" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="1" Serial="1" />
+		<!-- Errtel of Integrity-->
+		<Item Cat="12" Index="241" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="1" Serial="1" />
+		<!-- Errtel of Integrity-->
+		<Item Cat="12" Index="241" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="2" Serial="1" />
+		<!-- Errtel of Integrity-->
+		<Item Cat="12" Index="241" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="3" Serial="1" />
+		<!-- Errtel of Integrity-->
+		<Item Cat="12" Index="241" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="4" Serial="1" />
+		<!-- Errtel of Integrity-->
+		<Item Cat="12" Index="241" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="5" Serial="1" />
+		<!-- Errtel of Divinity-->
+		<Item Cat="12" Index="251" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="5" Serial="1" />
+		<!-- Errtel of Divinity-->
+		<Item Cat="12" Index="251" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="4" Serial="1" />
+		<!-- Errtel of Divinity-->
+		<Item Cat="12" Index="251" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="3" Serial="1" />
+		<!-- Errtel of Divinity-->
+		<Item Cat="12" Index="251" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="2" Serial="1" />
+		<!-- Errtel of Divinity-->
+		<Item Cat="12" Index="251" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="1" Serial="1" />
+		<!-- Errtel of Radiance-->
+		<Item Cat="12" Index="261" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="1" Serial="1" />
+		<!-- Errtel of Radiance-->
+		<Item Cat="12" Index="261" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="2" Serial="1" />
+		<!-- Errtel of Radiance-->
+		<Item Cat="12" Index="261" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="3" Serial="1" />
+		<!-- Errtel of Radiance-->
+		<Item Cat="12" Index="261" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="4" Serial="1" />
+		<!-- Errtel of Radiance-->
+		<Item Cat="12" Index="261" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="1" Elemental="5" Serial="1" />
+		<!-- GM Gift-->
+		<Item Cat="14" Index="52" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="1" />
+	</Tab>
+	<Tab Id="2" />
+	<Tab Id="3" />
+	<Tab Id="4" />
+	<Tab Id="5" />
+</Shop>

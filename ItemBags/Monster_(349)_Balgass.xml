@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+<ItemBag>
+	<BagConfig Name="Monster_Balgass" ItemRate="10000" SetItemRate="0" SetItemCount="1" MoneyDrop="10000000" BagUseRate="10000" BagUseEffect="0" IsPentagramForBeginnersDrop="0" MasterySetItemInclude="0" PartyDropRate="0"  PartyOneDropOnly="0" PartyShareType="0" />
+	<AddCoin Enable="1" CoinType="0" CoinValue="700" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<SummonBook Enable="0" DropRate="0" ItemCat="14" ItemIndex="217" />
+	<DropSection DisplayName="Drop Section 1" UseMode="-1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="DropAllow">
+			<Drop Rate="500" Count="2" Type="0">
+				<!--Archangel's Hammer-->
+				<Item Cat="14" Index="343" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="500" Count="3" Type="0">
+				<!--Ice Dragon-->
+				<Item Cat="12" Index="483" ItemMinLevel="0" ItemMaxLevel="7" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1500" Count="2" Type="0">
+				<!--Golden Sentence-->
+				<Item Cat="13" Index="468" ItemMinLevel="0" ItemMaxLevel="0" Durability="10" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Ice-->
+				<Item Cat="13" Index="8" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Poison-->
+				<Item Cat="13" Index="9" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Fire-->
+				<Item Cat="13" Index="21" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Earth-->
+				<Item Cat="13" Index="22" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Wind-->
+				<Item Cat="13" Index="23" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Ring of Magic-->
+				<Item Cat="13" Index="24" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Lighting-->
+				<Item Cat="13" Index="12" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Fire-->
+				<Item Cat="13" Index="13" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Ice-->
+				<Item Cat="13" Index="25" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Wind-->
+				<Item Cat="13" Index="26" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Water-->
+				<Item Cat="13" Index="27" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pendant of Ability-->
+				<Item Cat="13" Index="28" ItemMinLevel="10" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jasper Necklace-->
+				<Item Cat="20" Index="39" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Lapis Lazuli Necklace-->
+				<Item Cat="20" Index="40" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;1" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Battle Jasper Necklace-->
+				<Item Cat="20" Index="41" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;2" SetItem="0" SocketCount="3" ElementalItem="0" />
+				<!--Battle Lagoon Necklace-->
+				<Item Cat="20" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Durability="-1" Duration="-1" Skill="0" Luck="0" Option="-1" Exc="-3;2" SetItem="0" SocketCount="3" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1500" Count="2" Type="0">
+				<!--Blue Eye Short Sword-->
+				<Item Cat="0" Index="75" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Sword-->
+				<Item Cat="0" Index="78" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Magic Sword-->
+				<Item Cat="0" Index="79" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Claw-->
+				<Item Cat="0" Index="80" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Scepter-->
+				<Item Cat="2" Index="40" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Rune Mace-->
+				<Item Cat="2" Index="41" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Lance-->
+				<Item Cat="3" Index="29" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Bow-->
+				<Item Cat="4" Index="40" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Quiver-->
+				<Item Cat="4" Index="41" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Staff-->
+				<Item Cat="5" Index="61" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Stick-->
+				<Item Cat="5" Index="62" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Book-->
+				<Item Cat="5" Index="63" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Shield-->
+				<Item Cat="6" Index="48" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Magic Gun-->
+				<Item Cat="4" Index="52" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Magic Book-->
+				<Item Cat="5" Index="77" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Orb-->
+				<Item Cat="5" Index="90" ItemMinLevel="0" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="3000" Count="5" Type="0">
+				<!--Jewel of Chaos-->
+				<Item Cat="12" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Bless-->
+				<Item Cat="14" Index="13" ItemMinLevel="0" ItemMaxLevel="0" Durability="30" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Soul-->
+				<Item Cat="14" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Durability="30" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Life-->
+				<Item Cat="14" Index="16" ItemMinLevel="0" ItemMaxLevel="0" Durability="30" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Creation-->
+				<Item Cat="14" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Guardian-->
+				<Item Cat="14" Index="31" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Harmony-->
+				<Item Cat="14" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Durability="20" Duration="-1" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="3000" Count="2" Type="0">
+				<!--Blue Eye Slayer Boots-->
+				<Item Cat="11" Index="184" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Magic Boots (B)-->
+				<Item Cat="11" Index="173" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Elf Boots (B)-->
+				<Item Cat="11" Index="172" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Lancer Boots-->
+				<Item Cat="11" Index="171" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Fighter Boots-->
+				<Item Cat="11" Index="170" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Lord Boots-->
+				<Item Cat="11" Index="169" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Summoner Boots-->
+				<Item Cat="11" Index="167" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Elf Boots (A)-->
+				<Item Cat="11" Index="166" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Wizard Boots-->
+				<Item Cat="11" Index="165" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Knight Gloves-->
+				<Item Cat="10" Index="164" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Short Sword-->
+				<Item Cat="0" Index="75" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Sword-->
+				<Item Cat="0" Index="78" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Magic Sword-->
+				<Item Cat="0" Index="79" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Claw-->
+				<Item Cat="0" Index="80" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Scepter-->
+				<Item Cat="2" Index="40" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Rune Mace-->
+				<Item Cat="2" Index="41" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Lance-->
+				<Item Cat="3" Index="29" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Bow-->
+				<Item Cat="4" Index="40" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Quiver-->
+				<Item Cat="4" Index="41" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Staff-->
+				<Item Cat="5" Index="61" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Stick-->
+				<Item Cat="5" Index="62" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Book-->
+				<Item Cat="5" Index="63" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Gun Crusher Boots-->
+				<Item Cat="11" Index="216" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Magic Gun-->
+				<Item Cat="4" Index="52" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye White Wizard Boots-->
+				<Item Cat="11" Index="245" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Mage Boots-->
+				<Item Cat="11" Index="263" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Blue Eye Runist Boots-->
+				<Item Cat="11" Index="129" ItemMinLevel="1" ItemMaxLevel="15" Durability="-1" Duration="-1" Skill="-1" Luck="-1" Option="-1" Exc="-10" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+	</DropSection>
+</ItemBag>
