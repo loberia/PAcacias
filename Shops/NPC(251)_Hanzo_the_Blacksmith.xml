@@ -140,7 +140,7 @@
 		<Item Cat="11" Index="21" Level="0" Durability="255" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
 		<!--Excellent Armor of Guardsman-->  
 		<Item Cat="13" Index="29" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-		</Tab>
+	</Tab>
 	<Tab Id="3" />
 		<!--Illusion Knight Scale Armor--> 
 		<Item Cat="8" Index="300" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
