@@ -142,25 +142,6 @@
 		<Item Cat="13" Index="29" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
 	</Tab>
 	<Tab Id="3" />
-		<!--Illusion Knight Scale Armor--> 
-		<Item Cat="8" Index="300" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-		<!--Illusion Knight Scale Boots--> 
-        <Item Cat="11" Index="300" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-        <!--Illusion Knight Scale Gloves--> 
-        <Item Cat="10" Index="300" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-        <!--Illusion Knight Scale Helm--> 
-		<Item Cat="7" Index="300" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-        <!--Illusion Knight Scale Pants--> 
-		<Item Cat="9" Index="300" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-        <!--Illusion blade Bead--> 
-		<Item Cat="12" Index="87" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-        <!--Illusion Charge Slash Bead--> 
-		<Item Cat="12" Index="89" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-		<!--Illusion Wind Glaive Beads--> 
-        <Item Cat="12" Index="90" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-        <!--Illusion Avatar Bead--> 
-		<Item Cat="12" Index="88" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	</Tab>
 	<Tab Id="4" />
 	<Tab Id="5" />
 </Shop>
