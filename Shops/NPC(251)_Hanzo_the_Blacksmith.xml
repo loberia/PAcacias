@@ -64,84 +64,103 @@
 		<Item Cat="0" Index="5" Level="3" Durability="0" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
 	</Tab>
 	<Tab Id="2">
-	<!--Excellent Guardian Angel-->
-	<Item Cat="13" Index="0" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Imp-->
-	<Item Cat="13" Index="1" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Large SD Potion-->
-	<Item Cat="14" Index="37" Level="0" Durability="20" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Large Complex Potion-->
-	<Item Cat="14" Index="40" Level="0" Durability="20" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Large SD Potion-->
-	<Item Cat="14" Index="37" Level="15" Durability="255" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Large Complex Potion-->
-	<Item Cat="14" Index="40" Level="15" Durability="255" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Devil's Invitation-->
-	<Item Cat="14" Index="19" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Devil's Invitation-->
-	<Item Cat="14" Index="19" Level="2" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Devil's Invitation-->
-	<Item Cat="14" Index="19" Level="3" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Devil's Invitation-->
-	<Item Cat="14" Index="19" Level="4" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Devil's Invitation-->
-	<Item Cat="14" Index="19" Level="5" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Devil's Invitation-->
-	<Item Cat="14" Index="19" Level="6" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Devil's Invitation-->
-	<Item Cat="14" Index="19" Level="7" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Black Dragon Helm-->
-	<Item Cat="7" Index="16" Level="5" Durability="106" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Orb of Twisting Slash-->
-	<Item Cat="12" Index="7" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Black Dragon Armor-->
-	<Item Cat="8" Index="16" Level="5" Durability="106" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Black Dragon Pants-->
-	<Item Cat="9" Index="16" Level="5" Durability="106" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Orb of Greater Fortitude-->
-	<Item Cat="12" Index="14" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Orb of Rageful Blow-->
-	<Item Cat="12" Index="12" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Black Dragon Gloves-->
-	<Item Cat="10" Index="16" Level="5" Durability="106" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Orb of Death Stab-->
-	<Item Cat="12" Index="19" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Black Dragon Boots-->
-	<Item Cat="11" Index="16" Level="5" Durability="106" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Ashcrow Helm-->
-	<Item Cat="7" Index="34" Level="0" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Ashcrow Armor-->
-	<Item Cat="8" Index="34" Level="0" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Ashcrow Pants-->
-	<Item Cat="9" Index="34" Level="0" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Ashcrow Gloves-->
-	<Item Cat="10" Index="34" Level="0" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Ashcrow Boots-->
-	<Item Cat="11" Index="34" Level="0" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Light Plate Mask-->
-	<Item Cat="7" Index="25" Level="5" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Light Plate Armor-->
-	<Item Cat="8" Index="25" Level="5" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Light Plate Pants-->
-	<Item Cat="9" Index="25" Level="5" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Light Plate Gloves-->
-	<Item Cat="10" Index="25" Level="5" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Light Plate Boots-->
-	<Item Cat="11" Index="25" Level="5" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Great Dragon Helm-->
-	<Item Cat="7" Index="21" Level="0" Durability="255" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Great Dragon Armor-->
-	<Item Cat="8" Index="21" Level="0" Durability="255" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Great Dragon Pants-->
-	<Item Cat="9" Index="21" Level="0" Durability="255" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Great Dragon Gloves-->
-	<Item Cat="10" Index="21" Level="0" Durability="255" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!-- Great Dragon Boots-->
-	<Item Cat="11" Index="21" Level="0" Durability="255" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
-	<!--Excellent Armor of Guardsman-->  
-	<Item Cat="13" Index="29" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Guardian Angel-->
+		<Item Cat="13" Index="0" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Imp-->
+		<Item Cat="13" Index="1" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Large SD Potion-->
+		<Item Cat="14" Index="37" Level="0" Durability="20" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Large Complex Potion-->
+		<Item Cat="14" Index="40" Level="0" Durability="20" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Large SD Potion-->
+		<Item Cat="14" Index="37" Level="15" Durability="255" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Large Complex Potion-->
+		<Item Cat="14" Index="40" Level="15" Durability="255" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Devil's Invitation-->
+		<Item Cat="14" Index="19" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Devil's Invitation-->
+		<Item Cat="14" Index="19" Level="2" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Devil's Invitation-->
+		<Item Cat="14" Index="19" Level="3" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Devil's Invitation-->
+		<Item Cat="14" Index="19" Level="4" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Devil's Invitation-->
+		<Item Cat="14" Index="19" Level="5" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Devil's Invitation-->
+		<Item Cat="14" Index="19" Level="6" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Devil's Invitation-->
+		<Item Cat="14" Index="19" Level="7" Durability="1" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Black Dragon Helm-->
+		<Item Cat="7" Index="16" Level="5" Durability="106" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Orb of Twisting Slash-->
+		<Item Cat="12" Index="7" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Black Dragon Armor-->
+		<Item Cat="8" Index="16" Level="5" Durability="106" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Black Dragon Pants-->
+		<Item Cat="9" Index="16" Level="5" Durability="106" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Orb of Greater Fortitude-->
+		<Item Cat="12" Index="14" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Orb of Rageful Blow-->
+		<Item Cat="12" Index="12" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Black Dragon Gloves-->
+		<Item Cat="10" Index="16" Level="5" Durability="106" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Orb of Death Stab-->
+		<Item Cat="12" Index="19" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Black Dragon Boots-->
+		<Item Cat="11" Index="16" Level="5" Durability="106" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Ashcrow Helm-->
+		<Item Cat="7" Index="34" Level="0" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Ashcrow Armor-->
+		<Item Cat="8" Index="34" Level="0" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Ashcrow Pants-->
+		<Item Cat="9" Index="34" Level="0" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Ashcrow Gloves-->
+		<Item Cat="10" Index="34" Level="0" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Ashcrow Boots-->
+		<Item Cat="11" Index="34" Level="0" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Light Plate Mask-->
+		<Item Cat="7" Index="25" Level="5" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Light Plate Armor-->
+		<Item Cat="8" Index="25" Level="5" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Light Plate Pants-->
+		<Item Cat="9" Index="25" Level="5" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Light Plate Gloves-->
+		<Item Cat="10" Index="25" Level="5" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Light Plate Boots-->
+		<Item Cat="11" Index="25" Level="5" Durability="255" Skill="1" Luck="1" Option="2" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Great Dragon Helm-->
+		<Item Cat="7" Index="21" Level="0" Durability="255" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Great Dragon Armor-->
+		<Item Cat="8" Index="21" Level="0" Durability="255" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Great Dragon Pants-->
+		<Item Cat="9" Index="21" Level="0" Durability="255" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Great Dragon Gloves-->
+		<Item Cat="10" Index="21" Level="0" Durability="255" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!-- Great Dragon Boots-->
+		<Item Cat="11" Index="21" Level="0" Durability="255" Skill="1" Luck="1" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Excellent Armor of Guardsman-->  
+		<Item Cat="13" Index="29" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
 	</Tab>
-	<Tab Id="3" />	
+	<Tab Id="3" />
+		<!--Illusion Knight Scale Armor--> 
+		<Item Cat="8" Index="300" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Illusion Knight Scale Boots--> 
+        <Item Cat="11" Index="300" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+        <!--Illusion Knight Scale Gloves--> 
+        <Item Cat="10" Index="300" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+        <!--Illusion Knight Scale Helm--> 
+		<Item Cat="7" Index="300" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+        <!--Illusion Knight Scale Pants--> 
+		<Item Cat="9" Index="300" Level="3" Durability="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+        <!--Illusion blade Bead--> 
+		<Item Cat="12" Index="87" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+        <!--Illusion Charge Slash Bead--> 
+		<Item Cat="12" Index="89" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+		<!--Illusion Wind Glaive Beads--> 
+        <Item Cat="12" Index="90" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+        <!--Illusion Avatar Bead--> 
+		<Item Cat="12" Index="88" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" SetItem="0" SocketCount="0" Elemental="0" Serial="0" />
+	</Tab>
 	<Tab Id="4" />
 	<Tab Id="5" />
 </Shop>
