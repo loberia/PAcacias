@@ -205,14 +205,6 @@
 			<Spawn Index="552" Distance="5" StartX="52" StartY="47" EndX="55" EndY="50" Dir="-1" Count="8" />
 			<!--Bloody Witch Queen-->
 			<Spawn Index="552" Distance="5" StartX="52" StartY="59" EndX="55" EndY="62" Dir="-1" Count="8" />
-			<!--Berserker Warrior-->
-			<Spawn Index="553" Distance="5" StartX="116" StartY="144" EndX="117" EndY="140" Dir="-1" Count="8" />
-			<!--Kentauros Warrior-->
-			<Spawn Index="554" Distance="5" StartX="144" StartY="137" EndX="147" EndY="140" Dir="-1" Count="8" />
-			<!--Gigantis Warrior-->
-			<Spawn Index="555" Distance="5" StartX="171" StartY="103" EndX="174" EndY="106" Dir="-1" Count="8" />
-			<!--Genocider Warrior-->
-			<Spawn Index="556" Distance="5" StartX="78" StartY="128" EndX="81" EndY="131" Dir="-1" Count="8" />
 		</Spot>
 	</Map>
 	<Map Number="51" Name="Elbeland">
