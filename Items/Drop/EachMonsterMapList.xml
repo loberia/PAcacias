@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- 
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
@@ -82,4 +82,5 @@
 	<Map Number="135" FileName="MonsterMap_(135)_Bag.xml" />
 	<Map Number="136" FileName="MonsterMap_(136)_Bag.xml" />
 	<Map Number="137" FileName="MonsterMap_(137)_Bag.xml" />
+	<Map Number="138" FileName="MonsterMap_(138)_Bag.xml" />
 </EachMonsterMapList>
