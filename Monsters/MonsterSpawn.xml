@@ -101,6 +101,10 @@
 			<Spawn Index="861" Distance="5" StartX="209" StartY="36" EndX="210" EndY="38" Dir="-1" Count="10" Element="6"/> <!-- red smoke icarus 2 -->
 			<Spawn Index="869" Distance="5" StartX="159" StartY="62" EndX="160" EndY="66" Dir="-1" Count="10" Element="6"/> <!-- Orcus -->
 			<Spawn Index="868" Distance="5" StartX="136" StartY="74" EndX="137" EndY="75" Dir="-1" Count="10" Element="6"/> <!-- Orcus -->
+			<Spawn Index="876" Distance="5" StartX="184" StartY="89" EndX="185" EndY="90" Dir="-1" Count="10" Element="6"/> <!-- Ashy Forest Oak -->
+			<Spawn Index="897" Distance="5" StartX="193" StartY="68" EndX="194" EndY="69" Dir="-1" Count="10" Element="6"/> <!-- Crimson Harpy -->
+			<Spawn Index="907" Distance="5" StartX="214" StartY="20" EndX="215" EndY="21" Dir="-1" Count="10" Element="6"/> <!-- Underground Dreadfear -->
+			<Spawn Index="913" Distance="5" StartX="210" StartY="94" EndX="211" EndY="95" Dir="-1" Count="10" Element="6"/> <!-- Magma Shaman -->			
 		</Spot>	
 	</Map>
 <!-- FINAL VIP -->
