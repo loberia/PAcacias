@@ -1233,7 +1233,7 @@ end
 function LightWizardShiningBirdCalc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
 	local OutDamage = 0
 	
-	OutDamage = (InDamage * 1.0) * ((Energy / 50) + 200) / 100
+	OutDamage = (InDamage * 0.75) * ((Energy / 50) + 200) / 100 -- se reduce el daño en un 25%
 
 	return OutDamage
 end
@@ -1243,11 +1243,11 @@ function LightWizardDragonViolentCalc(InDamage, Strength, Dexterity, Vitality, E
 	local OutDamage = 0
 	
 	if (BarrageCount == 1) then
-		OutDamage = (InDamage * 1.0) * ((Energy / 50) + 200) / 100
+		OutDamage = (InDamage * 0.75) * ((Energy / 50) + 200) / 100 -- se reduce el daño en un 25%
 	elseif (BarrageCount == 2) then
-		OutDamage = (InDamage * 1.0) * ((Energy / 50) + 200) / 100
+		OutDamage = (InDamage * 0.75) * ((Energy / 50) + 200) / 100
 	end
-
+	
 	return OutDamage
 end
 
@@ -1256,11 +1256,11 @@ function LightWizardSpearStormCalc(InDamage, Strength, Dexterity, Vitality, Ener
 	local OutDamage = 0
 	
 	if (BarrageCount == 1) then
-		OutDamage = (InDamage * 1.0) * ((Energy / 50) + 200) / 100
+		OutDamage = (InDamage * 0.75) * ((Energy / 50) + 200) / 100 -- se reduce el daño en un 25%
 	elseif (BarrageCount == 2) then
-		OutDamage = (InDamage * 1.0) * ((Energy / 50) + 200) / 100
+		OutDamage = (InDamage * 0.75) * ((Energy / 50) + 200) / 100
 	end
-
+	
 	return OutDamage
 end
 
