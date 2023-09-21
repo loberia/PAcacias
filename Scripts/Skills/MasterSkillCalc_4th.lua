@@ -150,7 +150,7 @@ function MagicPin_4thEnchant_Lancer(InDamage, Dexterity, SkillTreeBonus, Barrage
 end
 
 function ShiningPeak_4thEnchant_Lancer(InDamage, Strength, Dexterity, SkillTreeBonus_Retailation, SkillTreeBonus_Rage)
-	local OutDamage = InDamage * (((Strength / 10 + 97 + SkillTreeBonus_Retailation) + (Dexterity / 10 + 97 + SkillTreeBonus_Rage)) * 0.8) / 100.0
+	local OutDamage = InDamage * (((Strength / 10 + 97 + SkillTreeBonus_Retailation) + (Dexterity / 10 + 97 + SkillTreeBonus_Rage)) * 0.6) / 100.0 -- se reduce el daño en un 40%
 	OutDamage = OutDamage / 3
 
 	return OutDamage

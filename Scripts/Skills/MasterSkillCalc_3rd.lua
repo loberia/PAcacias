@@ -1457,7 +1457,7 @@ end
 function LightWizardShiningBird_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount, SkillTreeValue)
 	local OutDamage = 0
 	
-	OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200) + SkillTreeValue) / 100
+	OutDamage = ((InDamage * 0.75) * ((Energy / 50) + 200) + SkillTreeValue) / 100 -- se reduce el daño en un 25%
 
 	return OutDamage
 end
@@ -1466,7 +1466,7 @@ end
 function LightWizardShiningBird_MasterLevel2_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount, SkillTreeValue)
 	local OutDamage = 0
 	
-	OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200) + SkillTreeValue) / 100
+	OutDamage = ((InDamage * 0.75) * ((Energy / 50) + 200) + SkillTreeValue) / 100 -- se reduce el daño en un 25%
 
 	return OutDamage
 end
@@ -1476,11 +1476,11 @@ function LightWizardDragonViolent_MasterLevel1_Calc(InDamage, Strength, Dexterit
 	local OutDamage = 0
 	
 	if (BarrageCount == 1) then
-		OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200) + SkillTreeValue) / 100
+		OutDamage = ((InDamage * 0.75) * ((Energy / 50) + 200) + SkillTreeValue) / 100 -- se reduce el daño en un 25%
 	elseif (BarrageCount == 2) then
-		OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200) + SkillTreeValue) / 100
+		OutDamage = ((InDamage * 0.75) * ((Energy / 50) + 200) + SkillTreeValue) / 100
 	end
-
+	
 	return OutDamage
 end
 
@@ -1489,11 +1489,11 @@ function LightWizardDragonViolent_MasterLevel2_Calc(InDamage, Strength, Dexterit
 	local OutDamage = 0
 	
 	if (BarrageCount == 1) then
-		OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200) + SkillTreeValue) / 100
+		OutDamage = ((InDamage * 0.75) * ((Energy / 50) + 200) + SkillTreeValue) / 100 -- se reduce el daño en un 25%
 	elseif (BarrageCount == 2) then
-		OutDamage = ((InDamage * 1.0) * ((Energy / 50) + 200) + SkillTreeValue) / 100
+		OutDamage = ((InDamage * 0.75) * ((Energy / 50) + 200) + SkillTreeValue) / 100
 	end
-
+	
 	return OutDamage
 end
 
